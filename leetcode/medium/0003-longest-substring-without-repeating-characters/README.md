@@ -4,10 +4,12 @@
 **Difficulty:** medium  
 **Link:** https://leetcode.com/problems/longest-substring-without-repeating-characters/  
 **Solved:** 2026-08-05  
-**Language:** java  
+**Language:** Java  
 **Attempts before accepted:** 1
 
 **Tags:** `Hash Table`, `String`, `Sliding Window`
+
+**Judge:** Runtime 79 ms · Memory 47.6 MB
 
 **Time to solve:** 1 min
 
