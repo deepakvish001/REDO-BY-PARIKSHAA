@@ -4,7 +4,7 @@
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
-| 0003 | [Longest Substring Without Repeating Characters](leetcode/medium/0003-longest-substring-without-repeating-characters/solution.java) | LeetCode | medium | java | 2026-08-05 |
+| 0003 | [Longest Substring Without Repeating Characters](leetcode/medium/0003-longest-substring-without-repeating-characters/solution.java) | LeetCode | medium | Java | 2026-08-05 |
 
 ---
 
