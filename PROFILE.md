@@ -16,8 +16,6 @@ _Regenerated on every sync — last run 2026-08-05._
 | Due for revision today | 0 |
 | Revisions completed | 0 |
 | Current streak | 1 day |
-| Submissions recorded | 1 (0 rejected) |
-| Runs recorded | 0 |
 
 ## Needs work
 
