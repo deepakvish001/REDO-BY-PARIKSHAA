@@ -1,4 +1,4 @@
-# DSA Solutions
+# REDO BY PARIKSHAA
 
 2 solved — 2 easy. Last updated 2026-08-05.
 
