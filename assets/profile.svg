@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="434" viewBox="0 0 840 434" role="img" aria-label="Coding profile">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif; }
+    .title { fill: #f4f4f5; font-size: 20px; font-weight: 700; }
+    .subtitle { fill: #9a9aa5; font-size: 12px; }
+    .section { fill: #9a9aa5; font-size: 10px; letter-spacing: 0.12em; font-weight: 600; }
+    .label { fill: #f4f4f5; font-size: 12px; }
+    .value { fill: #9a9aa5; font-size: 12px; }
+    .tileValue { fill: #f4f4f5; font-size: 22px; font-weight: 700; }
+    .tileLabel { fill: #9a9aa5; font-size: 11px; }
+
+    .bar { transform-origin: 200px center; animation: grow 900ms cubic-bezier(.2,.8,.2,1) both; }
+    .tile { animation: rise 600ms cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) {
+      .bar, .tile { animation: none; }
+    }
+  </style>
+  <rect width="840" height="434" rx="16" fill="#0b0b0f" stroke="#26262e" />
+  <circle cx="36" cy="33" r="13" fill="#f97316" opacity="0.16" />
+  <text x="36" y="40" class="title" fill="#f97316" text-anchor="middle">↻</text>
+  <text x="56" y="39" class="title">Coding profile</text>
+  <text x="56" y="54" class="subtitle">Updated 2026-08-05 20:27 UTC</text>
+  
+    <g class="tile" style="animation-delay:0s">
+      <rect x="24" y="62" width="186" height="62" rx="12"
+            fill="#141419" stroke="#26262e" />
+      <text x="40" y="94" class="tileValue">2</text>
+      <text x="40" y="112" class="tileLabel">solved</text>
+    </g>
+    <g class="tile" style="animation-delay:0.06s">
+      <rect x="220" y="62" width="186" height="62" rx="12"
+            fill="#141419" stroke="#26262e" />
+      <text x="236" y="94" class="tileValue">0</text>
+      <text x="236" y="112" class="tileLabel">due today</text>
+    </g>
+    <g class="tile" style="animation-delay:0.12s">
+      <rect x="416" y="62" width="186" height="62" rx="12"
+            fill="#141419" stroke="#26262e" />
+      <text x="432" y="94" class="tileValue">0</text>
+      <text x="432" y="112" class="tileLabel">reviews</text>
+    </g>
+    <g class="tile" style="animation-delay:0.18s">
+      <rect x="612" y="62" width="186" height="62" rx="12"
+            fill="#141419" stroke="#26262e" />
+      <text x="628" y="94" class="tileValue">1</text>
+      <text x="628" y="112" class="tileLabel">day streak</text>
+    </g>
+  <text x="24" y="150" class="section">BY DIFFICULTY</text>
+    <text x="24" y="178" class="label">easy</text>
+    <rect x="200" y="166" width="470" height="16" rx="8" fill="#26262e" />
+    <rect x="200" y="166" width="470" height="16" rx="8" fill="#34d399"
+          class="bar" style="animation-delay:0s" />
+    <text x="686" y="178" class="value">2</text><text x="24" y="220" class="section">BY PLATFORM</text>
+    <text x="24" y="248" class="label">Codeforces</text>
+    <rect x="200" y="236" width="470" height="16" rx="8" fill="#26262e" />
+    <rect x="200" y="236" width="470" height="16" rx="8" fill="#f97316"
+          class="bar" style="animation-delay:0.08s" />
+    <text x="686" y="248" class="value">2</text><text x="24" y="290" class="section">MOST-PRACTISED TOPICS</text>
+    <text x="24" y="318" class="label">greedy</text>
+    <rect x="200" y="306" width="470" height="16" rx="8" fill="#26262e" />
+    <rect x="200" y="306" width="470" height="16" rx="8" fill="#fbbf24"
+          class="bar" style="animation-delay:0.16s" />
+    <text x="686" y="318" class="value">1</text>
+    <text x="24" y="344" class="label">brute force</text>
+    <rect x="200" y="332" width="470" height="16" rx="8" fill="#26262e" />
+    <rect x="200" y="332" width="470" height="16" rx="8" fill="#fbbf24"
+          class="bar" style="animation-delay:0.24s" />
+    <text x="686" y="344" class="value">1</text>
+    <text x="24" y="370" class="label">implementation</text>
+    <rect x="200" y="358" width="470" height="16" rx="8" fill="#26262e" />
+    <rect x="200" y="358" width="470" height="16" rx="8" fill="#fbbf24"
+          class="bar" style="animation-delay:0.32s" />
+    <text x="686" y="370" class="value">1</text>
+    <text x="24" y="396" class="label">math</text>
+    <rect x="200" y="384" width="470" height="16" rx="8" fill="#26262e" />
+    <rect x="200" y="384" width="470" height="16" rx="8" fill="#fbbf24"
+          class="bar" style="animation-delay:0.4s" />
+    <text x="686" y="396" class="value">1</text>
+</svg>
