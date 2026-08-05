@@ -1,9 +1,10 @@
 # DSA Solutions
 
-2 solved — 1 easy · 1 medium. Last updated 2026-08-05.
+3 solved — 2 easy · 1 medium. Last updated 2026-08-05.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-05 |
 | 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.txt) | Codeforces | easy | 2250A - Threshold Movement | 2026-08-05 |
 | 0003 | [Longest Substring Without Repeating Characters](leetcode/medium/0003-longest-substring-without-repeating-characters/solution.java) | LeetCode | medium | Java | 2026-08-05 |
 
