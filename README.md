@@ -1,14 +1,13 @@
 # DSA Solutions
 
-3 solved — 3 easy. Last updated 2026-08-06.
+2 solved — 2 easy. Last updated 2026-08-06.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-06 |
 | 3345 | [Smallest Divisible Digit Product I](leetcode/easy/3345-smallest-divisible-digit-product-i/solution.java) | LeetCode | easy | Java | 2026-08-06 |
-| 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-05 |
-| 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-05 |
 
 ---
 
