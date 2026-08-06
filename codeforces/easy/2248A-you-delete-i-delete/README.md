@@ -3,7 +3,7 @@
 **Platform:** Codeforces  
 **Difficulty:** easy  
 **Link:** https://codeforces.com/contest/2248/problem/A  
-**Solved:** 2026-08-05  
+**Solved:** 2026-08-06  
 **Language:** C++17 (GCC 7-32)  
 **Attempts before accepted:** 1
 
@@ -18,10 +18,13 @@ _Add your notes here._
 
 ## Record
 
-Solved 1× · GitHub sync 2× · Parikshaa sync 2×
+Solved 2× · GitHub sync 3× · Parikshaa sync 3×
 
 | When (UTC) | What | Outcome | Reason |
 | --- | --- | --- | --- |
+| 2026-08-06 08:35 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
+| 2026-08-05 20:28 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-05 20:28 | GitHub sync | synced | codeforces/easy/2248A-you-delete-i-delete/solution.cpp |
 | 2026-08-05 20:28 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
 | 2026-08-05 20:28 | GitHub sync | error | The branch kept moving while committing codeforces/easy/2248A-you-delete-i-delete/README.md; gave up after 4 tries. Use "Retry these" to try again. |
 | 2026-08-05 20:27 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
