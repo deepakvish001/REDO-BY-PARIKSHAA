@@ -2,7 +2,7 @@
 
 <img src="assets/profile.svg" alt="Coding profile" width="840">
 
-_Regenerated on every sync — last run 2026-08-05._
+_Regenerated on every sync — last run 2026-08-06._
 
 ## This week
 
@@ -12,19 +12,19 @@ _Regenerated on every sync — last run 2026-08-05._
 
 | | |
 | --- | --- |
-| Problems solved | 2 |
+| Problems solved | 3 |
 | Due for revision today | 0 |
 | Revisions completed | 0 |
 | Current streak | 1 day |
+| Submissions recorded | 1 (0 rejected) |
+| Runs recorded | 1 |
+| Median time to solve | under a minute |
 
 ## Needs work
 
 | Topic | Solved | Lapses | Mastery |
 | --- | --- | --- | --- |
-| greedy | 1 | 0 | 45/100 |
-| brute force | 1 | 0 | 45/100 |
-| implementation | 1 | 0 | 45/100 |
-| math | 1 | 0 | 45/100 |
+| math | 2 | 0 | 45/100 |
 
 ## Fought hardest for these
 
@@ -32,6 +32,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 
 | Problem | Submits | Runs | Time | Cost |
 | --- | --- | --- | --- | --- |
+| [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 1 | 1 | under a minute | 0/100 |
 | [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0 | — | 0/100 |
 | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
 
@@ -41,6 +42,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | --- | --- | --- | --- |
 | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0/6 | 2026-08-06 |
 | [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0/6 | 2026-08-06 |
+| [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 1 | 0/6 | 2026-08-07 |
 
 ---
 
