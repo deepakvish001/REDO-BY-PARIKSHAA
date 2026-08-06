@@ -20,10 +20,12 @@ _Add your notes here._
 
 ## Record
 
-Solved 1×
+Solved 1× · GitHub sync 1× · Parikshaa sync 1×
 
 | When (UTC) | What | Outcome | Reason |
 | --- | --- | --- | --- |
+| 2026-08-06 08:36 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-06 08:36 | GitHub sync | error | The branch kept moving while committing README.md; gave up after 4 tries. Use "Retry these" to try again. |
 | 2026-08-06 08:36 | Solved | first time | C++17 (GCC 7-32), 1 attempt(s) |
 
 ---
