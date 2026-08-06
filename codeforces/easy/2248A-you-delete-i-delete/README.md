@@ -18,10 +18,15 @@ _Add your notes here._
 
 ## Record
 
-Solved 2× · GitHub sync 3× · Parikshaa sync 3×
+Solved 3× · GitHub sync 5× · Parikshaa sync 5×
 
 | When (UTC) | What | Outcome | Reason |
 | --- | --- | --- | --- |
+| 2026-08-06 08:36 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-06 08:36 | GitHub sync | error | The branch kept moving while committing codeforces/easy/2248A-you-delete-i-delete/README.md; gave up after 4 tries. Use "Retry these" to try again. |
+| 2026-08-06 08:36 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
+| 2026-08-06 08:36 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-06 08:36 | GitHub sync | error | The branch kept moving while committing README.md; gave up after 4 tries. Use "Retry these" to try again. |
 | 2026-08-06 08:35 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
 | 2026-08-05 20:28 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
 | 2026-08-05 20:28 | GitHub sync | synced | codeforces/easy/2248A-you-delete-i-delete/solution.cpp |
