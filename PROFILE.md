@@ -32,9 +32,9 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 
 | Problem | Submits | Runs | Time | Cost |
 | --- | --- | --- | --- | --- |
-| [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 1 | 1 | under a minute | 0/100 |
 | [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0 | — | 0/100 |
 | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
+| [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 1 | 1 | under a minute | 0/100 |
 
 ## Revision queue
 
