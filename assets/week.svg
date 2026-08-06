@@ -31,7 +31,7 @@
     <g class="rise" style="animation-delay:0s">
       <rect x="40" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="62" y="188" class="big">3</text>
+      <text x="62" y="188" class="big">4</text>
       <text x="62" y="211" class="small">problems solved</text>
     </g>
     <g class="rise" style="animation-delay:0.07s">
@@ -54,43 +54,43 @@
     </g>
   <text x="40" y="252" class="label">DIFFICULTY MIX</text>
   <rect x="40" y="262" width="920" height="14" rx="7" fill="#34d399" />
-    <text x="40" y="296" class="small" fill="#34d399">3 easy</text>
+    <text x="40" y="296" class="small" fill="#34d399">4 easy</text>
   <text x="40" y="326" class="label">TOPICS</text>
     <g class="rise">
-      <rect x="40" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="56" y="356" class="chip">greedy</text>
-      <text x="117.19999999999999" y="356" class="chipCount" text-anchor="end">1</text>
+      <rect x="40" y="336" width="226.39999999999998" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="56" y="356" class="chip">constructive algorith…</text>
+      <text x="248.39999999999998" y="356" class="chipCount" text-anchor="end">1</text>
     </g>
     <g class="rise">
-      <rect x="143.2" y="336" width="136.2" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="159.2" y="356" class="chip">brute force</text>
-      <text x="261.4" y="356" class="chipCount" text-anchor="end">1</text>
+      <rect x="274.4" y="336" width="62.4" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="290.4" y="356" class="chip">dp</text>
+      <text x="318.79999999999995" y="356" class="chipCount" text-anchor="end">1</text>
     </g>
     <g class="rise">
-      <rect x="287.4" y="336" width="160.79999999999998" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="303.4" y="356" class="chip">implementation</text>
-      <text x="430.19999999999993" y="356" class="chipCount" text-anchor="end">1</text>
+      <rect x="344.79999999999995" y="336" width="152.6" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="360.79999999999995" y="356" class="chip">number theory</text>
+      <text x="479.4" y="356" class="chipCount" text-anchor="end">1</text>
     </g>
     <g class="rise">
-      <rect x="456.19999999999993" y="336" width="78.8" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="472.19999999999993" y="356" class="chip">math</text>
-      <text x="516.9999999999999" y="356" class="chipCount" text-anchor="end">1</text>
+      <rect x="505.4" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="521.4" y="356" class="chip">greedy</text>
+      <text x="582.5999999999999" y="356" class="chipCount" text-anchor="end">1</text>
     </g>
     <g class="rise">
-      <rect x="542.9999999999999" y="336" width="78.8" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="558.9999999999999" y="356" class="chip">Math</text>
-      <text x="603.7999999999998" y="356" class="chipCount" text-anchor="end">1</text>
+      <rect x="608.5999999999999" y="336" width="136.2" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="624.5999999999999" y="356" class="chip">brute force</text>
+      <text x="726.8" y="356" class="chipCount" text-anchor="end">1</text>
     </g>
   
     <g class="rise" style="animation-delay:.25s">
       <rect x="40" y="396" width="920" height="86" rx="16" fill="#141419" stroke="#26262e" />
       <text x="62" y="424" class="label">BIGGEST FIGHT</text>
-      <text x="62" y="452" class="fightTitle">You Delete, I Delete</text>
-      <text x="62" y="472" class="small">1 submit</text>
+      <text x="62" y="452" class="fightTitle">Zero Sum</text>
+      <text x="62" y="472" class="small">1 submit · 1 min</text>
       <text x="938" y="452" class="fightScore" text-anchor="end">0</text>
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>
 
-  <text x="40" y="516" class="foot">under a minute at the keyboard · 1 run · 0 hints · new: greedy, brute force, implementation</text>
+  <text x="40" y="516" class="foot">2 min at the keyboard · 1 run · 0 hints · new: constructive algorithms, dp, number theory</text>
   <text x="960" y="516" class="foot" text-anchor="end">Redo · parikshaa.org</text>
 </svg>
