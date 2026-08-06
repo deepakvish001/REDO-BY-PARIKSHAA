@@ -31,7 +31,7 @@
     <g class="rise" style="animation-delay:0s">
       <rect x="40" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="62" y="188" class="big">2</text>
+      <text x="62" y="188" class="big">3</text>
       <text x="62" y="211" class="small">problems solved</text>
     </g>
     <g class="rise" style="animation-delay:0.07s">
@@ -43,7 +43,7 @@
     <g class="rise" style="animation-delay:0.14s">
       <rect x="516" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="538" y="188" class="big">0</text>
+      <text x="538" y="188" class="big">1</text>
       <text x="538" y="211" class="small">submissions</text>
     </g>
     <g class="rise" style="animation-delay:0.21000000000000002s">
@@ -54,7 +54,7 @@
     </g>
   <text x="40" y="252" class="label">DIFFICULTY MIX</text>
   <rect x="40" y="262" width="920" height="14" rx="7" fill="#34d399" />
-    <text x="40" y="296" class="small" fill="#34d399">2 easy</text>
+    <text x="40" y="296" class="small" fill="#34d399">3 easy</text>
   <text x="40" y="326" class="label">TOPICS</text>
     <g class="rise">
       <rect x="40" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
@@ -76,6 +76,11 @@
       <text x="472.19999999999993" y="356" class="chip">math</text>
       <text x="516.9999999999999" y="356" class="chipCount" text-anchor="end">1</text>
     </g>
+    <g class="rise">
+      <rect x="542.9999999999999" y="336" width="78.8" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="558.9999999999999" y="356" class="chip">Math</text>
+      <text x="603.7999999999998" y="356" class="chipCount" text-anchor="end">1</text>
+    </g>
   
     <g class="rise" style="animation-delay:.25s">
       <rect x="40" y="396" width="920" height="86" rx="16" fill="#141419" stroke="#26262e" />
@@ -86,6 +91,6 @@
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>
 
-  <text x="40" y="516" class="foot">0 runs · 0 hints · new: greedy, brute force, implementation</text>
+  <text x="40" y="516" class="foot">under a minute at the keyboard · 1 run · 0 hints · new: greedy, brute force, implementation</text>
   <text x="960" y="516" class="foot" text-anchor="end">Redo · parikshaa.org</text>
 </svg>
