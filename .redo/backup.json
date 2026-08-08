@@ -1,0 +1,837 @@
+{
+  "version": 1,
+  "product": "Redo",
+  "exportedAt": 1786216516356,
+  "settings": {
+    "github": {
+      "token": "",
+      "owner": "deepakvish001",
+      "repo": "REDO-BY-PARIKSHAA",
+      "branch": "main",
+      "enabled": true,
+      "commitMessage": "solve: {title} ({platform})",
+      "backup": true
+    },
+    "parikshaa": {
+      "enabled": true
+    },
+    "diagnostics": {
+      "enabled": true
+    },
+    "contests": {
+      "remind": true,
+      "leadMinutes": 60,
+      "platforms": {
+        "codeforces": true,
+        "leetcode": true,
+        "codechef": true,
+        "atcoder": true
+      }
+    },
+    "wrapped": {
+      "notify": true
+    },
+    "focus": {
+      "enabled": false,
+      "mode": "due",
+      "dailyGoal": 1,
+      "allowlist": [],
+      "pauseHours": 3
+    },
+    "handles": {
+      "codeforces": "",
+      "leetcode": "",
+      "goal": 0
+    },
+    "revision": {
+      "intervals": [
+        1,
+        3,
+        7,
+        21,
+        45,
+        90
+      ],
+      "skipEasy": false,
+      "notify": true
+    },
+    "platforms": {
+      "leetcode": true,
+      "codeforces": true,
+      "atcoder": true,
+      "codechef": true,
+      "hackerrank": true,
+      "geeksforgeeks": true
+    }
+  },
+  "problems": {
+    "codeforces:2247A": {
+      "attempts": 1,
+      "code": "#include <iostream>\n\nusing namespace std;\n\nvoid solve() {\n    int n;\n    cin >> n;\n    \n    int minus_count = 0;\n    for (int i = 0; i < n; ++i) {\n        int x;\n        cin >> x;\n        if (x == -1) {\n            minus_count++;\n        }\n    }\n    \n    if (n % 2 != 0) {\n        cout << \"NO\\n\";\n    } else {\n        if (minus_count % 2 == (n / 2) % 2) {\n            cout << \"YES\\n\";\n        } else {\n            cout << \"NO\\n\";\n        }\n    }\n}\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int t;\n    if (cin >> t) {\n        while (t--) {\n            solve();\n        }\n    }\n    \n    return 0;\n}",
+      "difficulty": "easy",
+      "events": [],
+      "github": {
+        "error": "The branch kept moving while committing codeforces/easy/2247A-zero-sum/README.md; gave up after 4 tries. Use \"Retry these\" to try again.",
+        "path": "codeforces/easy/2247A-zero-sum/solution.cpp",
+        "status": "error"
+      },
+      "history": [
+        {
+          "at": 1786005367250,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786005394139,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "The branch kept moving while committing README.md; gave up after 4 tries. Use \"Retry these\" to try again."
+        },
+        {
+          "at": 1786005394139,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786005409933,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "The branch kept moving while committing README.md; gave up after 4 tries. Use \"Retry these\" to try again."
+        },
+        {
+          "at": 1786005409933,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786005470995,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "The branch kept moving while committing README.md; gave up after 4 tries. Use \"Retry these\" to try again."
+        },
+        {
+          "at": 1786005470995,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786005487301,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "The branch kept moving while committing codeforces/easy/2247A-zero-sum/README.md; gave up after 4 tries. Use \"Retry these\" to try again."
+        },
+        {
+          "at": 1786005487301,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        }
+      ],
+      "id": "codeforces:2247A",
+      "language": "C++17 (GCC 7-32)",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "2247A",
+      "revision": {
+        "dueAt": 1786091767250,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "slug": "2247A",
+      "solveTimeMs": 72257,
+      "solvedAt": 1786005367250,
+      "tags": [
+        "constructive algorithms",
+        "dp",
+        "number theory"
+      ],
+      "title": "Zero Sum",
+      "url": "https://codeforces.com/contest/2247/problem/A"
+    },
+    "codeforces:2248A": {
+      "attempts": 1,
+      "code": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nvoid solve() {\n    string s;\n    cin >> s;\n    \n    string s_prime = \"\";\n    bool removed_one = false;\n    for (char c : s) {\n        if (c == '1' && !removed_one) {\n            removed_one = true;\n            continue;\n        }\n        s_prime += c;\n    }\n    \n    string final_s = \"\";\n    bool removed_zero = false;\n    for (int i = 0; i < s_prime.length(); ++i) {\n        if (!removed_zero && s_prime[i] == '0' && i + 1 < s_prime.length() && s_prime[i+1] == '1') {\n            removed_zero = true;\n            continue;\n        }\n        final_s += s_prime[i];\n    }\n    \n    if (!removed_zero) {\n        final_s = \"\";\n        for (char c : s_prime) {\n            if (c == '0' && !removed_zero) {\n                removed_zero = true;\n                continue;\n            }\n            final_s += c;\n        }\n    }\n    \n    cout << final_s << \"\\n\";\n}\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int t;\n    if (cin >> t) {\n        while (t--) {\n            solve();\n        }\n    }\n    \n    return 0;\n}",
+      "difficulty": "easy",
+      "events": [],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/b40c4c09887e5f26457efcb6bc7b5040ca3eb5c9",
+        "path": "codeforces/easy/2248A-you-delete-i-delete/solution.cpp",
+        "status": "synced",
+        "syncedAt": 1786005444283
+      },
+      "history": [
+        {
+          "at": 1785961641311,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1785961657957,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "The branch kept moving while committing README.md; gave up after 4 tries. Use \"Retry these\" to try again."
+        },
+        {
+          "at": 1785961657957,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1785961694818,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "The branch kept moving while committing codeforces/easy/2248A-you-delete-i-delete/README.md; gave up after 4 tries. Use \"Retry these\" to try again."
+        },
+        {
+          "at": 1785961694818,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1785961719095,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2248A-you-delete-i-delete/solution.cpp"
+        },
+        {
+          "at": 1785961719095,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786005348020,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786005365217,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "The branch kept moving while committing README.md; gave up after 4 tries. Use \"Retry these\" to try again."
+        },
+        {
+          "at": 1786005365217,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786005367063,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786005374752,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "The branch kept moving while committing codeforces/easy/2248A-you-delete-i-delete/README.md; gave up after 4 tries. Use \"Retry these\" to try again."
+        },
+        {
+          "at": 1786005374752,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786005444283,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2248A-you-delete-i-delete/solution.cpp"
+        },
+        {
+          "at": 1786005444283,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        }
+      ],
+      "id": "codeforces:2248A",
+      "language": "C++17 (GCC 7-32)",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "2248A",
+      "revision": {
+        "dueAt": 1786048041311,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "slug": "2248A",
+      "solvedAt": 1786005367063,
+      "tags": [
+        "greedy"
+      ],
+      "title": "You Delete, I Delete",
+      "url": "https://codeforces.com/contest/2248/problem/A"
+    },
+    "codeforces:2250A": {
+      "attempts": 1,
+      "code": "#include <iostream>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\nvoid solve() {\n    int n;\n    cin >> n;\n    \n    vector<int> w(n);\n    for (int i = 0; i < n; ++i) {\n        cin >> w[i];\n    }\n    \n    if (n % 2 != 0) {\n        cout << \"NO\\n\";\n        return;\n    }\n    \n    int min_odd = 2000000005;\n    int max_even = -1;\n    \n    for (int i = 0; i < n; ++i) {\n        if (i % 2 == 0) {\n            min_odd = min(min_odd, w[i]);\n        } else {\n            max_even = max(max_even, w[i]);\n        }\n    }\n    \n    if (min_odd - max_even >= 2) {\n        cout << \"YES\\n\";\n    } else {\n        cout << \"NO\\n\";\n    }\n}\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int t;\n    if (cin >> t) {\n        while (t--) {\n            solve();\n        }\n    }\n    \n    return 0;\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1785961639978,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "submissionId": "385800089",
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "error": "The branch kept moving while committing codeforces/easy/2250A-threshold-movement/README.md; gave up after 4 tries. Use \"Retry these\" to try again.",
+        "path": "codeforces/easy/2250A-threshold-movement/solution.cpp",
+        "status": "error"
+      },
+      "history": [
+        {
+          "at": 1785961640985,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1785961648625,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2250A-threshold-movement/solution.cpp"
+        },
+        {
+          "at": 1785961648625,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786005347736,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786005355528,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2250A-threshold-movement/solution.cpp"
+        },
+        {
+          "at": 1786005355528,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786005367243,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786005382777,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "The branch kept moving while committing codeforces/easy/2250A-threshold-movement/README.md; gave up after 4 tries. Use \"Retry these\" to try again."
+        },
+        {
+          "at": 1786005382777,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786005454455,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "The branch kept moving while committing README.md; gave up after 4 tries. Use \"Retry these\" to try again."
+        },
+        {
+          "at": 1786005454455,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786005479034,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "The branch kept moving while committing codeforces/easy/2250A-threshold-movement/README.md; gave up after 4 tries. Use \"Retry these\" to try again."
+        },
+        {
+          "at": 1786005479034,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        }
+      ],
+      "id": "codeforces:2250A",
+      "language": "C++17 (GCC 7-32)",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "2250A",
+      "revision": {
+        "dueAt": 1786048040985,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "slug": "2250A",
+      "solvedAt": 1786005367243,
+      "tags": [
+        "brute force",
+        "implementation",
+        "math"
+      ],
+      "title": "Threshold Movement",
+      "url": "https://codeforces.com/contest/2250/problem/A"
+    },
+    "leetcode:find-the-lexicographically-smallest-valid-sequence": {
+      "attempts": 1,
+      "code": "class Solution {\n    public int[] validSequence(String word1, String word2) {\n\n        int n = word1.length();\n        int m = word2.length();\n\n        int[] last = new int[m];\n\n        int j = m - 1;\n\n        // Find the positions for matching word2 from the end\n        for (int i = n - 1; i >= 0; i--) {\n            if (j >= 0 && word1.charAt(i) == word2.charAt(j)) {\n                last[j] = i;\n                j--;\n            }\n        }\n\n        int[] ans = new int[m];\n\n        j = 0;\n        int usedMismatch = 0;\n\n        // Build the lexicographically smallest sequence\n        for (int i = 0; i < n && j < m; i++) {\n\n            // Exact match\n            if (word1.charAt(i) == word2.charAt(j)) {\n                ans[j] = i;\n                j++;\n            }\n\n            // Use the one allowed mismatch\n            else if (usedMismatch == 0 &&\n                    (j == m - 1 || i + 1 <= last[j + 1])) {\n\n                ans[j] = i;\n                j++;\n                usedMismatch = 1;\n            }\n        }\n\n        if (j != m) {\n            return new int[0];\n        }\n\n        return ans;\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1786179839843,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "137.3 MB",
+          "runtime": "31 ms",
+          "submissionId": "2098884931",
+          "testsPassed": 905,
+          "testsTotal": 905,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/1a123097c14f22fff12e39226d30bfa8845146f3",
+        "path": "leetcode/medium/3302-find-the-lexicographically-smallest-valid-sequence/solution.java",
+        "status": "synced",
+        "syncedAt": 1786179844213
+      },
+      "history": [
+        {
+          "at": 1786179840186,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786179844213,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/3302-find-the-lexicographically-smallest-valid-sequence/solution.java"
+        },
+        {
+          "at": 1786179844213,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:find-the-lexicographically-smallest-valid-sequence",
+      "language": "Java",
+      "memoryNote": "Memory 137.3 MB (beats 55.6%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "3302",
+      "revision": {
+        "dueAt": 1786266240186,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 31 ms (beats 97.2%)",
+      "slug": "find-the-lexicographically-smallest-valid-sequence",
+      "solveTimeMs": 17484,
+      "solvedAt": 1786179840186,
+      "tags": [
+        "Two Pointers",
+        "String",
+        "Dynamic Programming",
+        "Greedy"
+      ],
+      "title": "Find the Lexicographically Smallest Valid Sequence",
+      "url": "https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/"
+    },
+    "leetcode:smallest-divisible-digit-product-i": {
+      "attempts": 1,
+      "code": "class Solution {\n    public int smallestNumber(int n, int t) {\n        while (true) {\n            int product = 1;\n            int x = n;\n\n            while (x > 0) {\n                product *= (x % 10);\n                x /= 10;\n            }\n\n            if (product % t == 0)\n                return n;\n\n            n++;\n        }\n    }\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "10\n16",
+          "at": 1786005169605,
+          "expectedOutput": "10\n16",
+          "kind": "run",
+          "language": "Java",
+          "memory": "41.9 MB",
+          "runtime": "0 ms",
+          "testsPassed": 2,
+          "testsTotal": 2,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/1d4202c07ee3e2c675ff400df118988b40e2e5d9",
+        "path": "leetcode/easy/3345-smallest-divisible-digit-product-i/solution.java",
+        "status": "synced",
+        "syncedAt": 1786005184995
+      },
+      "history": [
+        {
+          "at": 1786005176020,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786005184995,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/easy/3345-smallest-divisible-digit-product-i/solution.java"
+        },
+        {
+          "at": 1786005184995,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "No Parikshaa problem uses this slug."
+        }
+      ],
+      "id": "leetcode:smallest-divisible-digit-product-i",
+      "language": "Java",
+      "memoryNote": "Memory 42.9 MB (beats 14.7%)",
+      "parikshaa": {
+        "reason": "No Parikshaa problem uses this slug.",
+        "status": "skipped"
+      },
+      "platform": "leetcode",
+      "problemId": "3345",
+      "revision": {
+        "dueAt": 1786091576020,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 1 ms (beats 100.0%)",
+      "slug": "smallest-divisible-digit-product-i",
+      "solveTimeMs": 25499,
+      "solvedAt": 1786005176020,
+      "tags": [
+        "Math",
+        "Enumeration"
+      ],
+      "title": "Smallest Divisible Digit Product I",
+      "url": "https://leetcode.com/problems/smallest-divisible-digit-product-i/"
+    },
+    "leetcode:smallest-divisible-digit-product-ii": {
+      "attempts": 1,
+      "code": "class Solution {\n    int[] E2 = new int[10], E3 = new int[10], E5 = new int[10], E7 = new int[10];\n    int aMax, bMax;\n    int[][] minDigits;\n\n    public String smallestNumber(String num, long t) {\n        long tt = t;\n        int a = 0, b = 0, c = 0, d = 0;\n        while (tt % 2 == 0) {\n            tt /= 2;\n            a++;\n        }\n        while (tt % 3 == 0) {\n            tt /= 3;\n            b++;\n        }\n        while (tt % 5 == 0) {\n            tt /= 5;\n            c++;\n        }\n        while (tt % 7 == 0) {\n            tt /= 7;\n            d++;\n        }\n        if (tt != 1)\n            return \"-1\";\n\n        int[][] dig = {\n                { 0, 0, 0, 0 }, { 0, 0, 0, 0 }, { 1, 0, 0, 0 }, { 0, 1, 0, 0 }, { 2, 0, 0, 0 },\n                { 0, 0, 1, 0 }, { 1, 1, 0, 0 }, { 0, 0, 0, 1 }, { 3, 0, 0, 0 }, { 0, 2, 0, 0 }\n        };\n        for (int x = 1; x <= 9; x++) {\n            E2[x] = dig[x][0];\n            E3[x] = dig[x][1];\n            E5[x] = dig[x][2];\n            E7[x] = dig[x][3];\n        }\n\n        aMax = a;\n        bMax = b;\n        int INF = Integer.MAX_VALUE / 2;\n        minDigits = new int[aMax + 1][bMax + 1];\n        for (int[] row : minDigits)\n            Arrays.fill(row, INF);\n        minDigits[0][0] = 0;\n        int[][] opts = { { 1, 0 }, { 0, 1 }, { 2, 0 }, { 1, 1 }, { 3, 0 }, { 0, 2 } };\n        for (int i = 0; i <= aMax; i++) {\n            for (int j = 0; j <= bMax; j++) {\n                if (i == 0 && j == 0)\n                    continue;\n                int best = INF;\n                for (int[] op : opts) {\n                    int pi = Math.max(0, i - op[0]);\n                    int pj = Math.max(0, j - op[1]);\n                    if (minDigits[pi][pj] + 1 < best)\n                        best = minDigits[pi][pj] + 1;\n                }\n                minDigits[i][j] = best;\n            }\n        }\n\n        int n = num.length();\n        int[] D = new int[n];\n        for (int i = 0; i < n; i++)\n            D[i] = num.charAt(i) - '0';\n\n        int z = n;\n        for (int i = 0; i < n; i++)\n            if (D[i] == 0) {\n                z = i;\n                break;\n            }\n        int pmax = z;\n\n        long[] prefA = new long[pmax + 1], prefB = new long[pmax + 1];\n        long[] prefC = new long[pmax + 1], prefD = new long[pmax + 1];\n        for (int i = 0; i < pmax; i++) {\n            int x = D[i];\n            prefA[i + 1] = prefA[i] + E2[x];\n            prefB[i + 1] = prefB[i] + E3[x];\n            prefC[i + 1] = prefC[i] + E5[x];\n            prefD[i + 1] = prefD[i] + E7[x];\n        }\n\n        StringBuilder result = null;\n\n        for (int p = pmax; p >= 0 && result == null; p--) {\n            long ra = Math.max(0, a - prefA[p]);\n            long rb = Math.max(0, b - prefB[p]);\n            long rc = Math.max(0, c - prefC[p]);\n            long rd = Math.max(0, d - prefD[p]);\n\n            if (p == n) {\n                if (ra == 0 && rb == 0 && rc == 0 && rd == 0)\n                    result = new StringBuilder(num);\n                continue;\n            }\n\n            int lower = (p < z) ? D[p] + 1 : 1;\n            if (lower > 9)\n                continue;\n            int k = n - p - 1;\n\n            for (int x = lower; x <= 9; x++) {\n                long na = Math.max(0, ra - E2[x]);\n                long nb = Math.max(0, rb - E3[x]);\n                long nc = Math.max(0, rc - E5[x]);\n                long nd = Math.max(0, rd - E7[x]);\n                if (feasible(na, nb, nc, nd, k)) {\n                    StringBuilder sb = new StringBuilder();\n                    for (int i = 0; i < p; i++)\n                        sb.append((char) ('0' + D[i]));\n                    sb.append((char) ('0' + x));\n                    fillSuffix(sb, na, nb, nc, nd, k);\n                    result = sb;\n                    break;\n                }\n            }\n        }\n\n        if (result != null)\n            return result.toString();\n\n        long need = c + d + minDigits[a][b];\n        int L = (int) Math.max(n + 1, need);\n        StringBuilder sb = new StringBuilder();\n        fillSuffix(sb, a, b, c, d, L);\n        return sb.toString();\n    }\n\n    boolean feasible(long a, long b, long c, long d, long k) {\n        if (a < 0 || b < 0 || c < 0 || d < 0)\n            return false;\n        int ai = (int) Math.min(a, aMax);\n        int bi = (int) Math.min(b, bMax);\n        long need = c + d + minDigits[ai][bi];\n        return need <= k;\n    }\n\n    void fillSuffix(StringBuilder sb, long a, long b, long c, long d, long k) {\n        for (long pos = 0; pos < k; pos++) {\n            for (int x = 1; x <= 9; x++) {\n                long na = Math.max(0, a - E2[x]);\n                long nb = Math.max(0, b - E3[x]);\n                long nc = Math.max(0, c - E5[x]);\n                long nd = Math.max(0, d - E7[x]);\n                if (feasible(na, nb, nc, nd, k - pos - 1)) {\n                    sb.append((char) ('0' + x));\n                    a = na;\n                    b = nb;\n                    c = nc;\n                    d = nd;\n                    break;\n                }\n            }\n        }\n    }\n}",
+      "difficulty": "hard",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "\"1488\"\n\"12355\"\n\"-1\"",
+          "at": 1786127566586,
+          "expectedOutput": "\"1488\"\n\"12355\"\n\"-1\"",
+          "kind": "run",
+          "language": "Java",
+          "memory": "42.7 MB",
+          "runtime": "0 ms",
+          "testsPassed": 3,
+          "testsTotal": 3,
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1786127571225,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "66.1 MB",
+          "runtime": "35 ms",
+          "submissionId": "2098358674",
+          "testsPassed": 954,
+          "testsTotal": 954,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/2d4405037465f1f5f0da4ff510a3972ce2ee931a",
+        "path": "leetcode/hard/3348-smallest-divisible-digit-product-ii/solution.java",
+        "status": "synced",
+        "syncedAt": 1786127575877
+      },
+      "history": [
+        {
+          "at": 1786127571818,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786127575877,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/hard/3348-smallest-divisible-digit-product-ii/solution.java"
+        },
+        {
+          "at": 1786127575877,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:smallest-divisible-digit-product-ii",
+      "language": "Java",
+      "memoryNote": "Memory 66.1 MB (beats 11.4%)",
+      "parikshaa": {
+        "reason": "No Parikshaa problem uses this slug.",
+        "status": "skipped"
+      },
+      "platform": "leetcode",
+      "problemId": "3348",
+      "revision": {
+        "dueAt": 1786213971818,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 35 ms (beats 40.0%)",
+      "slug": "smallest-divisible-digit-product-ii",
+      "solveTimeMs": 35647,
+      "solvedAt": 1786127571818,
+      "tags": [
+        "Math",
+        "String",
+        "Backtracking",
+        "Greedy",
+        "Number Theory"
+      ],
+      "title": "Smallest Divisible Digit Product II",
+      "url": "https://leetcode.com/problems/smallest-divisible-digit-product-ii/"
+    }
+  },
+  "journal": {
+    "codeforces:1528A": [
+      {
+        "accepted": true,
+        "at": 1786120638490,
+        "kind": "submit",
+        "language": "C++23 (GCC 14-64, msys2)",
+        "submissionId": "386129084",
+        "verdict": "Accepted"
+      }
+    ],
+    "codeforces:2117G": [
+      {
+        "accepted": false,
+        "at": 1786120625405,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "submissionId": "386129076",
+        "testsPassed": 1,
+        "verdict": "Wrong answer on test 2"
+      }
+    ],
+    "codeforces:2250A": [
+      {
+        "accepted": true,
+        "at": 1785961639978,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "submissionId": "385800089",
+        "verdict": "Accepted"
+      }
+    ],
+    "codeforces:2252C": [
+      {
+        "accepted": true,
+        "at": 1786120633044,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "submissionId": "386129102",
+        "verdict": "Accepted"
+      }
+    ],
+    "codeforces:2253B": [
+      {
+        "accepted": true,
+        "at": 1786120630994,
+        "kind": "submit",
+        "language": "C++23 (GCC 14-64, msys2)",
+        "submissionId": "386129123",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786120631359,
+        "kind": "submit",
+        "language": "C++23 (GCC 14-64, msys2)",
+        "submissionId": "386129125",
+        "verdict": "Accepted"
+      }
+    ],
+    "codeforces:2253E": [
+      {
+        "accepted": false,
+        "at": 1786120626811,
+        "kind": "submit",
+        "language": "C++23 (GCC 14-64, msys2)",
+        "submissionId": "386129090",
+        "testsPassed": 9,
+        "verdict": "Wrong answer on test 10"
+      },
+      {
+        "accepted": false,
+        "at": 1786120627893,
+        "kind": "submit",
+        "language": "C++23 (GCC 14-64, msys2)",
+        "submissionId": "386129121",
+        "testsPassed": 17,
+        "verdict": "Memory limit exceeded on test 18"
+      },
+      {
+        "accepted": false,
+        "at": 1786120636220,
+        "kind": "submit",
+        "language": "C++23 (GCC 14-64, msys2)",
+        "submissionId": "386129122",
+        "testsPassed": 2,
+        "verdict": "Time limit exceeded on test 3"
+      }
+    ],
+    "codeforces:2253F": [
+      {
+        "accepted": false,
+        "at": 1786120629379,
+        "kind": "submit",
+        "language": "C++23 (GCC 14-64, msys2)",
+        "submissionId": "386129118",
+        "testsPassed": 9,
+        "verdict": "Wrong answer on test 10"
+      }
+    ],
+    "leetcode:find-the-lexicographically-smallest-valid-sequence": [
+      {
+        "accepted": true,
+        "at": 1786179839843,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "137.3 MB",
+        "runtime": "31 ms",
+        "submissionId": "2098884931",
+        "testsPassed": 905,
+        "testsTotal": 905,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:smallest-divisible-digit-product-i": [
+      {
+        "accepted": true,
+        "actualOutput": "10\n16",
+        "at": 1786005169605,
+        "expectedOutput": "10\n16",
+        "kind": "run",
+        "language": "Java",
+        "memory": "41.9 MB",
+        "runtime": "0 ms",
+        "testsPassed": 2,
+        "testsTotal": 2,
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786005175553,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "42.9 MB",
+        "runtime": "1 ms",
+        "submissionId": "2096389685",
+        "testsPassed": 1000,
+        "testsTotal": 1000,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:smallest-divisible-digit-product-ii": [
+      {
+        "accepted": true,
+        "actualOutput": "\"1488\"\n\"12355\"\n\"-1\"",
+        "at": 1786127566586,
+        "expectedOutput": "\"1488\"\n\"12355\"\n\"-1\"",
+        "kind": "run",
+        "language": "Java",
+        "memory": "42.7 MB",
+        "runtime": "0 ms",
+        "testsPassed": 3,
+        "testsTotal": 3,
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786127571225,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "66.1 MB",
+        "runtime": "35 ms",
+        "submissionId": "2098358674",
+        "testsPassed": 954,
+        "testsTotal": 954,
+        "verdict": "Accepted"
+      }
+    ]
+  },
+  "meta": {
+    "reviewsCompleted": 0,
+    "lastReviewDay": null,
+    "currentStreak": 0,
+    "longestStreak": 0
+  },
+  "upsolve": []
+}
