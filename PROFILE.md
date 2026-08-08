@@ -2,7 +2,7 @@
 
 <img src="assets/profile.svg" alt="Coding profile" width="840">
 
-_Regenerated on every sync — last run 2026-08-07._
+_Regenerated on every sync — last run 2026-08-08._
 
 ## This week
 
@@ -12,11 +12,11 @@ _Regenerated on every sync — last run 2026-08-07._
 
 | | |
 | --- | --- |
-| Problems solved | 5 |
+| Problems solved | 6 |
 | Due for revision today | 4 |
 | Revisions completed | 0 |
 | Current streak | 1 day |
-| Submissions recorded | 2 (0 rejected) |
+| Submissions recorded | 3 (0 rejected) |
 | Runs recorded | 2 |
 | Median time to solve | 1 min |
 
@@ -24,9 +24,10 @@ _Regenerated on every sync — last run 2026-08-07._
 
 | Topic | Solved | Lapses | Mastery |
 | --- | --- | --- | --- |
+| greedy | 3 | 0 | 45/100 |
 | math | 3 | 0 | 45/100 |
 | number theory | 2 | 0 | 45/100 |
-| greedy | 2 | 0 | 45/100 |
+| string | 2 | 0 | 45/100 |
 
 ## Fought hardest for these
 
@@ -34,6 +35,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 
 | Problem | Submits | Runs | Time | Cost |
 | --- | --- | --- | --- | --- |
+| [Find the Lexicographically Smallest Valid Sequence](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | 1 | 0 | under a minute | 0/100 |
 | [Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | 1 | 1 | 1 min | 0/100 |
 | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
 | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
@@ -49,6 +51,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 1 | 0/6 | 2026-08-07 |
 | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0/6 | 2026-08-07 |
 | [Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | 1 | 0/6 | 2026-08-08 |
+| [Find the Lexicographically Smallest Valid Sequence](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | 1 | 0/6 | 2026-08-09 |
 
 ---
 

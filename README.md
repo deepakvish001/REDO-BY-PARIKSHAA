@@ -1,11 +1,12 @@
 # DSA Solutions
 
-5 solved — 4 easy · 1 hard. Last updated 2026-08-07.
+6 solved — 4 easy · 1 medium · 1 hard. Last updated 2026-08-08.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 3302 | [Find the Lexicographically Smallest Valid Sequence](leetcode/medium/3302-find-the-lexicographically-smallest-valid-sequence/solution.java) | LeetCode | medium | Java | 2026-08-08 |
 | 3348 | [Smallest Divisible Digit Product II](leetcode/hard/3348-smallest-divisible-digit-product-ii/solution.java) | LeetCode | hard | Java | 2026-08-07 |
 | 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-06 |
 | 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-06 |
