@@ -1,11 +1,12 @@
 # DSA Solutions
 
-10 solved — 4 easy · 4 medium · 2 hard. Last updated 2026-08-09.
+11 solved — 4 easy · 5 medium · 2 hard. Last updated 2026-08-09.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 1140 | [Stone Game II](leetcode/medium/1140-stone-game-ii/solution.java) | LeetCode | medium | Java | 2026-08-09 |
 | 101097 | [Peaks in Array II](leetcode/hard/101097-peaks-in-array-ii/solution.py) | LeetCode | hard | Python3 | 2026-08-09 |
 | 100895 | [Maximum Area of Two Non-Overlapping Square Submatrices](leetcode/medium/100895-maximum-area-of-two-non-overlapping-square-submatrices/solution.py) | LeetCode | medium | Python3 | 2026-08-09 |
 | 101113 | [Weighted Sum of a Tree](leetcode/medium/101113-weighted-sum-of-a-tree/solution.py) | LeetCode | medium | Python3 | 2026-08-09 |

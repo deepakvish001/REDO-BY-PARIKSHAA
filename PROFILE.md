@@ -12,22 +12,23 @@ _Regenerated on every sync — last run 2026-08-09._
 
 | | |
 | --- | --- |
-| Problems solved | 10 |
+| Problems solved | 11 |
 | Due for revision today | 5 |
 | Revisions completed | 0 |
 | Current streak | 2 days |
-| Submissions recorded | 7 (0 rejected) |
-| Runs recorded | 15 |
+| Submissions recorded | 8 (0 rejected) |
+| Runs recorded | 16 |
 | Median time to solve | 1 min |
 
 ## Needs work
 
 | Topic | Solved | Lapses | Mastery |
 | --- | --- | --- | --- |
+| math | 4 | 0 | 45/100 |
 | greedy | 3 | 0 | 45/100 |
-| math | 3 | 0 | 45/100 |
 | number theory | 2 | 0 | 45/100 |
 | string | 2 | 0 | 45/100 |
+| dynamic programming | 2 | 0 | 45/100 |
 
 ## Fought hardest for these
 
@@ -37,6 +38,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | --- | --- | --- | --- | --- |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
+| [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 1 | 1 | 1 min | 0/100 |
 | [Maximum Area of Two Non-Overlapping Square Submatrices](https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/) | 1 | 1 | — | 0/100 |
 | [Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/) | 1 | 1 | 9 min | 0/100 |
 | [Find the Lexicographically Smallest Valid Sequence](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | 1 | 0 | under a minute | 0/100 |
@@ -44,7 +46,6 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
 | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
 | [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0 | — | 0/100 |
-| [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 1 | 1 | under a minute | 0/100 |
 
 ## Revision queue
 
