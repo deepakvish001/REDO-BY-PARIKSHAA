@@ -12,12 +12,12 @@ _Regenerated on every sync — last run 2026-08-09._
 
 | | |
 | --- | --- |
-| Problems solved | 7 |
+| Problems solved | 8 |
 | Due for revision today | 5 |
 | Revisions completed | 0 |
 | Current streak | 2 days |
-| Submissions recorded | 4 (0 rejected) |
-| Runs recorded | 3 |
+| Submissions recorded | 5 (0 rejected) |
+| Runs recorded | 7 |
 | Median time to solve | 1 min |
 
 ## Needs work
@@ -35,6 +35,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 
 | Problem | Submits | Runs | Time | Cost |
 | --- | --- | --- | --- | --- |
+| [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
 | [Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/) | 1 | 1 | 9 min | 0/100 |
 | [Find the Lexicographically Smallest Valid Sequence](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | 1 | 0 | under a minute | 0/100 |
 | [Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | 1 | 1 | 1 min | 0/100 |
@@ -54,6 +55,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | 1 | 0/6 | 2026-08-08 |
 | [Find the Lexicographically Smallest Valid Sequence](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | 1 | 0/6 | 2026-08-09 |
 | [Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/) | 1 | 0/6 | 2026-08-10 |
+| [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 0/7 | 2026-08-10 |
 
 ---
 
