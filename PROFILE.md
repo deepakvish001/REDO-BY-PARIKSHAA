@@ -12,12 +12,12 @@ _Regenerated on every sync — last run 2026-08-09._
 
 | | |
 | --- | --- |
-| Problems solved | 9 |
+| Problems solved | 10 |
 | Due for revision today | 5 |
 | Revisions completed | 0 |
 | Current streak | 2 days |
-| Submissions recorded | 6 (0 rejected) |
-| Runs recorded | 8 |
+| Submissions recorded | 7 (0 rejected) |
+| Runs recorded | 15 |
 | Median time to solve | 1 min |
 
 ## Needs work
@@ -35,6 +35,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 
 | Problem | Submits | Runs | Time | Cost |
 | --- | --- | --- | --- | --- |
+| [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
 | [Maximum Area of Two Non-Overlapping Square Submatrices](https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/) | 1 | 1 | — | 0/100 |
 | [Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/) | 1 | 1 | 9 min | 0/100 |
@@ -58,6 +59,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/) | 1 | 0/6 | 2026-08-10 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 0/7 | 2026-08-10 |
 | [Maximum Area of Two Non-Overlapping Square Submatrices](https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/) | 1 | 0/6 | 2026-08-10 |
+| [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 0/7 | 2026-08-10 |
 
 ---
 
