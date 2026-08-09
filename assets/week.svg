@@ -25,13 +25,13 @@
   <circle cx="60" cy="62" r="18" fill="#f97316" opacity="0.16" />
   <text x="60" y="71" class="title" fill="#f97316" text-anchor="middle" font-size="24">↻</text>
   <text x="92" y="60" class="title">My week in code</text>
-  <text x="92" y="84" class="sub">1 Aug – 8 Aug</text>
+  <text x="92" y="84" class="sub">2 Aug – 9 Aug</text>
 
   
     <g class="rise" style="animation-delay:0s">
       <rect x="40" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="62" y="188" class="big">6</text>
+      <text x="62" y="188" class="big">7</text>
       <text x="62" y="211" class="small">problems solved</text>
     </g>
     <g class="rise" style="animation-delay:0.07s">
@@ -43,20 +43,20 @@
     <g class="rise" style="animation-delay:0.14s">
       <rect x="516" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="538" y="188" class="big">3</text>
+      <text x="538" y="188" class="big">4</text>
       <text x="538" y="211" class="small">submissions</text>
     </g>
     <g class="rise" style="animation-delay:0.21000000000000002s">
       <rect x="754" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="776" y="188" class="big">1</text>
+      <text x="776" y="188" class="big">2</text>
       <text x="776" y="211" class="small">day streak</text>
     </g>
   <text x="40" y="252" class="label">DIFFICULTY MIX</text>
-  <rect x="40" y="262" width="613" height="14" rx="7" fill="#34d399" />
-    <text x="40" y="296" class="small" fill="#34d399">4 easy</text><rect x="659" y="262" width="153" height="14" rx="7" fill="#fbbf24" />
-    <text x="659" y="296" class="small" fill="#fbbf24">1 medium</text><rect x="818" y="262" width="153" height="14" rx="7" fill="#f87171" />
-    <text x="818" y="296" class="small" fill="#f87171">1 hard</text>
+  <rect x="40" y="262" width="526" height="14" rx="7" fill="#34d399" />
+    <text x="40" y="296" class="small" fill="#34d399">4 easy</text><rect x="572" y="262" width="263" height="14" rx="7" fill="#fbbf24" />
+    <text x="572" y="296" class="small" fill="#fbbf24">2 medium</text><rect x="841" y="262" width="131" height="14" rx="7" fill="#f87171" />
+    <text x="841" y="296" class="small" fill="#f87171">1 hard</text>
   <text x="40" y="326" class="label">TOPICS</text>
     <g class="rise">
       <rect x="40" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
@@ -93,6 +93,6 @@
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>
 
-  <text x="40" y="516" class="foot">3 min at the keyboard · 2 runs · 0 hints · new: constructive algorithms, dp, number theory</text>
+  <text x="40" y="516" class="foot">11 min at the keyboard · 3 runs · 0 hints · new: constructive algorithms, dp, number theory</text>
   <text x="960" y="516" class="foot" text-anchor="end">Redo · parikshaa.org</text>
 </svg>
