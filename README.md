@@ -6,6 +6,7 @@
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-09 |
 | 1140 | [Stone Game II](leetcode/medium/1140-stone-game-ii/solution.java) | LeetCode | medium | Java | 2026-08-09 |
 | 101097 | [Peaks in Array II](leetcode/hard/101097-peaks-in-array-ii/solution.py) | LeetCode | hard | Python3 | 2026-08-09 |
 | 100895 | [Maximum Area of Two Non-Overlapping Square Submatrices](leetcode/medium/100895-maximum-area-of-two-non-overlapping-square-submatrices/solution.py) | LeetCode | medium | Python3 | 2026-08-09 |
@@ -15,7 +16,6 @@
 | 3348 | [Smallest Divisible Digit Product II](leetcode/hard/3348-smallest-divisible-digit-product-ii/solution.java) | LeetCode | hard | Java | 2026-08-07 |
 | 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-06 |
 | 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-06 |
-| 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-06 |
 | 3345 | [Smallest Divisible Digit Product I](leetcode/easy/3345-smallest-divisible-digit-product-i/solution.java) | LeetCode | easy | Java | 2026-08-06 |
 
 ---

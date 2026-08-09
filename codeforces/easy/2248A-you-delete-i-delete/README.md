@@ -3,11 +3,13 @@
 **Platform:** Codeforces  
 **Difficulty:** easy  
 **Link:** https://codeforces.com/contest/2248/problem/A  
-**Solved:** 2026-08-06  
+**Solved:** 2026-08-09  
 **Language:** C++17 (GCC 7-32)  
 **Attempts before accepted:** 1
 
 **Tags:** `greedy`
+
+**Judge:** Runtime 31 ms · Memory 0 KB
 
 **Cost:** walked it (0/100)  
 **Revisions planned:** 6
@@ -18,10 +20,13 @@ _Add your notes here._
 
 ## Record
 
-Solved 3× · GitHub sync 5× · Parikshaa sync 5×
+Solved 4× · GitHub sync 6× · Parikshaa sync 6×
 
 | When (UTC) | What | Outcome | Reason |
 | --- | --- | --- | --- |
+| 2026-08-09 05:37 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
+| 2026-08-06 08:37 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-06 08:37 | GitHub sync | synced | codeforces/easy/2248A-you-delete-i-delete/solution.cpp |
 | 2026-08-06 08:36 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
 | 2026-08-06 08:36 | GitHub sync | error | The branch kept moving while committing codeforces/easy/2248A-you-delete-i-delete/README.md; gave up after 4 tries. Use "Retry these" to try again. |
 | 2026-08-06 08:36 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
