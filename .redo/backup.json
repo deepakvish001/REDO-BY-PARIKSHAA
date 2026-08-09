@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1786216516356,
+  "exportedAt": 1786300255614,
   "settings": {
     "github": {
       "token": "",
@@ -39,8 +39,8 @@
       "pauseHours": 3
     },
     "handles": {
-      "codeforces": "",
-      "leetcode": "",
+      "codeforces": "deepakvish0011",
+      "leetcode": "deepakvish0011",
       "goal": 0
     },
     "revision": {
@@ -65,13 +65,85 @@
     }
   },
   "problems": {
+    "codeforces:2241A": {
+      "attempts": 1,
+      "code": "#include <iostream>\n\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int t;\n    if (cin >> t) {\n        while (t--) {\n            int x, y;\n            cin >> x >> y;\n            \n            if (x % y == 0) {\n                cout << \"YES\\n\";\n            } else {\n                cout << \"NO\\n\";\n            }\n        }\n    }\n    \n    return 0;\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1786253864990,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "31 ms",
+          "submissionId": "386282007",
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "path": "codeforces/easy/2241A-divide-and-conquer/solution.cpp",
+        "status": "error"
+      },
+      "history": [
+        {
+          "at": 1786253866378,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786253884886,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786253884886,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        }
+      ],
+      "id": "codeforces:2241A",
+      "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 0 KB",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "2241A",
+      "revision": {
+        "dueAt": 1786340266378,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 31 ms",
+      "slug": "2241A",
+      "solveTimeMs": 106418,
+      "solvedAt": 1786253866378,
+      "tags": [
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "title": "Divide and Conquer",
+      "url": "https://codeforces.com/contest/2241/problem/A"
+    },
     "codeforces:2247A": {
       "attempts": 1,
       "code": "#include <iostream>\n\nusing namespace std;\n\nvoid solve() {\n    int n;\n    cin >> n;\n    \n    int minus_count = 0;\n    for (int i = 0; i < n; ++i) {\n        int x;\n        cin >> x;\n        if (x == -1) {\n            minus_count++;\n        }\n    }\n    \n    if (n % 2 != 0) {\n        cout << \"NO\\n\";\n    } else {\n        if (minus_count % 2 == (n / 2) % 2) {\n            cout << \"YES\\n\";\n        } else {\n            cout << \"NO\\n\";\n        }\n    }\n}\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int t;\n    if (cin >> t) {\n        while (t--) {\n            solve();\n        }\n    }\n    \n    return 0;\n}",
       "difficulty": "easy",
       "events": [],
       "github": {
-        "error": "The branch kept moving while committing codeforces/easy/2247A-zero-sum/README.md; gave up after 4 tries. Use \"Retry these\" to try again.",
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
         "path": "codeforces/easy/2247A-zero-sum/solution.cpp",
         "status": "error"
       },
@@ -129,10 +201,29 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786253848371,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786253873541,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786253873541,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2247A",
       "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 0 KB",
       "parikshaa": {
         "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
         "status": "skipped"
@@ -149,9 +240,10 @@
         "struggle": 0,
         "targetReviews": 6
       },
+      "runtimeNote": "Runtime 31 ms",
       "slug": "2247A",
       "solveTimeMs": 72257,
-      "solvedAt": 1786005367250,
+      "solvedAt": 1786253848371,
       "tags": [
         "constructive algorithms",
         "dp",
@@ -166,10 +258,10 @@
       "difficulty": "easy",
       "events": [],
       "github": {
-        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/b40c4c09887e5f26457efcb6bc7b5040ca3eb5c9",
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/af317bb1bd63c5ab7d0695c3103f89b74ee335b4",
         "path": "codeforces/easy/2248A-you-delete-i-delete/solution.cpp",
         "status": "synced",
-        "syncedAt": 1786005444283
+        "syncedAt": 1786253851239
       },
       "history": [
         {
@@ -261,10 +353,29 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786253848024,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786253851239,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2248A-you-delete-i-delete/solution.cpp"
+        },
+        {
+          "at": 1786253851239,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2248A",
       "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 0 KB",
       "parikshaa": {
         "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
         "status": "skipped"
@@ -281,8 +392,9 @@
         "struggle": 0,
         "targetReviews": 6
       },
+      "runtimeNote": "Runtime 31 ms",
       "slug": "2248A",
-      "solvedAt": 1786005367063,
+      "solvedAt": 1786253848024,
       "tags": [
         "greedy"
       ],
@@ -304,7 +416,7 @@
         }
       ],
       "github": {
-        "error": "The branch kept moving while committing codeforces/easy/2250A-threshold-movement/README.md; gave up after 4 tries. Use \"Retry these\" to try again.",
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
         "path": "codeforces/easy/2250A-threshold-movement/solution.cpp",
         "status": "error"
       },
@@ -386,10 +498,29 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786253848031,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786253862371,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786253862371,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2250A",
       "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 100 KB",
       "parikshaa": {
         "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
         "status": "skipped"
@@ -406,8 +537,9 @@
         "struggle": 0,
         "targetReviews": 6
       },
+      "runtimeNote": "Runtime 46 ms",
       "slug": "2250A",
-      "solvedAt": 1786005367243,
+      "solvedAt": 1786253848031,
       "tags": [
         "brute force",
         "implementation",
@@ -491,6 +623,307 @@
       ],
       "title": "Find the Lexicographically Smallest Valid Sequence",
       "url": "https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/"
+    },
+    "leetcode:maximum-area-of-two-non-overlapping-square-submatrices": {
+      "attempts": 1,
+      "code": "class Solution:\n    def maxArea(self, mat: List[List[int]]) -> int:\n        if not mat or not mat[0]:\n            return 0\n        x = mat\n        m=len(mat)\n        n=len(mat[0])\n        dp=[[0] * n for _ in range(m)]\n        mp = min(m,n)\n        g = [[] for _ in range(mp + 1)]\n        for i in range(m):\n            for j in range(n):\n                if mat[i][j] == 1:\n                    if i == 0 or j == 0:\n                        dp[i][j] = 1\n                    else:\n                        dp[i][j] = min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1]) + 1\n                    g[dp[i][j]].append((i,j))\n        minr = float('inf')\n        maxr = float('-inf')\n        minc = float('inf')\n        maxc = float('-inf')\n        for k in range(mp, 0, -1):\n            for r,c in g[k]:\n                if r<minr : minr = r\n                if r>maxr : maxr = r\n                if c<minc : minc = c\n                if c>maxc : maxc = c\n            if maxr - minr >= k or maxc -minc >= k:\n                return k*k\n        return 0",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "4\n1\n0",
+          "at": 1786245543717,
+          "kind": "run",
+          "language": "Python3",
+          "memory": "19.4 MB",
+          "runtime": "0 ms",
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1786245551264,
+          "kind": "submit",
+          "language": "Python3",
+          "memory": "47.8 MB",
+          "runtime": "279 ms",
+          "submissionId": "2099793453",
+          "testsPassed": 1000,
+          "testsTotal": 1000,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/3f248e2ac5847415ee1e4b87f65f14a5944da101",
+        "path": "leetcode/medium/100895-maximum-area-of-two-non-overlapping-square-submatrices/solution.py",
+        "status": "synced",
+        "syncedAt": 1786245555929
+      },
+      "history": [
+        {
+          "at": 1786245551942,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Python3, 1 attempt(s)"
+        },
+        {
+          "at": 1786245555930,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/100895-maximum-area-of-two-non-overlapping-square-submatrices/solution.py"
+        },
+        {
+          "at": 1786245555930,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:maximum-area-of-two-non-overlapping-square-submatrices",
+      "language": "Python3",
+      "memoryNote": "Memory 47.8 MB (beats 100.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "100895",
+      "revision": {
+        "dueAt": 1786331951942,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 279 ms (beats 100.0%)",
+      "slug": "maximum-area-of-two-non-overlapping-square-submatrices",
+      "solvedAt": 1786245551942,
+      "tags": [],
+      "title": "Maximum Area of Two Non-Overlapping Square Submatrices",
+      "url": "https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/"
+    },
+    "leetcode:minimum-total-price-after-applying-discounts": {
+      "attempts": 1,
+      "code": "class Solution:\n    def minPrice(self, prices: list[int], discounts: list[int]) -> float:\n        prices.sort(reverse=True)\n        discounts.sort(reverse=True)\n        x = sum(y * z for y, z in zip(prices, discounts))\n        return sum(prices) - (x/100.0)\n        ",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "32.50000\n92.00000\n3.00000",
+          "at": 1786243895722,
+          "kind": "run",
+          "language": "Python3",
+          "memory": "19.6 MB",
+          "runtime": "0 ms",
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1786243913012,
+          "kind": "submit",
+          "language": "Python3",
+          "memory": "35.2 MB",
+          "runtime": "136 ms",
+          "submissionId": "2099740231",
+          "testsPassed": 996,
+          "testsTotal": 996,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/5cc517dd1b483b8e65ba50d9b73e94690c07dfed",
+        "path": "leetcode/medium/101124-minimum-total-price-after-applying-discounts/solution.py",
+        "status": "synced",
+        "syncedAt": 1786243916902
+      },
+      "history": [
+        {
+          "at": 1786243913354,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Python3, 1 attempt(s)"
+        },
+        {
+          "at": 1786243916902,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/101124-minimum-total-price-after-applying-discounts/solution.py"
+        },
+        {
+          "at": 1786243916902,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:minimum-total-price-after-applying-discounts",
+      "language": "Python3",
+      "memoryNote": "Memory 35.2 MB (beats 100.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "101124",
+      "revision": {
+        "dueAt": 1786330313354,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 136 ms (beats 100.0%)",
+      "slug": "minimum-total-price-after-applying-discounts",
+      "solveTimeMs": 511794,
+      "solvedAt": 1786243913354,
+      "tags": [],
+      "title": "Minimum Total Price After Applying Discounts",
+      "url": "https://leetcode.com/problems/minimum-total-price-after-applying-discounts/"
+    },
+    "leetcode:peaks-in-array-ii": {
+      "attempts": 1,
+      "code": "class Solution:\n    def countOfPeaks(self, nums: list[int], queries: list[list[int]]) -> list[int]:\n        x = (nums, queries)\n        n = len(nums)\n        def getfunc(length: int)-> int:\n            if length <3:\n                return 0\n            return (length - 1) * (length -2) //2\n        def merge(left:tuple, right:tuple)-> tuple:\n            if left[0]==-1: return right\n            if right[0]==-1: return left\n            return(left[0],right[1],left[2]+right[2]+getfunc(right[0]-left[1]+1))\n        tree = [(-1,-1,0)]*(2*n)\n        def peak(i:int)->bool:\n            if i<=0 or i>=n-1:\n                return False\n            return nums[i]>nums[i-1] and nums[i]>nums[i+1]\n        for i in range(1,n-1):\n            if peak(i):\n                tree[n+i]=(i,i,0)\n        for i in range(n-1, 0, -1):\n            tree[i] = merge(tree[i<<1],tree[i<<1 | 1])\n        def update(idx:int):\n            if idx <= 0 or idx >= n-1:\n                return\n            p=idx+n\n            tree[p] = (idx,idx,0) if peak(idx) else (-1,-1,0)\n            p>>=1\n            while p>0:\n                tree[p] = merge(tree[p<<1],tree[p<<1 | 1])\n                p>>=1\n        def query(l:int,r:int)->tuple:\n            leftr = (-1,-1,0)\n            rightr=(-1,-1,0)\n            l += n\n            r += n\n            while l<=r:\n                if l & 1:\n                    leftr = merge(leftr, tree[l])\n                    l += 1\n                if not (r & 1):\n                    rightr = merge(tree[r], rightr)\n                    r -= 1\n                l>>= 1\n                r>>= 1\n            return merge(leftr, rightr)\n        ans = []\n        for q in queries:\n            if q[0] == 1:\n                _, l, r = q\n                if r - l + 1 < 3:\n                    ans.append(0)\n                else:\n                    res = query(l+1,r-1)\n                    tsum = getfunc(r-l+1)\n                    if res[0]==-1:\n                        ans.append(0)\n                    else:\n                        z = res[2]+getfunc(res[0]-l+1)+getfunc(r-res[1]+1)\n                        ans.append(tsum-z)\n            else:\n                _,idx,val = q\n                nums[idx] = val\n                for i in (idx-1,idx,idx+1):\n                    update(i)\n        return ans",
+      "difficulty": "hard",
+      "events": [
+        {
+          "accepted": false,
+          "at": 1786247683795,
+          "errorText": "SyntaxError: invalid syntax\n    ^^^\n    and = []\nLine 47  (Solution.py)",
+          "kind": "run",
+          "language": "Python3",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "verdict": "Runtime Error"
+        },
+        {
+          "accepted": false,
+          "at": 1786247694219,
+          "errorText": "SyntaxError: invalid syntax\n     ^\n    -,idx,val = q\nLine 62  (Solution.py)",
+          "kind": "run",
+          "language": "Python3",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "verdict": "Runtime Error"
+        },
+        {
+          "accepted": false,
+          "at": 1786247702236,
+          "errorText": "NameError: name 'ans' is not defined\n           ^^^\n    return ans\nLine 66 in countOfPeaks (Solution.py)\n    ret = Solution().countOfPeaks(param_1, param_2)\nLine 96 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 111 in <module> (Solution.py)",
+          "kind": "run",
+          "language": "Python3",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "verdict": "Runtime Error"
+        },
+        {
+          "accepted": false,
+          "at": 1786247716626,
+          "errorText": "TypeError: None is not valid value for the expected return type long[]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    raise TypeError(str(ret) + \" is not valid value for the expected return type long[]\");\nLine 102 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 111 in <module> (Solution.py)\nDuring handling of the above exception, another exc…",
+          "kind": "run",
+          "language": "Python3",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "verdict": "Runtime Error"
+        },
+        {
+          "accepted": false,
+          "at": 1786247823759,
+          "errorText": "NameError: name 'l_1' is not defined\n                ^^^\n    res = query(l_1,r-1)\nLine 54 in countOfPeaks (Solution.py)\n    ret = Solution().countOfPeaks(param_1, param_2)\nLine 96 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 111 in <module> (Solution.py)",
+          "kind": "run",
+          "language": "Python3",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "verdict": "Runtime Error"
+        },
+        {
+          "accepted": false,
+          "at": 1786247844332,
+          "errorText": "TypeError: 'tuple' object does not support item assignment\n        ~~~^^^\n    z = res[2]=getfunc(res[0]-l+1)+getfunc(r-res[1]+1)\nLine 59 in countOfPeaks (Solution.py)\n    ret = Solution().countOfPeaks(param_1, param_2)\nLine 96 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 111 in <module> (Solution.py)",
+          "kind": "run",
+          "language": "Python3",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "verdict": "Runtime Error"
+        },
+        {
+          "accepted": true,
+          "actualOutput": "[2,0]\n[1,0]\n[0,3]",
+          "at": 1786247859748,
+          "kind": "run",
+          "language": "Python3",
+          "memory": "19.6 MB",
+          "runtime": "0 ms",
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1786247872430,
+          "kind": "submit",
+          "language": "Python3",
+          "memory": "68.1 MB",
+          "runtime": "2851 ms",
+          "submissionId": "2099854261",
+          "testsPassed": 999,
+          "testsTotal": 999,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/1c79cbffbf9322f14b06cf1caef18e3b18c6fb33",
+        "path": "leetcode/hard/101097-peaks-in-array-ii/solution.py",
+        "status": "synced",
+        "syncedAt": 1786247876774
+      },
+      "history": [
+        {
+          "at": 1786247872821,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Python3, 1 attempt(s)"
+        },
+        {
+          "at": 1786247876774,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/hard/101097-peaks-in-array-ii/solution.py"
+        },
+        {
+          "at": 1786247876774,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:peaks-in-array-ii",
+      "language": "Python3",
+      "memoryNote": "Memory 68.1 MB (beats 100.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "101097",
+      "revision": {
+        "dueAt": 1786334272821,
+        "ease": 0.87,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0.33,
+        "targetReviews": 7
+      },
+      "runtimeNote": "Runtime 2851 ms (beats 100.0%)",
+      "slug": "peaks-in-array-ii",
+      "solvedAt": 1786247872821,
+      "tags": [],
+      "title": "Peaks in Array II",
+      "url": "https://leetcode.com/problems/peaks-in-array-ii/"
     },
     "leetcode:smallest-divisible-digit-product-i": {
       "attempts": 1,
@@ -656,6 +1089,212 @@
       ],
       "title": "Smallest Divisible Digit Product II",
       "url": "https://leetcode.com/problems/smallest-divisible-digit-product-ii/"
+    },
+    "leetcode:stone-game-ii": {
+      "attempts": 1,
+      "code": "class Solution {\n    public int stoneGameII(int[] piles) {\n        int totalPiles = piles.length;\n        int[] suffixSums = new int[totalPiles + 1];\n        for (int i = totalPiles - 1; i >= 0; i--) {\n            suffixSums[i] = suffixSums[i + 1] + piles[i];\n        }\n        return maxStonesAliceCanGet(suffixSums, 1, 0, new int[totalPiles][totalPiles + 1]);\n    }\n\n    private int maxStonesAliceCanGet(int[] suffixSums, int m, int currentPile, int[][] memo) {\n        int totalPiles = suffixSums.length - 1;\n        \n        if (currentPile >= totalPiles) return 0;\n        \n        if (currentPile + 2 * m >= totalPiles) {\n            return suffixSums[currentPile];\n        }\n        \n        if (memo[currentPile][m] != 0) return memo[currentPile][m];\n        \n        int maxStones = 0;\n        \n        for (int x = 1; x <= 2 * m; x++) {\n            int currentStones = suffixSums[currentPile] - maxStonesAliceCanGet(suffixSums, Math.max(m, x), currentPile + x, memo);\n            maxStones = Math.max(maxStones, currentStones);\n        }\n        \n        memo[currentPile][m] = maxStones;\n        return maxStones;\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "10\n104",
+          "at": 1786248524683,
+          "expectedOutput": "10\n104",
+          "kind": "run",
+          "language": "Java",
+          "memory": "42.9 MB",
+          "runtime": "0 ms",
+          "testsPassed": 2,
+          "testsTotal": 2,
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1786248530478,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "44.4 MB",
+          "runtime": "2 ms",
+          "submissionId": "2099865894",
+          "testsPassed": 92,
+          "testsTotal": 92,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/f346495b8b630b5870804566a57e1e5935fec772",
+        "path": "leetcode/medium/1140-stone-game-ii/solution.java",
+        "status": "synced",
+        "syncedAt": 1786248534261
+      },
+      "history": [
+        {
+          "at": 1786248530965,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786248534261,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/1140-stone-game-ii/solution.java"
+        },
+        {
+          "at": 1786248534261,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        },
+        {
+          "at": 1786248551299,
+          "kind": "opened"
+        }
+      ],
+      "id": "leetcode:stone-game-ii",
+      "language": "Java",
+      "memoryNote": "Memory 44.4 MB (beats 59.8%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "1140",
+      "revision": {
+        "dueAt": 1786334930965,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 2 ms (beats 100.0%)",
+      "slug": "stone-game-ii",
+      "solveTimeMs": 47162,
+      "solvedAt": 1786248530965,
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Minimax",
+        "Prefix Sum",
+        "Game Theory",
+        "Zero-Sum Game"
+      ],
+      "title": "Stone Game II",
+      "url": "https://leetcode.com/problems/stone-game-ii/"
+    },
+    "leetcode:weighted-sum-of-a-tree": {
+      "attempts": 1,
+      "code": "class Solution:\n    def weightedSum(self, parent: list[int], nums: list[int]) -> int:\n        n = len(parent)\n        x = [[] for _ in range(n)]\n        for i in range(1,n):\n            x[parent[i]].append(i)\n\n        y = (parent, nums)\n        d = [0] * n\n        d[0] = 1\n        q = [0]\n        for u in q:\n            for v in x[u]:\n                d[v] = d[u] + 1\n                q.append(v)\n        h = d[q[-1]]\n        ans = 0\n        for i in range(n):\n            ans += nums[i] * (h - d[i]+1)\n        return ans",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": false,
+          "at": 1786244713161,
+          "errorText": "NameError: name 'd1' is not defined\n    ^^\n    d1[0] = 1\nLine 10 in weightedSum (Solution.py)\n    ret = Solution().weightedSum(param_1, param_2)\nLine 50 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 65 in <module> (Solution.py)",
+          "kind": "run",
+          "language": "Python3",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "verdict": "Runtime Error"
+        },
+        {
+          "accepted": false,
+          "at": 1786244733324,
+          "errorText": "NameError: name 'd1' is not defined\n    ^^\n    d1[v] = d[u] + 1\nLine 14 in weightedSum (Solution.py)\n    ret = Solution().weightedSum(param_1, param_2)\nLine 50 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 65 in <module> (Solution.py)",
+          "kind": "run",
+          "language": "Python3",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "verdict": "Runtime Error"
+        },
+        {
+          "accepted": false,
+          "at": 1786244742085,
+          "errorText": "NameError: name 'd1' is not defined\n                          ^^\n    ans += nums[i] * (h - d1[i]+1)\nLine 19 in weightedSum (Solution.py)\n    ret = Solution().weightedSum(param_1, param_2)\nLine 50 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 65 in <module> (Solution.py)",
+          "kind": "run",
+          "language": "Python3",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "verdict": "Runtime Error"
+        },
+        {
+          "accepted": true,
+          "actualOutput": "37\n20",
+          "at": 1786244752121,
+          "kind": "run",
+          "language": "Python3",
+          "memory": "19.3 MB",
+          "runtime": "0 ms",
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1786244761830,
+          "kind": "submit",
+          "language": "Python3",
+          "memory": "45.6 MB",
+          "runtime": "246 ms",
+          "submissionId": "2099768607",
+          "testsPassed": 548,
+          "testsTotal": 548,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/9b5faa3c2d581d82075b6a7fd2c55804e3fac6b8",
+        "path": "leetcode/medium/101113-weighted-sum-of-a-tree/solution.py",
+        "status": "synced",
+        "syncedAt": 1786244765785
+      },
+      "history": [
+        {
+          "at": 1786244762427,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Python3, 1 attempt(s)"
+        },
+        {
+          "at": 1786244765785,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/101113-weighted-sum-of-a-tree/solution.py"
+        },
+        {
+          "at": 1786244765785,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:weighted-sum-of-a-tree",
+      "language": "Python3",
+      "memoryNote": "Memory 45.6 MB (beats 100.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "101113",
+      "revision": {
+        "dueAt": 1786331162427,
+        "ease": 0.9,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0.25,
+        "targetReviews": 7
+      },
+      "runtimeNote": "Runtime 246 ms (beats 100.0%)",
+      "slug": "weighted-sum-of-a-tree",
+      "solvedAt": 1786244762427,
+      "tags": [],
+      "title": "Weighted Sum of a Tree",
+      "url": "https://leetcode.com/problems/weighted-sum-of-a-tree/"
     }
   },
   "journal": {
@@ -678,6 +1317,18 @@
         "submissionId": "386129076",
         "testsPassed": 1,
         "verdict": "Wrong answer on test 2"
+      }
+    ],
+    "codeforces:2241A": [
+      {
+        "accepted": true,
+        "at": 1786253864990,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "memory": "0 KB",
+        "runtime": "31 ms",
+        "submissionId": "386282007",
+        "verdict": "Accepted"
       }
     ],
     "codeforces:2250A": [
@@ -772,6 +1423,138 @@
         "verdict": "Accepted"
       }
     ],
+    "leetcode:maximum-area-of-two-non-overlapping-square-submatrices": [
+      {
+        "accepted": true,
+        "actualOutput": "4\n1\n0",
+        "at": 1786245543717,
+        "kind": "run",
+        "language": "Python3",
+        "memory": "19.4 MB",
+        "runtime": "0 ms",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786245551264,
+        "kind": "submit",
+        "language": "Python3",
+        "memory": "47.8 MB",
+        "runtime": "279 ms",
+        "submissionId": "2099793453",
+        "testsPassed": 1000,
+        "testsTotal": 1000,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:minimum-total-price-after-applying-discounts": [
+      {
+        "accepted": true,
+        "actualOutput": "32.50000\n92.00000\n3.00000",
+        "at": 1786243895722,
+        "kind": "run",
+        "language": "Python3",
+        "memory": "19.6 MB",
+        "runtime": "0 ms",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786243913012,
+        "kind": "submit",
+        "language": "Python3",
+        "memory": "35.2 MB",
+        "runtime": "136 ms",
+        "submissionId": "2099740231",
+        "testsPassed": 996,
+        "testsTotal": 996,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:peaks-in-array-ii": [
+      {
+        "accepted": false,
+        "at": 1786247683795,
+        "errorText": "SyntaxError: invalid syntax\n    ^^^\n    and = []\nLine 47  (Solution.py)",
+        "kind": "run",
+        "language": "Python3",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "verdict": "Runtime Error"
+      },
+      {
+        "accepted": false,
+        "at": 1786247694219,
+        "errorText": "SyntaxError: invalid syntax\n     ^\n    -,idx,val = q\nLine 62  (Solution.py)",
+        "kind": "run",
+        "language": "Python3",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "verdict": "Runtime Error"
+      },
+      {
+        "accepted": false,
+        "at": 1786247702236,
+        "errorText": "NameError: name 'ans' is not defined\n           ^^^\n    return ans\nLine 66 in countOfPeaks (Solution.py)\n    ret = Solution().countOfPeaks(param_1, param_2)\nLine 96 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 111 in <module> (Solution.py)",
+        "kind": "run",
+        "language": "Python3",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "verdict": "Runtime Error"
+      },
+      {
+        "accepted": false,
+        "at": 1786247716626,
+        "errorText": "TypeError: None is not valid value for the expected return type long[]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    raise TypeError(str(ret) + \" is not valid value for the expected return type long[]\");\nLine 102 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 111 in <module> (Solution.py)\nDuring handling of the above exception, another exc…",
+        "kind": "run",
+        "language": "Python3",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "verdict": "Runtime Error"
+      },
+      {
+        "accepted": false,
+        "at": 1786247823759,
+        "errorText": "NameError: name 'l_1' is not defined\n                ^^^\n    res = query(l_1,r-1)\nLine 54 in countOfPeaks (Solution.py)\n    ret = Solution().countOfPeaks(param_1, param_2)\nLine 96 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 111 in <module> (Solution.py)",
+        "kind": "run",
+        "language": "Python3",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "verdict": "Runtime Error"
+      },
+      {
+        "accepted": false,
+        "at": 1786247844332,
+        "errorText": "TypeError: 'tuple' object does not support item assignment\n        ~~~^^^\n    z = res[2]=getfunc(res[0]-l+1)+getfunc(r-res[1]+1)\nLine 59 in countOfPeaks (Solution.py)\n    ret = Solution().countOfPeaks(param_1, param_2)\nLine 96 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 111 in <module> (Solution.py)",
+        "kind": "run",
+        "language": "Python3",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "verdict": "Runtime Error"
+      },
+      {
+        "accepted": true,
+        "actualOutput": "[2,0]\n[1,0]\n[0,3]",
+        "at": 1786247859748,
+        "kind": "run",
+        "language": "Python3",
+        "memory": "19.6 MB",
+        "runtime": "0 ms",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786247872430,
+        "kind": "submit",
+        "language": "Python3",
+        "memory": "68.1 MB",
+        "runtime": "2851 ms",
+        "submissionId": "2099854261",
+        "testsPassed": 999,
+        "testsTotal": 999,
+        "verdict": "Accepted"
+      }
+    ],
     "leetcode:smallest-divisible-digit-product-i": [
       {
         "accepted": true,
@@ -823,6 +1606,87 @@
         "submissionId": "2098358674",
         "testsPassed": 954,
         "testsTotal": 954,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:stone-game-ii": [
+      {
+        "accepted": true,
+        "actualOutput": "10\n104",
+        "at": 1786248524683,
+        "expectedOutput": "10\n104",
+        "kind": "run",
+        "language": "Java",
+        "memory": "42.9 MB",
+        "runtime": "0 ms",
+        "testsPassed": 2,
+        "testsTotal": 2,
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786248530478,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "44.4 MB",
+        "runtime": "2 ms",
+        "submissionId": "2099865894",
+        "testsPassed": 92,
+        "testsTotal": 92,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:weighted-sum-of-a-tree": [
+      {
+        "accepted": false,
+        "at": 1786244713161,
+        "errorText": "NameError: name 'd1' is not defined\n    ^^\n    d1[0] = 1\nLine 10 in weightedSum (Solution.py)\n    ret = Solution().weightedSum(param_1, param_2)\nLine 50 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 65 in <module> (Solution.py)",
+        "kind": "run",
+        "language": "Python3",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "verdict": "Runtime Error"
+      },
+      {
+        "accepted": false,
+        "at": 1786244733324,
+        "errorText": "NameError: name 'd1' is not defined\n    ^^\n    d1[v] = d[u] + 1\nLine 14 in weightedSum (Solution.py)\n    ret = Solution().weightedSum(param_1, param_2)\nLine 50 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 65 in <module> (Solution.py)",
+        "kind": "run",
+        "language": "Python3",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "verdict": "Runtime Error"
+      },
+      {
+        "accepted": false,
+        "at": 1786244742085,
+        "errorText": "NameError: name 'd1' is not defined\n                          ^^\n    ans += nums[i] * (h - d1[i]+1)\nLine 19 in weightedSum (Solution.py)\n    ret = Solution().weightedSum(param_1, param_2)\nLine 50 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 65 in <module> (Solution.py)",
+        "kind": "run",
+        "language": "Python3",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "verdict": "Runtime Error"
+      },
+      {
+        "accepted": true,
+        "actualOutput": "37\n20",
+        "at": 1786244752121,
+        "kind": "run",
+        "language": "Python3",
+        "memory": "19.3 MB",
+        "runtime": "0 ms",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786244761830,
+        "kind": "submit",
+        "language": "Python3",
+        "memory": "45.6 MB",
+        "runtime": "246 ms",
+        "submissionId": "2099768607",
+        "testsPassed": 548,
+        "testsTotal": 548,
         "verdict": "Accepted"
       }
     ]
