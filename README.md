@@ -1,11 +1,15 @@
 # DSA Solutions
 
-11 solved — 4 easy · 5 medium · 2 hard. Last updated 2026-08-09.
+13 solved — 5 easy · 5 medium · 3 hard. Last updated 2026-08-10.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 1510 | [Stone Game IV](leetcode/hard/1510-stone-game-iv/solution.java) | LeetCode | hard | Java | 2026-08-10 |
+| 2241A | [Divide and Conquer](codeforces/easy/2241A-divide-and-conquer/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-09 |
+| 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-09 |
+| 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-09 |
 | 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-09 |
 | 1140 | [Stone Game II](leetcode/medium/1140-stone-game-ii/solution.java) | LeetCode | medium | Java | 2026-08-09 |
 | 101097 | [Peaks in Array II](leetcode/hard/101097-peaks-in-array-ii/solution.py) | LeetCode | hard | Python3 | 2026-08-09 |
@@ -14,8 +18,6 @@
 | 101124 | [Minimum Total Price After Applying Discounts](leetcode/medium/101124-minimum-total-price-after-applying-discounts/solution.py) | LeetCode | medium | Python3 | 2026-08-09 |
 | 3302 | [Find the Lexicographically Smallest Valid Sequence](leetcode/medium/3302-find-the-lexicographically-smallest-valid-sequence/solution.java) | LeetCode | medium | Java | 2026-08-08 |
 | 3348 | [Smallest Divisible Digit Product II](leetcode/hard/3348-smallest-divisible-digit-product-ii/solution.java) | LeetCode | hard | Java | 2026-08-07 |
-| 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-06 |
-| 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-06 |
 | 3345 | [Smallest Divisible Digit Product I](leetcode/easy/3345-smallest-divisible-digit-product-i/solution.java) | LeetCode | easy | Java | 2026-08-06 |
 
 ---

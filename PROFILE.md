@@ -2,7 +2,7 @@
 
 <img src="assets/profile.svg" alt="Coding profile" width="840">
 
-_Regenerated on every sync — last run 2026-08-09._
+_Regenerated on every sync — last run 2026-08-10._
 
 ## This week
 
@@ -12,23 +12,31 @@ _Regenerated on every sync — last run 2026-08-09._
 
 | | |
 | --- | --- |
-| Problems solved | 11 |
-| Due for revision today | 5 |
+| Problems solved | 13 |
+| Due for revision today | 12 |
 | Revisions completed | 0 |
-| Current streak | 2 days |
-| Submissions recorded | 8 (0 rejected) |
-| Runs recorded | 16 |
+| Current streak | 3 days |
+| Submissions recorded | 10 (0 rejected) |
+| Runs recorded | 17 |
 | Median time to solve | 1 min |
 
 ## Needs work
 
 | Topic | Solved | Lapses | Mastery |
 | --- | --- | --- | --- |
-| math | 4 | 0 | 45/100 |
-| greedy | 3 | 0 | 45/100 |
-| number theory | 2 | 0 | 45/100 |
+| math | 6 | 0 | 45/100 |
+| greedy | 4 | 0 | 45/100 |
+| number theory | 3 | 0 | 45/100 |
+| dynamic programming | 3 | 0 | 45/100 |
 | string | 2 | 0 | 45/100 |
-| dynamic programming | 2 | 0 | 45/100 |
+
+## Solid
+
+| Topic | Solved | Mastery |
+| --- | --- | --- |
+| zero-sum game | 2 | 45/100 |
+| game theory | 2 | 45/100 |
+| minimax | 2 | 45/100 |
 
 ## Fought hardest for these
 
@@ -38,14 +46,14 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | --- | --- | --- | --- | --- |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
+| [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 1 | 1 | under a minute | 0/100 |
+| [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 1 | 0 | 2 min | 0/100 |
+| [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
+| [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
 | [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0 | — | 0/100 |
 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 1 | 1 | 1 min | 0/100 |
 | [Maximum Area of Two Non-Overlapping Square Submatrices](https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/) | 1 | 1 | — | 0/100 |
 | [Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/) | 1 | 1 | 9 min | 0/100 |
-| [Find the Lexicographically Smallest Valid Sequence](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | 1 | 0 | under a minute | 0/100 |
-| [Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | 1 | 1 | 1 min | 0/100 |
-| [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
-| [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
 
 ## Revision queue
 

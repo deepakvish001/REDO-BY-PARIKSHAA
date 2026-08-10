@@ -25,13 +25,13 @@
   <circle cx="60" cy="62" r="18" fill="#f97316" opacity="0.16" />
   <text x="60" y="71" class="title" fill="#f97316" text-anchor="middle" font-size="24">↻</text>
   <text x="92" y="60" class="title">My week in code</text>
-  <text x="92" y="84" class="sub">2 Aug – 9 Aug</text>
+  <text x="92" y="84" class="sub">3 Aug – 10 Aug</text>
 
   
     <g class="rise" style="animation-delay:0s">
       <rect x="40" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="62" y="188" class="big">11</text>
+      <text x="62" y="188" class="big">13</text>
       <text x="62" y="211" class="small">problems solved</text>
     </g>
     <g class="rise" style="animation-delay:0.07s">
@@ -43,45 +43,45 @@
     <g class="rise" style="animation-delay:0.14s">
       <rect x="516" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="538" y="188" class="big">8</text>
+      <text x="538" y="188" class="big">10</text>
       <text x="538" y="211" class="small">submissions</text>
     </g>
     <g class="rise" style="animation-delay:0.21000000000000002s">
       <rect x="754" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="776" y="188" class="big">2</text>
+      <text x="776" y="188" class="big">3</text>
       <text x="776" y="211" class="small">day streak</text>
     </g>
   <text x="40" y="252" class="label">DIFFICULTY MIX</text>
-  <rect x="40" y="262" width="335" height="14" rx="7" fill="#34d399" />
-    <text x="40" y="296" class="small" fill="#34d399">4 easy</text><rect x="381" y="262" width="418" height="14" rx="7" fill="#fbbf24" />
-    <text x="381" y="296" class="small" fill="#fbbf24">5 medium</text><rect x="805" y="262" width="167" height="14" rx="7" fill="#f87171" />
-    <text x="805" y="296" class="small" fill="#f87171">2 hard</text>
+  <rect x="40" y="262" width="354" height="14" rx="7" fill="#34d399" />
+    <text x="40" y="296" class="small" fill="#34d399">5 easy</text><rect x="400" y="262" width="354" height="14" rx="7" fill="#fbbf24" />
+    <text x="400" y="296" class="small" fill="#fbbf24">5 medium</text><rect x="760" y="262" width="212" height="14" rx="7" fill="#f87171" />
+    <text x="760" y="296" class="small" fill="#f87171">3 hard</text>
   <text x="40" y="326" class="label">TOPICS</text>
     <g class="rise">
       <rect x="40" y="336" width="78.8" height="30" rx="15" fill="#141419" stroke="#26262e" />
       <text x="56" y="356" class="chip">Math</text>
-      <text x="100.8" y="356" class="chipCount" text-anchor="end">3</text>
+      <text x="100.8" y="356" class="chipCount" text-anchor="end">4</text>
     </g>
     <g class="rise">
-      <rect x="126.8" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="142.8" y="356" class="chip">String</text>
-      <text x="204" y="356" class="chipCount" text-anchor="end">2</text>
+      <rect x="126.8" y="336" width="201.79999999999998" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="142.8" y="356" class="chip">Dynamic Programming</text>
+      <text x="310.59999999999997" y="356" class="chipCount" text-anchor="end">3</text>
     </g>
     <g class="rise">
-      <rect x="230" y="336" width="201.79999999999998" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="246" y="356" class="chip">Dynamic Programming</text>
+      <rect x="336.59999999999997" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="352.59999999999997" y="356" class="chip">greedy</text>
       <text x="413.79999999999995" y="356" class="chipCount" text-anchor="end">2</text>
     </g>
     <g class="rise">
-      <rect x="439.79999999999995" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="455.79999999999995" y="356" class="chip">Greedy</text>
-      <text x="517" y="356" class="chipCount" text-anchor="end">2</text>
+      <rect x="439.79999999999995" y="336" width="78.8" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="455.79999999999995" y="356" class="chip">math</text>
+      <text x="500.5999999999999" y="356" class="chipCount" text-anchor="end">2</text>
     </g>
     <g class="rise">
-      <rect x="543" y="336" width="226.39999999999998" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="559" y="356" class="chip">constructive algorith…</text>
-      <text x="751.4" y="356" class="chipCount" text-anchor="end">1</text>
+      <rect x="526.5999999999999" y="336" width="152.6" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="542.5999999999999" y="356" class="chip">number theory</text>
+      <text x="661.1999999999999" y="356" class="chipCount" text-anchor="end">2</text>
     </g>
   
     <g class="rise" style="animation-delay:.25s">
@@ -93,6 +93,6 @@
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>
 
-  <text x="40" y="516" class="foot">12 min at the keyboard · 16 runs · 0 hints · new: constructive algorithms, dp, number theory</text>
+  <text x="40" y="516" class="foot">14 min at the keyboard · 17 runs · 0 hints · new: greedy, math, number theory</text>
   <text x="960" y="516" class="foot" text-anchor="end">Redo · parikshaa.org</text>
 </svg>
