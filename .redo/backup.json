@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1786300255614,
+  "exportedAt": 1786387334637,
   "settings": {
     "github": {
       "token": "",
@@ -1186,6 +1186,98 @@
       "title": "Stone Game II",
       "url": "https://leetcode.com/problems/stone-game-ii/"
     },
+    "leetcode:stone-game-iv": {
+      "attempts": 1,
+      "code": "class Solution {\n    public boolean winnerSquareGame(int n) {\n        boolean[] dp = new boolean[n + 1];\n\n        for (int i = 0; i <= n; i++) {\n            if (!dp[i]) {\n                for (int j = 1; i + j * j <= n; j++) {\n                    dp[i + j * j] = true;\n                }\n\n                if (dp[n]) {\n                    return true;\n                }\n            }\n        }\n\n        return false;\n    }\n}",
+      "difficulty": "hard",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "true\nfalse\ntrue",
+          "at": 1786346746900,
+          "expectedOutput": "true\nfalse\ntrue",
+          "kind": "run",
+          "language": "Java",
+          "memory": "42.2 MB",
+          "runtime": "0 ms",
+          "testsPassed": 3,
+          "testsTotal": 3,
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1786346753379,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "42.5 MB",
+          "runtime": "2 ms",
+          "submissionId": "2101219675",
+          "testsPassed": 72,
+          "testsTotal": 72,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/c2eafab0f16043934e10181d001fc96ed538c39d",
+        "path": "leetcode/hard/1510-stone-game-iv/solution.java",
+        "status": "synced",
+        "syncedAt": 1786346757211
+      },
+      "history": [
+        {
+          "at": 1786346753757,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786346757211,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/hard/1510-stone-game-iv/solution.java"
+        },
+        {
+          "at": 1786346757211,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:stone-game-iv",
+      "language": "Java",
+      "memoryNote": "Memory 42.5 MB (beats 68.4%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "1510",
+      "revision": {
+        "dueAt": 1786433153757,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 2 ms (beats 100.0%)",
+      "slug": "stone-game-iv",
+      "solveTimeMs": 28722,
+      "solvedAt": 1786346753757,
+      "tags": [
+        "Math",
+        "Dynamic Programming",
+        "Minimax",
+        "Game Theory",
+        "Nim Game",
+        "Sprague–Grundy Theorem",
+        "Zero-Sum Game"
+      ],
+      "title": "Stone Game IV",
+      "url": "https://leetcode.com/problems/stone-game-iv/"
+    },
     "leetcode:weighted-sum-of-a-tree": {
       "attempts": 1,
       "code": "class Solution:\n    def weightedSum(self, parent: list[int], nums: list[int]) -> int:\n        n = len(parent)\n        x = [[] for _ in range(n)]\n        for i in range(1,n):\n            x[parent[i]].append(i)\n\n        y = (parent, nums)\n        d = [0] * n\n        d[0] = 1\n        q = [0]\n        for u in q:\n            for v in x[u]:\n                d[v] = d[u] + 1\n                q.append(v)\n        h = d[q[-1]]\n        ans = 0\n        for i in range(n):\n            ans += nums[i] * (h - d[i]+1)\n        return ans",
@@ -1633,6 +1725,33 @@
         "submissionId": "2099865894",
         "testsPassed": 92,
         "testsTotal": 92,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:stone-game-iv": [
+      {
+        "accepted": true,
+        "actualOutput": "true\nfalse\ntrue",
+        "at": 1786346746900,
+        "expectedOutput": "true\nfalse\ntrue",
+        "kind": "run",
+        "language": "Java",
+        "memory": "42.2 MB",
+        "runtime": "0 ms",
+        "testsPassed": 3,
+        "testsTotal": 3,
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786346753379,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "42.5 MB",
+        "runtime": "2 ms",
+        "submissionId": "2101219675",
+        "testsPassed": 72,
+        "testsTotal": 72,
         "verdict": "Accepted"
       }
     ],
