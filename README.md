@@ -1,11 +1,12 @@
 # DSA Solutions
 
-13 solved — 5 easy · 5 medium · 3 hard. Last updated 2026-08-10.
+14 solved — 6 easy · 5 medium · 3 hard. Last updated 2026-08-11.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](leetcode/easy/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/solution.java) | LeetCode | easy | Java | 2026-08-11 |
 | 1510 | [Stone Game IV](leetcode/hard/1510-stone-game-iv/solution.java) | LeetCode | hard | Java | 2026-08-10 |
 | 2241A | [Divide and Conquer](codeforces/easy/2241A-divide-and-conquer/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-09 |
 | 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-09 |
