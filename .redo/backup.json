@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1786387334637,
+  "exportedAt": 1786473055937,
   "settings": {
     "github": {
       "token": "",
@@ -82,9 +82,10 @@
         }
       ],
       "github": {
-        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/f296f5c51fb699be3349e3c4713115b2bcc9c3ac",
         "path": "codeforces/easy/2241A-divide-and-conquer/solution.cpp",
-        "status": "error"
+        "status": "synced",
+        "syncedAt": 1786453626587
       },
       "history": [
         {
@@ -104,11 +105,47 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786453472816,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786453524142,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786453524142,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786453623247,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786453626587,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2241A-divide-and-conquer/solution.cpp"
+        },
+        {
+          "at": 1786453626587,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2241A",
       "language": "C++17 (GCC 7-32)",
-      "memoryNote": "Memory 0 KB",
+      "memoryNote": "Memory 0 KB",
       "parikshaa": {
         "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
         "status": "skipped"
@@ -125,10 +162,10 @@
         "struggle": 0,
         "targetReviews": 6
       },
-      "runtimeNote": "Runtime 31 ms",
+      "runtimeNote": "Runtime 31 ms",
       "slug": "2241A",
       "solveTimeMs": 106418,
-      "solvedAt": 1786253866378,
+      "solvedAt": 1786453623247,
       "tags": [
         "greedy",
         "math",
@@ -136,6 +173,76 @@
       ],
       "title": "Divide and Conquer",
       "url": "https://codeforces.com/contest/2241/problem/A"
+    },
+    "codeforces:2245A": {
+      "attempts": 1,
+      "code": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nvoid solve() {\n    int n, k;\n    cin >> n >> k;\n    string s;\n    cin >> s;\n    \n    if (n < 2 * k) {\n        cout << \"-1\\n\";\n        return;\n    }\n    \n    int ans = 0;\n    for (int i = 0; i < k; ++i) {\n        if (s[i] == 'L') {\n            ans++;\n        }\n    }\n    for (int i = n - k; i < n; ++i) {\n        if (s[i] == 'R') {\n            ans++;\n        }\n    }\n    \n    cout << ans << \"\\n\";\n}\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int t;\n    if (cin >> t) {\n        while (t--) {\n            solve();\n        }\n    }\n    \n    return 0;\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1786453624049,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "31 ms",
+          "submissionId": "386616455",
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "path": "codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp",
+        "status": "error"
+      },
+      "history": [
+        {
+          "at": 1786453626467,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786453675547,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786453675547,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        }
+      ],
+      "id": "codeforces:2245A",
+      "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 0 KB",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "2245A",
+      "revision": {
+        "dueAt": 1786540026467,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 31 ms",
+      "slug": "2245A",
+      "solveTimeMs": 120071,
+      "solvedAt": 1786453626467,
+      "tags": [
+        "greedy"
+      ],
+      "title": "Who Watches the Watchpig?",
+      "url": "https://codeforces.com/contest/2245/problem/A"
     },
     "codeforces:2247A": {
       "attempts": 1,
@@ -219,6 +326,42 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786453472656,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786453498758,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2247A-zero-sum/solution.cpp"
+        },
+        {
+          "at": 1786453498758,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786453623353,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786453638806,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786453638806,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2247A",
@@ -243,7 +386,7 @@
       "runtimeNote": "Runtime 31 ms",
       "slug": "2247A",
       "solveTimeMs": 72257,
-      "solvedAt": 1786253848371,
+      "solvedAt": 1786453623353,
       "tags": [
         "constructive algorithms",
         "dp",
@@ -258,10 +401,9 @@
       "difficulty": "easy",
       "events": [],
       "github": {
-        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/af317bb1bd63c5ab7d0695c3103f89b74ee335b4",
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
         "path": "codeforces/easy/2248A-you-delete-i-delete/solution.cpp",
-        "status": "synced",
-        "syncedAt": 1786253851239
+        "status": "error"
       },
       "history": [
         {
@@ -371,6 +513,42 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786453472622,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786453485337,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786453485337,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786453623388,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786453662981,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786453662981,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2248A",
@@ -394,7 +572,7 @@
       },
       "runtimeNote": "Runtime 31 ms",
       "slug": "2248A",
-      "solvedAt": 1786253848024,
+      "solvedAt": 1786453623388,
       "tags": [
         "greedy"
       ],
@@ -516,6 +694,42 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786453472741,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786453511193,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786453511193,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786453623367,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786453651035,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786453651035,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2250A",
@@ -539,7 +753,7 @@
       },
       "runtimeNote": "Runtime 46 ms",
       "slug": "2250A",
-      "solvedAt": 1786253848031,
+      "solvedAt": 1786453623367,
       "tags": [
         "brute force",
         "implementation",
@@ -1090,6 +1304,94 @@
       "title": "Smallest Divisible Digit Product II",
       "url": "https://leetcode.com/problems/smallest-divisible-digit-product-ii/"
     },
+    "leetcode:smallest-missing-integer-greater-than-sequential-prefix-sum": {
+      "attempts": 1,
+      "code": "class Solution {\n    public int missingInteger(int[] A) {\n        int n = A.length;\n        Set<Integer> seen = new HashSet<>(n);\n\n        for (int num : A)\n            seen.add(num);\n        int sum = A[0];\n\n        for (int i = 1; i < n; i++) {\n            if (A[i] == A[i - 1] + 1)\n                sum += A[i];\n            else break;\n        }\n\n        while (seen.contains(sum))\n            sum++;\n\n        return sum;\n    }\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "6\n15",
+          "at": 1786453428001,
+          "expectedOutput": "6\n15",
+          "kind": "run",
+          "language": "Java",
+          "memory": "42.6 MB",
+          "runtime": "0 ms",
+          "testsPassed": 2,
+          "testsTotal": 2,
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1786453432390,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "44.3 MB",
+          "runtime": "2 ms",
+          "submissionId": "2102846228",
+          "testsPassed": 616,
+          "testsTotal": 616,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/5b3467acb0dfea3e9a527244e58775fba9fcd182",
+        "path": "leetcode/easy/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/solution.java",
+        "status": "synced",
+        "syncedAt": 1786453438334
+      },
+      "history": [
+        {
+          "at": 1786453432853,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786453438334,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/easy/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/solution.java"
+        },
+        {
+          "at": 1786453438334,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:smallest-missing-integer-greater-than-sequential-prefix-sum",
+      "language": "Java",
+      "memoryNote": "Memory 44.3 MB (beats 34.7%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "2996",
+      "revision": {
+        "dueAt": 1786539832853,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 2 ms (beats 52.9%)",
+      "slug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
+      "solveTimeMs": 28517,
+      "solvedAt": 1786453432853,
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting"
+      ],
+      "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+      "url": "https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/"
+    },
     "leetcode:stone-game-ii": {
       "attempts": 1,
       "code": "class Solution {\n    public int stoneGameII(int[] piles) {\n        int totalPiles = piles.length;\n        int[] suffixSums = new int[totalPiles + 1];\n        for (int i = totalPiles - 1; i >= 0; i--) {\n            suffixSums[i] = suffixSums[i + 1] + piles[i];\n        }\n        return maxStonesAliceCanGet(suffixSums, 1, 0, new int[totalPiles][totalPiles + 1]);\n    }\n\n    private int maxStonesAliceCanGet(int[] suffixSums, int m, int currentPile, int[][] memo) {\n        int totalPiles = suffixSums.length - 1;\n        \n        if (currentPile >= totalPiles) return 0;\n        \n        if (currentPile + 2 * m >= totalPiles) {\n            return suffixSums[currentPile];\n        }\n        \n        if (memo[currentPile][m] != 0) return memo[currentPile][m];\n        \n        int maxStones = 0;\n        \n        for (int x = 1; x <= 2 * m; x++) {\n            int currentStones = suffixSums[currentPile] - maxStonesAliceCanGet(suffixSums, Math.max(m, x), currentPile + x, memo);\n            maxStones = Math.max(maxStones, currentStones);\n        }\n        \n        memo[currentPile][m] = maxStones;\n        return maxStones;\n    }\n}",
@@ -1423,6 +1725,18 @@
         "verdict": "Accepted"
       }
     ],
+    "codeforces:2245A": [
+      {
+        "accepted": true,
+        "at": 1786453624049,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "memory": "0 KB",
+        "runtime": "31 ms",
+        "submissionId": "386616455",
+        "verdict": "Accepted"
+      }
+    ],
     "codeforces:2250A": [
       {
         "accepted": true,
@@ -1698,6 +2012,33 @@
         "submissionId": "2098358674",
         "testsPassed": 954,
         "testsTotal": 954,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:smallest-missing-integer-greater-than-sequential-prefix-sum": [
+      {
+        "accepted": true,
+        "actualOutput": "6\n15",
+        "at": 1786453428001,
+        "expectedOutput": "6\n15",
+        "kind": "run",
+        "language": "Java",
+        "memory": "42.6 MB",
+        "runtime": "0 ms",
+        "testsPassed": 2,
+        "testsTotal": 2,
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786453432390,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "44.3 MB",
+        "runtime": "2 ms",
+        "submissionId": "2102846228",
+        "testsPassed": 616,
+        "testsTotal": 616,
         "verdict": "Accepted"
       }
     ],
