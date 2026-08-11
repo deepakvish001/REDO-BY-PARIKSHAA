@@ -3,11 +3,13 @@
 **Platform:** Codeforces  
 **Difficulty:** easy  
 **Link:** https://codeforces.com/contest/2247/problem/A  
-**Solved:** 2026-08-06  
+**Solved:** 2026-08-11  
 **Language:** C++17 (GCC 7-32)  
 **Attempts before accepted:** 1
 
 **Tags:** `constructive algorithms`, `dp`, `number theory`
+
+**Judge:** Runtime 31 ms · Memory 0 KB
 
 **Time to solve:** 1 min
 
@@ -20,10 +22,18 @@ _Add your notes here._
 
 ## Record
 
-Solved 1× · GitHub sync 2× · Parikshaa sync 2×
+Solved 3× · GitHub sync 5× · Parikshaa sync 5×
 
 | When (UTC) | What | Outcome | Reason |
 | --- | --- | --- | --- |
+| 2026-08-11 13:04 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
+| 2026-08-09 05:37 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-09 05:37 | GitHub sync | error | GitHub rejected the commit. GitHub said: "Update is not a fast forward". |
+| 2026-08-09 05:37 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
+| 2026-08-06 08:38 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-06 08:38 | GitHub sync | error | The branch kept moving while committing codeforces/easy/2247A-zero-sum/README.md; gave up after 4 tries. Use "Retry these" to try again. |
+| 2026-08-06 08:37 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-06 08:37 | GitHub sync | error | The branch kept moving while committing README.md; gave up after 4 tries. Use "Retry these" to try again. |
 | 2026-08-06 08:36 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
 | 2026-08-06 08:36 | GitHub sync | error | The branch kept moving while committing README.md; gave up after 4 tries. Use "Retry these" to try again. |
 | 2026-08-06 08:36 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |

@@ -1,17 +1,14 @@
 # DSA Solutions
 
-14 solved — 6 easy · 5 medium · 3 hard. Last updated 2026-08-11.
+11 solved — 3 easy · 5 medium · 3 hard. Last updated 2026-08-11.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-11 |
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](leetcode/easy/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/solution.java) | LeetCode | easy | Java | 2026-08-11 |
 | 1510 | [Stone Game IV](leetcode/hard/1510-stone-game-iv/solution.java) | LeetCode | hard | Java | 2026-08-10 |
-| 2241A | [Divide and Conquer](codeforces/easy/2241A-divide-and-conquer/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-09 |
-| 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-09 |
-| 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-09 |
-| 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-09 |
 | 1140 | [Stone Game II](leetcode/medium/1140-stone-game-ii/solution.java) | LeetCode | medium | Java | 2026-08-09 |
 | 101097 | [Peaks in Array II](leetcode/hard/101097-peaks-in-array-ii/solution.py) | LeetCode | hard | Python3 | 2026-08-09 |
 | 100895 | [Maximum Area of Two Non-Overlapping Square Submatrices](leetcode/medium/100895-maximum-area-of-two-non-overlapping-square-submatrices/solution.py) | LeetCode | medium | Python3 | 2026-08-09 |

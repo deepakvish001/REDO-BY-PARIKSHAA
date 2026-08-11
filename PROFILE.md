@@ -47,12 +47,12 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | --- | --- | --- | --- | --- |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
+| [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 1 | 0 | 2 min | 0/100 |
+| [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
+| [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
+| [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0 | — | 0/100 |
 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/) | 1 | 1 | under a minute | 0/100 |
 | [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 1 | 1 | under a minute | 0/100 |
-| [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 1 | 0 | 2 min | 0/100 |
-| [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
-| [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
-| [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0 | — | 0/100 |
 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 1 | 1 | 1 min | 0/100 |
 | [Maximum Area of Two Non-Overlapping Square Submatrices](https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/) | 1 | 1 | — | 0/100 |
 
