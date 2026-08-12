@@ -1,11 +1,12 @@
 # DSA Solutions
 
-17 solved — 7 easy · 6 medium · 4 hard. Last updated 2026-08-12.
+18 solved — 7 easy · 7 medium · 4 hard. Last updated 2026-08-12.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 0877 | [Stone Game](leetcode/medium/0877-stone-game/solution.java) | LeetCode | medium | Java | 2026-08-12 |
 | 1406 | [Stone Game III](leetcode/hard/1406-stone-game-iii/solution.java) | LeetCode | hard | Java | 2026-08-12 |
 | 2958 | [Length of Longest Subarray With at Most K Frequency](leetcode/medium/2958-length-of-longest-subarray-with-at-most-k-frequency/solution.java) | LeetCode | medium | Java | 2026-08-12 |
 | 2245A | [Who Watches the Watchpig?](codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-11 |

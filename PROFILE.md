@@ -12,11 +12,11 @@ _Regenerated on every sync — last run 2026-08-12._
 
 | | |
 | --- | --- |
-| Problems solved | 17 |
+| Problems solved | 18 |
 | Due for revision today | 13 |
 | Revisions completed | 0 |
 | Current streak | 5 days |
-| Submissions recorded | 14 (0 rejected) |
+| Submissions recorded | 15 (0 rejected) |
 | Runs recorded | 18 |
 | Median time to solve | 1 min |
 
@@ -24,11 +24,11 @@ _Regenerated on every sync — last run 2026-08-12._
 
 | Topic | Solved | Lapses | Mastery |
 | --- | --- | --- | --- |
-| math | 7 | 0 | 45/100 |
+| math | 8 | 0 | 45/100 |
 | greedy | 5 | 0 | 45/100 |
-| dynamic programming | 4 | 0 | 45/100 |
-| array | 4 | 0 | 45/100 |
-| number theory | 3 | 0 | 45/100 |
+| dynamic programming | 5 | 0 | 45/100 |
+| array | 5 | 0 | 45/100 |
+| minimax | 4 | 0 | 45/100 |
 
 ## Solid
 
@@ -36,9 +36,9 @@ _Regenerated on every sync — last run 2026-08-12._
 | --- | --- | --- |
 | hash table | 2 | 45/100 |
 | string | 2 | 45/100 |
-| zero-sum game | 3 | 45/100 |
-| game theory | 3 | 45/100 |
-| minimax | 3 | 45/100 |
+| number theory | 3 | 45/100 |
+| zero-sum game | 4 | 45/100 |
+| game theory | 4 | 45/100 |
 
 ## Fought hardest for these
 
@@ -48,6 +48,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | --- | --- | --- | --- | --- |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
+| [Stone Game](https://leetcode.com/problems/stone-game/) | 1 | 0 | 1 min | 0/100 |
 | [Stone Game III](https://leetcode.com/problems/stone-game-iii/) | 1 | 0 | 1 min | 0/100 |
 | [Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | 1 | 0 | 1 min | 0/100 |
 | [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | 1 | 0 | 2 min | 0/100 |
@@ -55,7 +56,6 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
 | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
 | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 1 | 0 | 2 min | 0/100 |
-| [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/) | 1 | 1 | under a minute | 0/100 |
 
 ## Revision queue
 
