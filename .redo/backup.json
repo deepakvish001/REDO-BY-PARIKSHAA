@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1786473055937,
+  "exportedAt": 1786559848128,
   "settings": {
     "github": {
       "token": "",
@@ -65,6 +65,78 @@
     }
   },
   "problems": {
+    "codeforces:2238B": {
+      "attempts": 1,
+      "code": "#pragma GCC optimize(\"O3,unroll-loops\")\n#pragma GCC target(\"avx2,bmi,bmi2,lzcnt,popcnt\")\n\n#include <iostream>\n\nusing namespace std;\n\nvoid solve() {\n    int n;\n    cin >> n;\n    \n    long long ans = 0;\n    for (int l = 1, r; l <= n; l = r + 1) {\n        int val = n / l;\n        r = n / val;\n        ans += 1LL * (r - l + 1) * val * val;\n    }\n    \n    cout << ans << \"\\n\";\n}\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int t;\n    if (cin >> t) {\n        while (t--) {\n            solve();\n        }\n    }\n    \n    return 0;\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1786508108852,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "100 KB",
+          "runtime": "46 ms",
+          "submissionId": "386695974",
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "path": "codeforces/easy/2238B-crimson-triples/solution.cpp",
+        "status": "error"
+      },
+      "history": [
+        {
+          "at": 1786508109934,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786508165310,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786508165310,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        }
+      ],
+      "id": "codeforces:2238B",
+      "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 100 KB",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "2238B",
+      "revision": {
+        "dueAt": 1786594509934,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 46 ms",
+      "slug": "2238B",
+      "solveTimeMs": 68442,
+      "solvedAt": 1786508109934,
+      "tags": [
+        "dp",
+        "math",
+        "number theory"
+      ],
+      "title": "Crimson Triples",
+      "url": "https://codeforces.com/contest/2238/problem/B"
+    },
     "codeforces:2241A": {
       "attempts": 1,
       "code": "#include <iostream>\n\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int t;\n    if (cin >> t) {\n        while (t--) {\n            int x, y;\n            cin >> x >> y;\n            \n            if (x % y == 0) {\n                cout << \"YES\\n\";\n            } else {\n                cout << \"NO\\n\";\n            }\n        }\n    }\n    \n    return 0;\n}",
@@ -82,10 +154,10 @@
         }
       ],
       "github": {
-        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/f296f5c51fb699be3349e3c4713115b2bcc9c3ac",
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/62f7971783e624d48b0d2c7b46c43248645165a9",
         "path": "codeforces/easy/2241A-divide-and-conquer/solution.cpp",
         "status": "synced",
-        "syncedAt": 1786453626587
+        "syncedAt": 1786508108023
       },
       "history": [
         {
@@ -141,6 +213,24 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786508104846,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786508108023,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2241A-divide-and-conquer/solution.cpp"
+        },
+        {
+          "at": 1786508108023,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2241A",
@@ -165,7 +255,7 @@
       "runtimeNote": "Runtime 31 ms",
       "slug": "2241A",
       "solveTimeMs": 106418,
-      "solvedAt": 1786453623247,
+      "solvedAt": 1786508104846,
       "tags": [
         "greedy",
         "math",
@@ -213,11 +303,29 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786508105028,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786508119497,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786508119497,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2245A",
       "language": "C++17 (GCC 7-32)",
-      "memoryNote": "Memory 0 KB",
+      "memoryNote": "Memory 0 KB",
       "parikshaa": {
         "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
         "status": "skipped"
@@ -234,10 +342,10 @@
         "struggle": 0,
         "targetReviews": 6
       },
-      "runtimeNote": "Runtime 31 ms",
+      "runtimeNote": "Runtime 31 ms",
       "slug": "2245A",
       "solveTimeMs": 120071,
-      "solvedAt": 1786453626467,
+      "solvedAt": 1786508105028,
       "tags": [
         "greedy"
       ],
@@ -362,6 +470,24 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786508105565,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786508142677,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786508142677,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2247A",
@@ -386,7 +512,7 @@
       "runtimeNote": "Runtime 31 ms",
       "slug": "2247A",
       "solveTimeMs": 72257,
-      "solvedAt": 1786453623353,
+      "solvedAt": 1786508105565,
       "tags": [
         "constructive algorithms",
         "dp",
@@ -549,6 +675,24 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786508105425,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786508131185,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786508131185,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2248A",
@@ -572,7 +716,7 @@
       },
       "runtimeNote": "Runtime 31 ms",
       "slug": "2248A",
-      "solvedAt": 1786453623388,
+      "solvedAt": 1786508105425,
       "tags": [
         "greedy"
       ],
@@ -730,6 +874,24 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1786508105725,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1786508153989,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786508153989,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2250A",
@@ -753,7 +915,7 @@
       },
       "runtimeNote": "Runtime 46 ms",
       "slug": "2250A",
-      "solvedAt": 1786453623367,
+      "solvedAt": 1786508105725,
       "tags": [
         "brute force",
         "implementation",
@@ -837,6 +999,81 @@
       ],
       "title": "Find the Lexicographically Smallest Valid Sequence",
       "url": "https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/"
+    },
+    "leetcode:length-of-longest-subarray-with-at-most-k-frequency": {
+      "attempts": 1,
+      "code": "class Solution {\n    public int maxSubarrayLength(int[] nums, int k) {\n        int left = 0;\n        int res = 0;\n\n        Map<Integer, Integer> count = new HashMap<>();\n        int n = nums.length;\n\n        for (int i = 0; i < n; i++) {\n            count.put(\n                nums[i],\n                count.getOrDefault(nums[i], 0) + 1\n            );\n\n            while (count.get(nums[i]) > k) {\n                count.put(\n                    nums[left],\n                    count.get(nums[left]) - 1\n                );\n\n                left++;\n            }\n\n            res = Math.max(res, i - left + 1);\n        }\n\n        return res;\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1786506619689,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "89.1 MB",
+          "runtime": "71 ms",
+          "submissionId": "2103609494",
+          "testsPassed": 994,
+          "testsTotal": 994,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/f8d5f4196f8ab17fd422af8888575e887843ec02",
+        "path": "leetcode/medium/2958-length-of-longest-subarray-with-at-most-k-frequency/solution.java",
+        "status": "synced",
+        "syncedAt": 1786506623580
+      },
+      "history": [
+        {
+          "at": 1786506620017,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786506623580,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/2958-length-of-longest-subarray-with-at-most-k-frequency/solution.java"
+        },
+        {
+          "at": 1786506623580,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:length-of-longest-subarray-with-at-most-k-frequency",
+      "language": "Java",
+      "memoryNote": "Memory 89.1 MB (beats 50.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "2958",
+      "revision": {
+        "dueAt": 1786593020017,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 71 ms (beats 36.7%)",
+      "slug": "length-of-longest-subarray-with-at-most-k-frequency",
+      "solveTimeMs": 31109,
+      "solvedAt": 1786506620017,
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sliding Window"
+      ],
+      "title": "Length of Longest Subarray With at Most K Frequency",
+      "url": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/"
     },
     "leetcode:maximum-area-of-two-non-overlapping-square-submatrices": {
       "attempts": 1,
@@ -1139,6 +1376,84 @@
       "title": "Peaks in Array II",
       "url": "https://leetcode.com/problems/peaks-in-array-ii/"
     },
+    "leetcode:predict-the-winner": {
+      "attempts": 1,
+      "code": "class Solution {\n    public boolean predictTheWinner(int[] nums) {\n        int n = nums.length;\n        if(n % 2 == 0) return true;\n        int dp[] = nums.clone();\n        for(int i = n - 2; i >= 0; i--) {\n            for(int j = i + 1; j < n; j++) dp[j] = Math.max(nums[i] - dp[j], nums[j] - dp[j - 1]);\n        }\n        return dp[n - 1] >= 0;\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1786506826134,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "42.9 MB",
+          "runtime": "0 ms",
+          "submissionId": "2103612492",
+          "testsPassed": 62,
+          "testsTotal": 62,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "path": "leetcode/medium/0486-predict-the-winner/solution.java",
+        "status": "error"
+      },
+      "history": [
+        {
+          "at": 1786506826548,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786506839455,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1786506839455,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:predict-the-winner",
+      "language": "Java",
+      "memoryNote": "Memory 42.9 MB (beats 35.6%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "486",
+      "revision": {
+        "dueAt": 1786593226548,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 0 ms (beats 100.0%)",
+      "slug": "predict-the-winner",
+      "solveTimeMs": 20366,
+      "solvedAt": 1786506826548,
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Recursion",
+        "Minimax",
+        "Game Theory",
+        "Zero-Sum Game"
+      ],
+      "title": "Predict the Winner",
+      "url": "https://leetcode.com/problems/predict-the-winner/"
+    },
     "leetcode:smallest-divisible-digit-product-i": {
       "attempts": 1,
       "code": "class Solution {\n    public int smallestNumber(int n, int t) {\n        while (true) {\n            int product = 1;\n            int x = n;\n\n            while (x > 0) {\n                product *= (x % 10);\n                x /= 10;\n            }\n\n            if (product % t == 0)\n                return n;\n\n            n++;\n        }\n    }\n}",
@@ -1392,6 +1707,84 @@
       "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
       "url": "https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/"
     },
+    "leetcode:stone-game": {
+      "attempts": 1,
+      "code": "class Solution {\n    public boolean stoneGame(int[] piles) {\n       return true; \n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1786506778265,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "43.4 MB",
+          "runtime": "0 ms",
+          "submissionId": "2103611729",
+          "testsPassed": 47,
+          "testsTotal": 47,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/a637173452b2d65178ca5cc606da354051bc92fa",
+        "path": "leetcode/medium/0877-stone-game/solution.java",
+        "status": "synced",
+        "syncedAt": 1786506781993
+      },
+      "history": [
+        {
+          "at": 1786506778671,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786506781993,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/0877-stone-game/solution.java"
+        },
+        {
+          "at": 1786506781993,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:stone-game",
+      "language": "Java",
+      "memoryNote": "Memory 43.4 MB (beats 31.1%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "877",
+      "revision": {
+        "dueAt": 1786593178671,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 0 ms (beats 100.0%)",
+      "slug": "stone-game",
+      "solveTimeMs": 31676,
+      "solvedAt": 1786506778671,
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Minimax",
+        "Game Theory",
+        "Zero-Sum Game"
+      ],
+      "title": "Stone Game",
+      "url": "https://leetcode.com/problems/stone-game/"
+    },
     "leetcode:stone-game-ii": {
       "attempts": 1,
       "code": "class Solution {\n    public int stoneGameII(int[] piles) {\n        int totalPiles = piles.length;\n        int[] suffixSums = new int[totalPiles + 1];\n        for (int i = totalPiles - 1; i >= 0; i--) {\n            suffixSums[i] = suffixSums[i + 1] + piles[i];\n        }\n        return maxStonesAliceCanGet(suffixSums, 1, 0, new int[totalPiles][totalPiles + 1]);\n    }\n\n    private int maxStonesAliceCanGet(int[] suffixSums, int m, int currentPile, int[][] memo) {\n        int totalPiles = suffixSums.length - 1;\n        \n        if (currentPile >= totalPiles) return 0;\n        \n        if (currentPile + 2 * m >= totalPiles) {\n            return suffixSums[currentPile];\n        }\n        \n        if (memo[currentPile][m] != 0) return memo[currentPile][m];\n        \n        int maxStones = 0;\n        \n        for (int x = 1; x <= 2 * m; x++) {\n            int currentStones = suffixSums[currentPile] - maxStonesAliceCanGet(suffixSums, Math.max(m, x), currentPile + x, memo);\n            maxStones = Math.max(maxStones, currentStones);\n        }\n        \n        memo[currentPile][m] = maxStones;\n        return maxStones;\n    }\n}",
@@ -1487,6 +1880,84 @@
       ],
       "title": "Stone Game II",
       "url": "https://leetcode.com/problems/stone-game-ii/"
+    },
+    "leetcode:stone-game-iii": {
+      "attempts": 1,
+      "code": "class Solution {\n    public String stoneGameIII(int[] stoneValue) {\n        int s1 = 0;\n        int s2 = 0;\n        int s3 = 0;\n        int total = 0;\n\n        for (int i = stoneValue.length - 1; i >= 0; i--) {\n            total += stoneValue[i];\n\n            int current = total - Math.min(\n                s1,\n                Math.min(s2, s3)\n            );\n\n            s3 = s2;\n            s2 = s1;\n            s1 = current;\n        }\n\n        int bob = total - s1;\n\n        if (s1 > bob) {\n            return \"Alice\";\n        }\n\n        if (s1 < bob) {\n            return \"Bob\";\n        }\n\n        return \"Tie\";\n    }\n}",
+      "difficulty": "hard",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1786506699749,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "84.3 MB",
+          "runtime": "2 ms",
+          "submissionId": "2103610618",
+          "testsPassed": 187,
+          "testsTotal": 187,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/e76a7b188085fd012997e90b18fbccd197376cea",
+        "path": "leetcode/hard/1406-stone-game-iii/solution.java",
+        "status": "synced",
+        "syncedAt": 1786506703655
+      },
+      "history": [
+        {
+          "at": 1786506700074,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786506703655,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/hard/1406-stone-game-iii/solution.java"
+        },
+        {
+          "at": 1786506703655,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:stone-game-iii",
+      "language": "Java",
+      "memoryNote": "Memory 84.3 MB (beats 85.9%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "1406",
+      "revision": {
+        "dueAt": 1786593100074,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 2 ms (beats 99.4%)",
+      "slug": "stone-game-iii",
+      "solveTimeMs": 50106,
+      "solvedAt": 1786506700074,
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Minimax",
+        "Game Theory",
+        "Zero-Sum Game"
+      ],
+      "title": "Stone Game III",
+      "url": "https://leetcode.com/problems/stone-game-iii/"
     },
     "leetcode:stone-game-iv": {
       "attempts": 1,
@@ -1713,6 +2184,18 @@
         "verdict": "Wrong answer on test 2"
       }
     ],
+    "codeforces:2238B": [
+      {
+        "accepted": true,
+        "at": 1786508108852,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "memory": "100 KB",
+        "runtime": "46 ms",
+        "submissionId": "386695974",
+        "verdict": "Accepted"
+      }
+    ],
     "codeforces:2241A": [
       {
         "accepted": true,
@@ -1826,6 +2309,20 @@
         "submissionId": "2098884931",
         "testsPassed": 905,
         "testsTotal": 905,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:length-of-longest-subarray-with-at-most-k-frequency": [
+      {
+        "accepted": true,
+        "at": 1786506619689,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "89.1 MB",
+        "runtime": "71 ms",
+        "submissionId": "2103609494",
+        "testsPassed": 994,
+        "testsTotal": 994,
         "verdict": "Accepted"
       }
     ],
@@ -1961,6 +2458,20 @@
         "verdict": "Accepted"
       }
     ],
+    "leetcode:predict-the-winner": [
+      {
+        "accepted": true,
+        "at": 1786506826134,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "42.9 MB",
+        "runtime": "0 ms",
+        "submissionId": "2103612492",
+        "testsPassed": 62,
+        "testsTotal": 62,
+        "verdict": "Accepted"
+      }
+    ],
     "leetcode:smallest-divisible-digit-product-i": [
       {
         "accepted": true,
@@ -2042,6 +2553,20 @@
         "verdict": "Accepted"
       }
     ],
+    "leetcode:stone-game": [
+      {
+        "accepted": true,
+        "at": 1786506778265,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "43.4 MB",
+        "runtime": "0 ms",
+        "submissionId": "2103611729",
+        "testsPassed": 47,
+        "testsTotal": 47,
+        "verdict": "Accepted"
+      }
+    ],
     "leetcode:stone-game-ii": [
       {
         "accepted": true,
@@ -2066,6 +2591,20 @@
         "submissionId": "2099865894",
         "testsPassed": 92,
         "testsTotal": 92,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:stone-game-iii": [
+      {
+        "accepted": true,
+        "at": 1786506699749,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "84.3 MB",
+        "runtime": "2 ms",
+        "submissionId": "2103610618",
+        "testsPassed": 187,
+        "testsTotal": 187,
         "verdict": "Accepted"
       }
     ],
