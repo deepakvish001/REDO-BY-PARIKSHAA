@@ -3,7 +3,7 @@
 **Platform:** Codeforces  
 **Difficulty:** easy  
 **Link:** https://codeforces.com/contest/2241/problem/A  
-**Solved:** 2026-08-11  
+**Solved:** 2026-08-12  
 **Language:** C++17 (GCC 7-32)  
 **Attempts before accepted:** 1
 
@@ -30,10 +30,13 @@ _Add your notes here._
 
 ## Record
 
-Solved 3× · GitHub sync 2× · Parikshaa sync 2×
+Solved 4× · GitHub sync 3× · Parikshaa sync 3×
 
 | When (UTC) | What | Outcome | Reason |
 | --- | --- | --- | --- |
+| 2026-08-12 04:15 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
+| 2026-08-11 13:07 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-11 13:07 | GitHub sync | synced | codeforces/easy/2241A-divide-and-conquer/solution.cpp |
 | 2026-08-11 13:07 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
 | 2026-08-11 13:05 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
 | 2026-08-11 13:05 | GitHub sync | error | GitHub rejected the commit. GitHub said: "Update is not a fast forward". |

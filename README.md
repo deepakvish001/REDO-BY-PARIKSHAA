@@ -1,11 +1,13 @@
 # DSA Solutions
 
-18 solved — 7 easy · 7 medium · 4 hard. Last updated 2026-08-12.
+19 solved — 7 easy · 8 medium · 4 hard. Last updated 2026-08-12.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2241A | [Divide and Conquer](codeforces/easy/2241A-divide-and-conquer/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
+| 0486 | [Predict the Winner](leetcode/medium/0486-predict-the-winner/solution.java) | LeetCode | medium | Java | 2026-08-12 |
 | 0877 | [Stone Game](leetcode/medium/0877-stone-game/solution.java) | LeetCode | medium | Java | 2026-08-12 |
 | 1406 | [Stone Game III](leetcode/hard/1406-stone-game-iii/solution.java) | LeetCode | hard | Java | 2026-08-12 |
 | 2958 | [Length of Longest Subarray With at Most K Frequency](leetcode/medium/2958-length-of-longest-subarray-with-at-most-k-frequency/solution.java) | LeetCode | medium | Java | 2026-08-12 |
@@ -13,7 +15,6 @@
 | 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-11 |
 | 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-11 |
 | 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-11 |
-| 2241A | [Divide and Conquer](codeforces/easy/2241A-divide-and-conquer/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-11 |
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](leetcode/easy/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/solution.java) | LeetCode | easy | Java | 2026-08-11 |
 | 1510 | [Stone Game IV](leetcode/hard/1510-stone-game-iv/solution.java) | LeetCode | hard | Java | 2026-08-10 |
 | 1140 | [Stone Game II](leetcode/medium/1140-stone-game-ii/solution.java) | LeetCode | medium | Java | 2026-08-09 |
