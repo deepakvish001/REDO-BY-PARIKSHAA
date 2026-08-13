@@ -12,12 +12,12 @@ _Regenerated on every sync — last run 2026-08-13._
 
 | | |
 | --- | --- |
-| Problems solved | 22 |
+| Problems solved | 23 |
 | Due for revision today | 20 |
 | Revisions completed | 0 |
 | Current streak | 6 days |
-| Submissions recorded | 19 (0 rejected) |
-| Runs recorded | 20 |
+| Submissions recorded | 20 (0 rejected) |
+| Runs recorded | 21 |
 | Median time to solve | 1 min |
 
 ## Needs work
@@ -28,7 +28,7 @@ _Regenerated on every sync — last run 2026-08-13._
 | array | 7 | 0 | 45/100 |
 | dynamic programming | 6 | 0 | 45/100 |
 | greedy | 5 | 0 | 45/100 |
-| minimax | 5 | 0 | 45/100 |
+| string | 5 | 0 | 45/100 |
 
 ## Solid
 
@@ -36,9 +36,9 @@ _Regenerated on every sync — last run 2026-08-13._
 | --- | --- | --- |
 | dp | 2 | 45/100 |
 | hash table | 3 | 45/100 |
-| string | 4 | 45/100 |
 | number theory | 4 | 45/100 |
 | zero-sum game | 5 | 45/100 |
+| game theory | 5 | 45/100 |
 
 ## Fought hardest for these
 
@@ -48,6 +48,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | --- | --- | --- | --- | --- |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
+| [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 1 | 1 | 1 min | 0/100 |
 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 1 | 1 | under a minute | 0/100 |
 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | 1 | 2 | 1 min | 0/100 |
 | [Longest Substring of One Repeating Character](https://leetcode.com/problems/longest-substring-of-one-repeating-character/) | 1 | 0 | 1 min | 0/100 |
@@ -55,7 +56,6 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
 | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
 | [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0 | — | 0/100 |
-| [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | 1 | 0 | 2 min | 0/100 |
 
 ## Revision queue
 

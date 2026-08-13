@@ -1,11 +1,12 @@
 # DSA Solutions
 
-22 solved — 8 easy · 9 medium · 5 hard. Last updated 2026-08-13.
+23 solved — 9 easy · 9 medium · 5 hard. Last updated 2026-08-13.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 0058 | [Length of Last Word](leetcode/easy/0058-length-of-last-word/solution.java) | LeetCode | easy | Java | 2026-08-13 |
 | 1140 | [Stone Game II](leetcode/medium/1140-stone-game-ii/solution.java) | LeetCode | medium | Java | 2026-08-13 |
 | 0012 | [Integer to Roman](leetcode/medium/0012-integer-to-roman/solution.java) | LeetCode | medium | Java | 2026-08-13 |
 | 2213 | [Longest Substring of One Repeating Character](leetcode/hard/2213-longest-substring-of-one-repeating-character/solution.java) | LeetCode | hard | Java | 2026-08-13 |
