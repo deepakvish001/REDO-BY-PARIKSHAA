@@ -6,6 +6,7 @@
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 1140 | [Stone Game II](leetcode/medium/1140-stone-game-ii/solution.java) | LeetCode | medium | Java | 2026-08-13 |
 | 0012 | [Integer to Roman](leetcode/medium/0012-integer-to-roman/solution.java) | LeetCode | medium | Java | 2026-08-13 |
 | 2213 | [Longest Substring of One Repeating Character](leetcode/hard/2213-longest-substring-of-one-repeating-character/solution.java) | LeetCode | hard | Java | 2026-08-13 |
 | 2238B | [Crimson Triples](codeforces/easy/2238B-crimson-triples/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
@@ -20,7 +21,6 @@
 | 2958 | [Length of Longest Subarray With at Most K Frequency](leetcode/medium/2958-length-of-longest-subarray-with-at-most-k-frequency/solution.java) | LeetCode | medium | Java | 2026-08-12 |
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](leetcode/easy/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/solution.java) | LeetCode | easy | Java | 2026-08-11 |
 | 1510 | [Stone Game IV](leetcode/hard/1510-stone-game-iv/solution.java) | LeetCode | hard | Java | 2026-08-10 |
-| 1140 | [Stone Game II](leetcode/medium/1140-stone-game-ii/solution.java) | LeetCode | medium | Java | 2026-08-09 |
 | 101097 | [Peaks in Array II](leetcode/hard/101097-peaks-in-array-ii/solution.py) | LeetCode | hard | Python3 | 2026-08-09 |
 | 100895 | [Maximum Area of Two Non-Overlapping Square Submatrices](leetcode/medium/100895-maximum-area-of-two-non-overlapping-square-submatrices/solution.py) | LeetCode | medium | Python3 | 2026-08-09 |
 | 101113 | [Weighted Sum of a Tree](leetcode/medium/101113-weighted-sum-of-a-tree/solution.py) | LeetCode | medium | Python3 | 2026-08-09 |

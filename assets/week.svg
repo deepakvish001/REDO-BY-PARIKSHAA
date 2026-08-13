@@ -31,7 +31,7 @@
     <g class="rise" style="animation-delay:0s">
       <rect x="40" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="62" y="188" class="big">22</text>
+      <text x="62" y="188" class="big">21</text>
       <text x="62" y="211" class="small">problems solved</text>
     </g>
     <g class="rise" style="animation-delay:0.07s">
@@ -53,15 +53,15 @@
       <text x="776" y="211" class="small">day streak</text>
     </g>
   <text x="40" y="252" class="label">DIFFICULTY MIX</text>
-  <rect x="40" y="262" width="335" height="14" rx="7" fill="#34d399" />
-    <text x="40" y="296" class="small" fill="#34d399">8 easy</text><rect x="381" y="262" width="376" height="14" rx="7" fill="#fbbf24" />
-    <text x="381" y="296" class="small" fill="#fbbf24">9 medium</text><rect x="763" y="262" width="209" height="14" rx="7" fill="#f87171" />
-    <text x="763" y="296" class="small" fill="#f87171">5 hard</text>
+  <rect x="40" y="262" width="307" height="14" rx="7" fill="#34d399" />
+    <text x="40" y="296" class="small" fill="#34d399">7 easy</text><rect x="353" y="262" width="394" height="14" rx="7" fill="#fbbf24" />
+    <text x="353" y="296" class="small" fill="#fbbf24">9 medium</text><rect x="753" y="262" width="219" height="14" rx="7" fill="#f87171" />
+    <text x="753" y="296" class="small" fill="#f87171">5 hard</text>
   <text x="40" y="326" class="label">TOPICS</text>
     <g class="rise">
       <rect x="40" y="336" width="78.8" height="30" rx="15" fill="#141419" stroke="#26262e" />
       <text x="56" y="356" class="chip">Math</text>
-      <text x="100.8" y="356" class="chipCount" text-anchor="end">8</text>
+      <text x="100.8" y="356" class="chipCount" text-anchor="end">7</text>
     </g>
     <g class="rise">
       <rect x="126.8" y="336" width="87" height="30" rx="15" fill="#141419" stroke="#26262e" />
@@ -93,6 +93,6 @@
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>
 
-  <text x="40" y="516" class="foot">21 min at the keyboard · 20 runs · 0 hints · new: dp, math, number theory</text>
+  <text x="40" y="516" class="foot">20 min at the keyboard · 19 runs · 0 hints · new: dp, math, number theory</text>
   <text x="960" y="516" class="foot" text-anchor="end">Redo · parikshaa.org</text>
 </svg>
