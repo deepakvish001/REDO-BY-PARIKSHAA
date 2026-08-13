@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1786559848128,
+  "exportedAt": 1786645855880,
   "settings": {
     "github": {
       "token": "",
@@ -972,8 +972,8 @@
       "language": "Java",
       "memoryNote": "Memory 137.3 MB (beats 55.6%)",
       "parikshaa": {
-        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
-        "status": "pending"
+        "reason": "No Parikshaa problem uses this slug.",
+        "status": "skipped"
       },
       "platform": "leetcode",
       "problemId": "3302",
@@ -999,6 +999,190 @@
       ],
       "title": "Find the Lexicographically Smallest Valid Sequence",
       "url": "https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/"
+    },
+    "leetcode:integer-to-roman": {
+      "attempts": 1,
+      "code": "class Solution {\n    public String intToRoman(int num) {\n        int[] n = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};\n\n        String[] s = {\n            \"M\", \"CM\", \"D\", \"CD\",\n            \"C\", \"XC\", \"L\", \"XL\",\n            \"X\", \"IX\", \"V\", \"IV\", \"I\"\n        };\n\n        int i = 0;\n        String str = \"\";\n\n        while (num > 0) {\n            if (num >= n[i]) {\n                str += s[i];\n                num -= n[i];\n            } else {\n                i++;\n            }\n        }\n\n        return str;\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": false,
+          "at": 1786600705157,
+          "errorText": "Line 4: error: incompatible types: String cannot be converted to int\n        int[][] storeIntRoman = {{1000, \"M\"}, {900, \"CM\"}, {500, \"D\"}, {400, \"CD\"}, {100, \"C\"}, {90, \"XC\"}, {50, \"L\"}, {40, \"XL\"}, {10, \"X\"}, {9, \"IX\"}, {5, \"V\"}, {4, \"IV\"}, {1, \"I\"}};\n                                        ^\nLine 4: error: incompatible types: String cannot be converted to int\n        int[][] storeIntRoman = {{1…",
+          "kind": "run",
+          "language": "Java",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "verdict": "Compile Error"
+        },
+        {
+          "accepted": true,
+          "actualOutput": "\"MMMDCCXLIX\"\n\"LVIII\"\n\"MCMXCIV\"",
+          "at": 1786600725843,
+          "expectedOutput": "\"MMMDCCXLIX\"\n\"LVIII\"\n\"MCMXCIV\"",
+          "kind": "run",
+          "language": "Java",
+          "memory": "42.6 MB",
+          "runtime": "1 ms",
+          "testsPassed": 3,
+          "testsTotal": 3,
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1786600733652,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "46.5 MB",
+          "runtime": "4 ms",
+          "submissionId": "2105034159",
+          "testsPassed": 3999,
+          "testsTotal": 3999,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/c0403edf2523ce0d25295429cc38bb6f5f2e3880",
+        "path": "leetcode/medium/0012-integer-to-roman/solution.java",
+        "status": "synced",
+        "syncedAt": 1786600737470
+      },
+      "history": [
+        {
+          "at": 1786600734004,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786600737470,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/0012-integer-to-roman/solution.java"
+        },
+        {
+          "at": 1786600737470,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:integer-to-roman",
+      "language": "Java",
+      "memoryNote": "Memory 46.5 MB (beats 43.1%)",
+      "parikshaa": {
+        "error": "Parikshaa request failed (404): {\"code\":\"42P01\",\"details\":null,\"hint\":null,\"message\":\"relation \\\"public.contest_problems\\\" does not exist\"}",
+        "status": "error"
+      },
+      "platform": "leetcode",
+      "problemId": "12",
+      "revision": {
+        "dueAt": 1786687134004,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 4 ms (beats 28.9%)",
+      "slug": "integer-to-roman",
+      "solveTimeMs": 55782,
+      "solvedAt": 1786600734004,
+      "tags": [
+        "Hash Table",
+        "Math",
+        "String"
+      ],
+      "title": "Integer to Roman",
+      "url": "https://leetcode.com/problems/integer-to-roman/"
+    },
+    "leetcode:length-of-last-word": {
+      "attempts": 1,
+      "code": "public class Solution {\n    public int lengthOfLastWord(String s) {\n        int count = 0;\n        for (int i = s.length() - 1; i >= 0; i--) {\n            if (s.charAt(i) == ' ' && count == 0) continue;\n            if (s.charAt(i) == ' ' && count != 0) return count;\n            if (s.charAt(i) != ' ') count++;\n        }\n        return count;\n    }\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "5\n4\n6",
+          "at": 1786637027703,
+          "expectedOutput": "5\n4\n6",
+          "kind": "run",
+          "language": "Java",
+          "memory": "42.6 MB",
+          "runtime": "0 ms",
+          "testsPassed": 3,
+          "testsTotal": 3,
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1786637037446,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "42.8 MB",
+          "runtime": "0 ms",
+          "submissionId": "2105644492",
+          "testsPassed": 60,
+          "testsTotal": 60,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/161037ee37c32b064a93d0104b87d0f74beb789b",
+        "path": "leetcode/easy/0058-length-of-last-word/solution.java",
+        "status": "synced",
+        "syncedAt": 1786637041138
+      },
+      "history": [
+        {
+          "at": 1786637037788,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786637041138,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/easy/0058-length-of-last-word/solution.java"
+        },
+        {
+          "at": 1786637041138,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:length-of-last-word",
+      "language": "Java",
+      "memoryNote": "Memory 42.8 MB (beats 93.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "58",
+      "revision": {
+        "dueAt": 1786723437788,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 0 ms (beats 100.0%)",
+      "slug": "length-of-last-word",
+      "solveTimeMs": 56618,
+      "solvedAt": 1786637037788,
+      "tags": [
+        "String"
+      ],
+      "title": "Length of Last Word",
+      "url": "https://leetcode.com/problems/length-of-last-word/"
     },
     "leetcode:length-of-longest-subarray-with-at-most-k-frequency": {
       "attempts": 1,
@@ -1074,6 +1258,82 @@
       ],
       "title": "Length of Longest Subarray With at Most K Frequency",
       "url": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/"
+    },
+    "leetcode:longest-substring-of-one-repeating-character": {
+      "attempts": 1,
+      "code": "class SegmentTree {\n    static class Node {\n        char leftChar, rightChar;\n        int leftLen, rightLen, best;\n    }\n    private Node[] tree;\n    private String s;\n    private int n;\n\n    public SegmentTree(String s) {\n        this.s = s;\n        this.n = s.length();\n        tree = new Node[4 * n];\n        for (int i = 0; i < tree.length; i++) tree[i] = new Node();\n        build(1, 0, n - 1);\n    }\n\n    private void pull(int node, int l, int r) {\n        int mid = (l + r) / 2;\n        int left = node * 2, right = node * 2 + 1;\n        tree[node].leftChar = tree[left].leftChar;\n        tree[node].rightChar = tree[right].rightChar;\n\n        tree[node].leftLen = tree[left].leftLen;\n        if (tree[left].leftLen == (mid - l + 1) && tree[left].leftChar == tree[right].leftChar)\n            tree[node].leftLen += tree[right].leftLen;\n\n        tree[node].rightLen = tree[right].rightLen;\n        if (tree[right].rightLen == (r - mid) && tree[right].rightChar == tree[left].rightChar)\n            tree[node].rightLen += tree[left].rightLen;\n\n        tree[node].best = Math.max(tree[left].best, tree[right].best);\n        if (tree[left].rightChar == tree[right].leftChar) {\n            tree[node].best = Math.max(tree[node].best, tree[left].rightLen + tree[right].leftLen);\n        }\n    }\n\n    private void build(int node, int l, int r) {\n        if (l == r) {\n            char ch = s.charAt(l);\n            tree[node].leftChar = tree[node].rightChar = ch;\n            tree[node].leftLen = tree[node].rightLen = tree[node].best = 1;\n            return;\n        }\n        int mid = (l + r) / 2;\n        build(node * 2, l, mid);\n        build(node * 2 + 1, mid + 1, r);\n        pull(node, l, r);\n    }\n\n    public void update(int pos, char ch) {\n        update(1, 0, n - 1, pos, ch);\n    }\n\n    private void update(int node, int l, int r, int pos, char ch) {\n        if (l == r) {\n            tree[node].leftChar = tree[node].rightChar = ch;\n            tree[node].leftLen = tree[node].rightLen = tree[node].best = 1;\n            return;\n        }\n        int mid = (l + r) / 2;\n        if (pos <= mid) update(node * 2, l, mid, pos, ch);\n        else update(node * 2 + 1, mid + 1, r, pos, ch);\n        pull(node, l, r);\n    }\n\n    public int getBest() {\n        return tree[1].best;\n    }\n}\n\nclass Solution {\n    public int[] longestRepeating(String s, String queryCharacters, int[] queryIndices) {\n        SegmentTree st = new SegmentTree(s);\n        int k = queryIndices.length;\n        int[] ans = new int[k];\n        for (int i = 0; i < k; i++) {\n            st.update(queryIndices[i], queryCharacters.charAt(i));\n            ans[i] = st.getBest();\n        }\n        return ans;\n    }\n}",
+      "difficulty": "hard",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1786600442750,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "171.8 MB",
+          "runtime": "109 ms",
+          "submissionId": "2105028547",
+          "testsPassed": 57,
+          "testsTotal": 57,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/ecefaee3f00496e0abb96ffda0bc1702e0b968fb",
+        "path": "leetcode/hard/2213-longest-substring-of-one-repeating-character/solution.java",
+        "status": "synced",
+        "syncedAt": 1786600446909
+      },
+      "history": [
+        {
+          "at": 1786600443643,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786600446909,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/hard/2213-longest-substring-of-one-repeating-character/solution.java"
+        },
+        {
+          "at": 1786600446909,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:longest-substring-of-one-repeating-character",
+      "language": "Java",
+      "memoryNote": "Memory 171.8 MB (beats 9.4%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "2213",
+      "revision": {
+        "dueAt": 1786686843643,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 109 ms (beats 51.6%)",
+      "slug": "longest-substring-of-one-repeating-character",
+      "solveTimeMs": 33251,
+      "solvedAt": 1786600443643,
+      "tags": [
+        "Array",
+        "String",
+        "Segment Tree",
+        "Ordered Set"
+      ],
+      "title": "Longest Substring of One Repeating Character",
+      "url": "https://leetcode.com/problems/longest-substring-of-one-repeating-character/"
     },
     "leetcode:maximum-area-of-two-non-overlapping-square-submatrices": {
       "attempts": 1,
@@ -1674,6 +1934,10 @@
           "kind": "parikshaa",
           "outcome": "pending",
           "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        },
+        {
+          "at": 1786575434988,
+          "kind": "opened"
         }
       ],
       "id": "leetcode:smallest-missing-integer-greater-than-sequential-prefix-sum",
@@ -1817,10 +2081,10 @@
         }
       ],
       "github": {
-        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/f346495b8b630b5870804566a57e1e5935fec772",
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/844fbe24d70898d56e005f70305878fa0a83ba29",
         "path": "leetcode/medium/1140-stone-game-ii/solution.java",
         "status": "synced",
-        "syncedAt": 1786248534261
+        "syncedAt": 1786612490796
       },
       "history": [
         {
@@ -1844,11 +2108,33 @@
         {
           "at": 1786248551299,
           "kind": "opened"
+        },
+        {
+          "at": 1786612483184,
+          "kind": "opened"
+        },
+        {
+          "at": 1786612486555,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786612490796,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/1140-stone-game-ii/solution.java"
+        },
+        {
+          "at": 1786612490796,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
         }
       ],
       "id": "leetcode:stone-game-ii",
       "language": "Java",
-      "memoryNote": "Memory 44.4 MB (beats 59.8%)",
+      "memoryNote": "Memory 44.4 MB",
       "parikshaa": {
         "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
         "status": "pending"
@@ -1865,10 +2151,10 @@
         "struggle": 0,
         "targetReviews": 6
       },
-      "runtimeNote": "Runtime 2 ms (beats 100.0%)",
+      "runtimeNote": "Runtime 2 ms",
       "slug": "stone-game-ii",
-      "solveTimeMs": 47162,
-      "solvedAt": 1786248530965,
+      "solveTimeMs": 3373,
+      "solvedAt": 1786612486555,
       "tags": [
         "Array",
         "Math",
@@ -2312,6 +2598,70 @@
         "verdict": "Accepted"
       }
     ],
+    "leetcode:integer-to-roman": [
+      {
+        "accepted": false,
+        "at": 1786600705157,
+        "errorText": "Line 4: error: incompatible types: String cannot be converted to int\n        int[][] storeIntRoman = {{1000, \"M\"}, {900, \"CM\"}, {500, \"D\"}, {400, \"CD\"}, {100, \"C\"}, {90, \"XC\"}, {50, \"L\"}, {40, \"XL\"}, {10, \"X\"}, {9, \"IX\"}, {5, \"V\"}, {4, \"IV\"}, {1, \"I\"}};\n                                        ^\nLine 4: error: incompatible types: String cannot be converted to int\n        int[][] storeIntRoman = {{1…",
+        "kind": "run",
+        "language": "Java",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "verdict": "Compile Error"
+      },
+      {
+        "accepted": true,
+        "actualOutput": "\"MMMDCCXLIX\"\n\"LVIII\"\n\"MCMXCIV\"",
+        "at": 1786600725843,
+        "expectedOutput": "\"MMMDCCXLIX\"\n\"LVIII\"\n\"MCMXCIV\"",
+        "kind": "run",
+        "language": "Java",
+        "memory": "42.6 MB",
+        "runtime": "1 ms",
+        "testsPassed": 3,
+        "testsTotal": 3,
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786600733652,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "46.5 MB",
+        "runtime": "4 ms",
+        "submissionId": "2105034159",
+        "testsPassed": 3999,
+        "testsTotal": 3999,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:length-of-last-word": [
+      {
+        "accepted": true,
+        "actualOutput": "5\n4\n6",
+        "at": 1786637027703,
+        "expectedOutput": "5\n4\n6",
+        "kind": "run",
+        "language": "Java",
+        "memory": "42.6 MB",
+        "runtime": "0 ms",
+        "testsPassed": 3,
+        "testsTotal": 3,
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786637037446,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "42.8 MB",
+        "runtime": "0 ms",
+        "submissionId": "2105644492",
+        "testsPassed": 60,
+        "testsTotal": 60,
+        "verdict": "Accepted"
+      }
+    ],
     "leetcode:length-of-longest-subarray-with-at-most-k-frequency": [
       {
         "accepted": true,
@@ -2323,6 +2673,20 @@
         "submissionId": "2103609494",
         "testsPassed": 994,
         "testsTotal": 994,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:longest-substring-of-one-repeating-character": [
+      {
+        "accepted": true,
+        "at": 1786600442750,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "171.8 MB",
+        "runtime": "109 ms",
+        "submissionId": "2105028547",
+        "testsPassed": 57,
+        "testsTotal": 57,
         "verdict": "Accepted"
       }
     ],
