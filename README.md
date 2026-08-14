@@ -1,11 +1,12 @@
 # DSA Solutions
 
-23 solved — 9 easy · 9 medium · 5 hard. Last updated 2026-08-13.
+24 solved — 10 easy · 9 medium · 5 hard. Last updated 2026-08-14.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 3090 | [Maximum Length Substring With Two Occurrences](leetcode/easy/3090-maximum-length-substring-with-two-occurrences/solution.java) | LeetCode | easy | Java | 2026-08-14 |
 | 0058 | [Length of Last Word](leetcode/easy/0058-length-of-last-word/solution.java) | LeetCode | easy | Java | 2026-08-13 |
 | 1140 | [Stone Game II](leetcode/medium/1140-stone-game-ii/solution.java) | LeetCode | medium | Java | 2026-08-13 |
 | 0012 | [Integer to Roman](leetcode/medium/0012-integer-to-roman/solution.java) | LeetCode | medium | Java | 2026-08-13 |
