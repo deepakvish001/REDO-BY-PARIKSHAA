@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1786645855880,
+  "exportedAt": 1786732255492,
   "settings": {
     "github": {
       "token": "",
@@ -1415,6 +1415,81 @@
       "title": "Maximum Area of Two Non-Overlapping Square Submatrices",
       "url": "https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/"
     },
+    "leetcode:maximum-length-substring-with-two-occurrences": {
+      "attempts": 1,
+      "code": "class Solution {\n    public int maximumLengthSubstring(String s) {\n        int[] count = new int[26];\n        int left = 0;\n        int ans = 0;\n\n        for (int right = 0; right < s.length(); right++) {\n            count[s.charAt(right) - 'a']++;\n\n            while (count[s.charAt(right) - 'a'] > 2) {\n                count[s.charAt(left) - 'a']--;\n                left++;\n            }\n\n            ans = Math.max(ans, right - left + 1);\n        }\n\n        return ans;\n    }\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1786689185681,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "43.7 MB",
+          "runtime": "1 ms",
+          "submissionId": "2106270897",
+          "testsPassed": 709,
+          "testsTotal": 709,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/ae93a34af918168aab4da99162911b507151bdbf",
+        "path": "leetcode/easy/3090-maximum-length-substring-with-two-occurrences/solution.java",
+        "status": "synced",
+        "syncedAt": 1786689190370
+      },
+      "history": [
+        {
+          "at": 1786689186368,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786689190370,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/easy/3090-maximum-length-substring-with-two-occurrences/solution.java"
+        },
+        {
+          "at": 1786689190370,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:maximum-length-substring-with-two-occurrences",
+      "language": "Java",
+      "memoryNote": "Memory 43.7 MB (beats 59.9%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "3090",
+      "revision": {
+        "dueAt": 1786775586368,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 1 ms (beats 100.0%)",
+      "slug": "maximum-length-substring-with-two-occurrences",
+      "solveTimeMs": 21419,
+      "solvedAt": 1786689186368,
+      "tags": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
+      ],
+      "title": "Maximum Length Substring With Two Occurrences",
+      "url": "https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/"
+    },
     "leetcode:minimum-total-price-after-applying-discounts": {
       "attempts": 1,
       "code": "class Solution:\n    def minPrice(self, prices: list[int], discounts: list[int]) -> float:\n        prices.sort(reverse=True)\n        discounts.sort(reverse=True)\n        x = sum(y * z for y, z in zip(prices, discounts))\n        return sum(prices) - (x/100.0)\n        ",
@@ -2516,6 +2591,48 @@
         "verdict": "Accepted"
       }
     ],
+    "codeforces:2251A": [
+      {
+        "accepted": false,
+        "at": 1786730206355,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "memory": "100 KB",
+        "runtime": "7750 ms",
+        "submissionId": "387067549",
+        "verdict": "Partial result: 13137.745 points"
+      },
+      {
+        "accepted": false,
+        "at": 1786730563365,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "memory": "100 KB",
+        "runtime": "15000 ms",
+        "submissionId": "387068338",
+        "verdict": "Partial result: 12055.13 points"
+      },
+      {
+        "accepted": false,
+        "at": 1786731884414,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "memory": "100 KB",
+        "runtime": "6468 ms",
+        "submissionId": "387071068",
+        "verdict": "Partial result: 12077.181 points"
+      },
+      {
+        "accepted": false,
+        "at": 1786732229192,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "memory": "100 KB",
+        "runtime": "6328 ms",
+        "submissionId": "387071862",
+        "verdict": "Partial result: 13138.101 points"
+      }
+    ],
     "codeforces:2252C": [
       {
         "accepted": true,
@@ -2711,6 +2828,20 @@
         "submissionId": "2099793453",
         "testsPassed": 1000,
         "testsTotal": 1000,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:maximum-length-substring-with-two-occurrences": [
+      {
+        "accepted": true,
+        "at": 1786689185681,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "43.7 MB",
+        "runtime": "1 ms",
+        "submissionId": "2106270897",
+        "testsPassed": 709,
+        "testsTotal": 709,
         "verdict": "Accepted"
       }
     ],
