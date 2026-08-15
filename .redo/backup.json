@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1786732255492,
+  "exportedAt": 1786818950199,
   "settings": {
     "github": {
       "token": "",
@@ -1258,6 +1258,93 @@
       ],
       "title": "Length of Longest Subarray With at Most K Frequency",
       "url": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/"
+    },
+    "leetcode:longest-subsequence-with-non-zero-bitwise-xor": {
+      "attempts": 1,
+      "code": "class Solution {\n    public int longestSubsequence(int[] nums) {\n        int totalXor = 0;\n        boolean hasNonZero = false;\n        \n        for (int x : nums) {\n            totalXor ^= x;\n            if (x != 0) hasNonZero = true;\n        }\n        \n        if (!hasNonZero) return 0;\n        if (totalXor != 0) return nums.length;\n        \n        return nums.length - 1;\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "2\n3",
+          "at": 1786775051830,
+          "expectedOutput": "2\n3",
+          "kind": "run",
+          "language": "Java",
+          "memory": "42.6 MB",
+          "runtime": "0 ms",
+          "testsPassed": 2,
+          "testsTotal": 2,
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1786775056229,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "133.6 MB",
+          "runtime": "2 ms",
+          "submissionId": "2107303942",
+          "testsPassed": 1002,
+          "testsTotal": 1002,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/10240862450ee2888ef2479d5df981f608a0b839",
+        "path": "leetcode/medium/3702-longest-subsequence-with-non-zero-bitwise-xor/solution.java",
+        "status": "synced",
+        "syncedAt": 1786775060410
+      },
+      "history": [
+        {
+          "at": 1786775056587,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786775060410,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/3702-longest-subsequence-with-non-zero-bitwise-xor/solution.java"
+        },
+        {
+          "at": 1786775060410,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:longest-subsequence-with-non-zero-bitwise-xor",
+      "language": "Java",
+      "memoryNote": "Memory 133.6 MB (beats 34.6%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "3702",
+      "revision": {
+        "dueAt": 1786861456587,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 2 ms (beats 68.4%)",
+      "slug": "longest-subsequence-with-non-zero-bitwise-xor",
+      "solveTimeMs": 26044,
+      "solvedAt": 1786775056587,
+      "tags": [
+        "Array",
+        "Bit Manipulation"
+      ],
+      "title": "Longest Subsequence With Non-Zero Bitwise XOR",
+      "url": "https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/"
     },
     "leetcode:longest-substring-of-one-repeating-character": {
       "attempts": 1,
@@ -2790,6 +2877,33 @@
         "submissionId": "2103609494",
         "testsPassed": 994,
         "testsTotal": 994,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:longest-subsequence-with-non-zero-bitwise-xor": [
+      {
+        "accepted": true,
+        "actualOutput": "2\n3",
+        "at": 1786775051830,
+        "expectedOutput": "2\n3",
+        "kind": "run",
+        "language": "Java",
+        "memory": "42.6 MB",
+        "runtime": "0 ms",
+        "testsPassed": 2,
+        "testsTotal": 2,
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1786775056229,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "133.6 MB",
+        "runtime": "2 ms",
+        "submissionId": "2107303942",
+        "testsPassed": 1002,
+        "testsTotal": 1002,
         "verdict": "Accepted"
       }
     ],
