@@ -2,7 +2,7 @@
 
 <img src="assets/profile.svg" alt="Coding profile" width="840">
 
-_Regenerated on every sync — last run 2026-08-14._
+_Regenerated on every sync — last run 2026-08-15._
 
 ## This week
 
@@ -12,12 +12,12 @@ _Regenerated on every sync — last run 2026-08-14._
 
 | | |
 | --- | --- |
-| Problems solved | 24 |
-| Due for revision today | 22 |
+| Problems solved | 25 |
+| Due for revision today | 23 |
 | Revisions completed | 0 |
-| Current streak | 7 days |
-| Submissions recorded | 21 (0 rejected) |
-| Runs recorded | 21 |
+| Current streak | 8 days |
+| Submissions recorded | 22 (0 rejected) |
+| Runs recorded | 22 |
 | Median time to solve | 1 min |
 
 ## Needs work
@@ -25,7 +25,7 @@ _Regenerated on every sync — last run 2026-08-14._
 | Topic | Solved | Lapses | Mastery |
 | --- | --- | --- | --- |
 | math | 11 | 0 | 45/100 |
-| array | 7 | 0 | 45/100 |
+| array | 8 | 0 | 45/100 |
 | string | 6 | 0 | 45/100 |
 | dynamic programming | 6 | 0 | 45/100 |
 | greedy | 5 | 0 | 45/100 |
@@ -48,6 +48,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | --- | --- | --- | --- | --- |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
+| [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 1 | 1 | under a minute | 0/100 |
 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 1 | 0 | under a minute | 0/100 |
 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 1 | 1 | 1 min | 0/100 |
 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 1 | 1 | under a minute | 0/100 |
@@ -55,7 +56,6 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Longest Substring of One Repeating Character](https://leetcode.com/problems/longest-substring-of-one-repeating-character/) | 1 | 0 | 1 min | 0/100 |
 | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 1 | 0 | 1 min | 0/100 |
 | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
-| [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
 
 ## Revision queue
 
