@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1786905383349,
+  "exportedAt": 1786991990352,
   "settings": {
     "github": {
       "token": "",
@@ -2499,6 +2499,82 @@
       "title": "Stone Game IV",
       "url": "https://leetcode.com/problems/stone-game-iv/"
     },
+    "leetcode:stone-game-v": {
+      "attempts": 1,
+      "code": "class Solution {\n\n    int[][] dp;\n    int[] prefix;\n\n    public int stoneGameV(int[] stoneValue) {\n        int n = stoneValue.length;\n\n        dp = new int[n][n];\n        prefix = new int[n + 1];\n\n        // Prefix sum\n        for (int i = 0; i < n; i++) {\n            prefix[i + 1] = prefix[i] + stoneValue[i];\n        }\n\n        return solve(0, n - 1);\n    }\n\n    private int solve(int l, int r) {\n\n        // Only one stone\n        if (l == r) {\n            return 0;\n        }\n\n        if (dp[l][r] != 0) {\n            return dp[l][r];\n        }\n\n        int ans = 0;\n\n        // Try every possible split\n        for (int k = l; k < r; k++) {\n\n            int leftSum = prefix[k + 1] - prefix[l];\n            int rightSum = prefix[r + 1] - prefix[k + 1];\n\n            if (leftSum < rightSum) {\n\n                // Right side is discarded\n                ans = Math.max(ans,\n                        leftSum + solve(l, k));\n\n            } else if (leftSum > rightSum) {\n\n                // Left side is discarded\n                ans = Math.max(ans,\n                        rightSum + solve(k + 1, r));\n\n            } else {\n\n                // Equal -> Alice chooses the better side\n                ans = Math.max(ans,\n                        Math.max(\n                                leftSum + solve(l, k),\n                                rightSum + solve(k + 1, r)\n                        ));\n            }\n        }\n\n        return dp[l][r] = ans;\n    }\n}",
+      "difficulty": "hard",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1786947949679,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "47.6 MB",
+          "runtime": "226 ms",
+          "submissionId": "2109776157",
+          "testsPassed": 132,
+          "testsTotal": 132,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/e66416b17f5ddd02a0d213c9b612aff086636f97",
+        "path": "leetcode/hard/1563-stone-game-v/solution.java",
+        "status": "synced",
+        "syncedAt": 1786947956969
+      },
+      "history": [
+        {
+          "at": 1786947950519,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1786947956969,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/hard/1563-stone-game-v/solution.java"
+        },
+        {
+          "at": 1786947956969,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:stone-game-v",
+      "language": "Java",
+      "memoryNote": "Memory 47.6 MB (beats 76.7%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "1563",
+      "revision": {
+        "dueAt": 1787034350519,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 226 ms (beats 88.5%)",
+      "slug": "stone-game-v",
+      "solveTimeMs": 52786,
+      "solvedAt": 1786947950519,
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Game Theory"
+      ],
+      "title": "Stone Game V",
+      "url": "https://leetcode.com/problems/stone-game-v/"
+    },
     "leetcode:weighted-sum-of-a-tree": {
       "attempts": 1,
       "code": "class Solution:\n    def weightedSum(self, parent: list[int], nums: list[int]) -> int:\n        n = len(parent)\n        x = [[] for _ in range(n)]\n        for i in range(1,n):\n            x[parent[i]].append(i)\n\n        y = (parent, nums)\n        d = [0] * n\n        d[0] = 1\n        q = [0]\n        for u in q:\n            for v in x[u]:\n                d[v] = d[u] + 1\n                q.append(v)\n        h = d[q[-1]]\n        ans = 0\n        for i in range(n):\n            ans += nums[i] * (h - d[i]+1)\n        return ans",
@@ -3241,6 +3317,20 @@
         "submissionId": "2101219675",
         "testsPassed": 72,
         "testsTotal": 72,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:stone-game-v": [
+      {
+        "accepted": true,
+        "at": 1786947949679,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "47.6 MB",
+        "runtime": "226 ms",
+        "submissionId": "2109776157",
+        "testsPassed": 132,
+        "testsTotal": 132,
         "verdict": "Accepted"
       }
     ],
