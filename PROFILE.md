@@ -2,7 +2,7 @@
 
 <img src="assets/profile.svg" alt="Coding profile" width="840">
 
-_Regenerated on every sync — last run 2026-08-17._
+_Regenerated on every sync — last run 2026-08-18._
 
 ## This week
 
@@ -12,12 +12,12 @@ _Regenerated on every sync — last run 2026-08-17._
 
 | | |
 | --- | --- |
-| Problems solved | 26 |
-| Due for revision today | 25 |
+| Problems solved | 27 |
+| Due for revision today | 26 |
 | Revisions completed | 0 |
-| Current streak | 1 day |
-| Submissions recorded | 23 (0 rejected) |
-| Runs recorded | 22 |
+| Current streak | 2 days |
+| Submissions recorded | 24 (0 rejected) |
+| Runs recorded | 23 |
 | Median time to solve | 1 min |
 
 ## Needs work
@@ -25,7 +25,7 @@ _Regenerated on every sync — last run 2026-08-17._
 | Topic | Solved | Lapses | Mastery |
 | --- | --- | --- | --- |
 | math | 12 | 0 | 45/100 |
-| array | 9 | 0 | 45/100 |
+| array | 10 | 0 | 45/100 |
 | dynamic programming | 7 | 0 | 45/100 |
 | string | 6 | 0 | 45/100 |
 | game theory | 6 | 0 | 45/100 |
@@ -36,9 +36,9 @@ _Regenerated on every sync — last run 2026-08-17._
 | --- | --- | --- |
 | sliding window | 2 | 45/100 |
 | dp | 2 | 45/100 |
-| hash table | 4 | 45/100 |
 | number theory | 4 | 45/100 |
 | zero-sum game | 5 | 45/100 |
+| minimax | 5 | 45/100 |
 
 ## Fought hardest for these
 
@@ -48,6 +48,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | --- | --- | --- | --- | --- |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
+| [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | 1 | 1 | under a minute | 0/100 |
 | [Stone Game V](https://leetcode.com/problems/stone-game-v/) | 1 | 0 | 1 min | 0/100 |
 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 1 | 1 | under a minute | 0/100 |
 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 1 | 0 | under a minute | 0/100 |
@@ -55,7 +56,6 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 1 | 1 | under a minute | 0/100 |
 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | 1 | 2 | 1 min | 0/100 |
 | [Longest Substring of One Repeating Character](https://leetcode.com/problems/longest-substring-of-one-repeating-character/) | 1 | 0 | 1 min | 0/100 |
-| [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 1 | 0 | 1 min | 0/100 |
 
 ## Revision queue
 

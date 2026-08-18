@@ -1,11 +1,12 @@
 # DSA Solutions
 
-26 solved — 10 easy · 10 medium · 6 hard. Last updated 2026-08-17.
+27 solved — 11 easy · 10 medium · 6 hard. Last updated 2026-08-18.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 3471 | [Find the Largest Almost Missing Integer](leetcode/easy/3471-find-the-largest-almost-missing-integer/solution.java) | LeetCode | easy | Java | 2026-08-18 |
 | 1563 | [Stone Game V](leetcode/hard/1563-stone-game-v/solution.java) | LeetCode | hard | Java | 2026-08-17 |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](leetcode/medium/3702-longest-subsequence-with-non-zero-bitwise-xor/solution.java) | LeetCode | medium | Java | 2026-08-15 |
 | 3090 | [Maximum Length Substring With Two Occurrences](leetcode/easy/3090-maximum-length-substring-with-two-occurrences/solution.java) | LeetCode | easy | Java | 2026-08-14 |
