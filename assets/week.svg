@@ -31,7 +31,7 @@
     <g class="rise" style="animation-delay:0s">
       <rect x="40" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="62" y="188" class="big">10</text>
+      <text x="62" y="188" class="big">8</text>
       <text x="62" y="211" class="small">problems solved</text>
     </g>
     <g class="rise" style="animation-delay:0.07s">
@@ -43,7 +43,7 @@
     <g class="rise" style="animation-delay:0.14s">
       <rect x="516" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="538" y="188" class="big">9</text>
+      <text x="538" y="188" class="big">8</text>
       <text x="538" y="211" class="small">submissions</text>
     </g>
     <g class="rise" style="animation-delay:0.21000000000000002s">
@@ -53,35 +53,35 @@
       <text x="776" y="211" class="small">day streak</text>
     </g>
   <text x="40" y="252" class="label">DIFFICULTY MIX</text>
-  <rect x="40" y="262" width="368" height="14" rx="7" fill="#34d399" />
-    <text x="40" y="296" class="small" fill="#34d399">4 easy</text><rect x="414" y="262" width="368" height="14" rx="7" fill="#fbbf24" />
-    <text x="414" y="296" class="small" fill="#fbbf24">4 medium</text><rect x="788" y="262" width="184" height="14" rx="7" fill="#f87171" />
-    <text x="788" y="296" class="small" fill="#f87171">2 hard</text>
+  <rect x="40" y="262" width="460" height="14" rx="7" fill="#34d399" />
+    <text x="40" y="296" class="small" fill="#34d399">4 easy</text><rect x="506" y="262" width="230" height="14" rx="7" fill="#fbbf24" />
+    <text x="506" y="296" class="small" fill="#fbbf24">2 medium</text><rect x="742" y="262" width="230" height="14" rx="7" fill="#f87171" />
+    <text x="742" y="296" class="small" fill="#f87171">2 hard</text>
   <text x="40" y="326" class="label">TOPICS</text>
     <g class="rise">
       <rect x="40" y="336" width="87" height="30" rx="15" fill="#141419" stroke="#26262e" />
       <text x="56" y="356" class="chip">Array</text>
-      <text x="109" y="356" class="chipCount" text-anchor="end">7</text>
+      <text x="109" y="356" class="chipCount" text-anchor="end">6</text>
     </g>
     <g class="rise">
       <rect x="135" y="336" width="128" height="30" rx="15" fill="#141419" stroke="#26262e" />
       <text x="151" y="356" class="chip">Hash Table</text>
-      <text x="245" y="356" class="chipCount" text-anchor="end">4</text>
+      <text x="245" y="356" class="chipCount" text-anchor="end">3</text>
     </g>
     <g class="rise">
-      <rect x="271" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="287" y="356" class="chip">String</text>
-      <text x="348.2" y="356" class="chipCount" text-anchor="end">4</text>
+      <rect x="271" y="336" width="177.2" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="287" y="356" class="chip">Bit Manipulation</text>
+      <text x="430.2" y="356" class="chipCount" text-anchor="end">2</text>
     </g>
     <g class="rise">
-      <rect x="374.2" y="336" width="78.8" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="390.2" y="356" class="chip">Math</text>
-      <text x="435" y="356" class="chipCount" text-anchor="end">3</text>
+      <rect x="456.2" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="472.2" y="356" class="chip">String</text>
+      <text x="533.4" y="356" class="chipCount" text-anchor="end">2</text>
     </g>
     <g class="rise">
-      <rect x="461" y="336" width="177.2" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="477" y="356" class="chip">Bit Manipulation</text>
-      <text x="620.2" y="356" class="chipCount" text-anchor="end">2</text>
+      <rect x="559.4" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="575.4" y="356" class="chip">Greedy</text>
+      <text x="636.5999999999999" y="356" class="chipCount" text-anchor="end">1</text>
     </g>
   
     <g class="rise" style="animation-delay:.25s">
@@ -93,6 +93,6 @@
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>
 
-  <text x="40" y="516" class="foot">6 min at the keyboard · 5 runs · 0 hints · new: Bit Manipulation, Simulation, Segment Tree</text>
+  <text x="40" y="516" class="foot">5 min at the keyboard · 3 runs · 0 hints · new: Bit Manipulation, Simulation, Binary Search</text>
   <text x="960" y="516" class="foot" text-anchor="end">Redo · parikshaa.org</text>
 </svg>
