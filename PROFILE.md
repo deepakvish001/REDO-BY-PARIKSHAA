@@ -2,7 +2,7 @@
 
 <img src="assets/profile.svg" alt="Coding profile" width="840">
 
-_Regenerated on every sync — last run 2026-08-19._
+_Regenerated on every sync — last run 2026-08-20._
 
 ## This week
 
@@ -12,11 +12,11 @@ _Regenerated on every sync — last run 2026-08-19._
 
 | | |
 | --- | --- |
-| Problems solved | 28 |
-| Due for revision today | 26 |
+| Problems solved | 29 |
+| Due for revision today | 27 |
 | Revisions completed | 0 |
-| Current streak | 3 days |
-| Submissions recorded | 25 (0 rejected) |
+| Current streak | 4 days |
+| Submissions recorded | 26 (0 rejected) |
 | Runs recorded | 23 |
 | Median time to solve | 1 min |
 
@@ -25,7 +25,7 @@ _Regenerated on every sync — last run 2026-08-19._
 | Topic | Solved | Lapses | Mastery |
 | --- | --- | --- | --- |
 | math | 12 | 0 | 45/100 |
-| array | 11 | 0 | 45/100 |
+| array | 12 | 0 | 45/100 |
 | dynamic programming | 7 | 0 | 45/100 |
 | greedy | 6 | 0 | 45/100 |
 | hash table | 6 | 0 | 45/100 |
@@ -48,6 +48,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | --- | --- | --- | --- | --- |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
+| [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 1 | 0 | 1 min | 0/100 |
 | [Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/) | 1 | 0 | under a minute | 0/100 |
 | [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | 1 | 1 | under a minute | 0/100 |
 | [Stone Game V](https://leetcode.com/problems/stone-game-v/) | 1 | 0 | 1 min | 0/100 |
@@ -55,7 +56,6 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 1 | 0 | under a minute | 0/100 |
 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 1 | 1 | 1 min | 0/100 |
 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 1 | 1 | under a minute | 0/100 |
-| [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | 1 | 2 | 1 min | 0/100 |
 
 ## Revision queue
 

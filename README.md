@@ -1,11 +1,12 @@
 # DSA Solutions
 
-28 solved — 11 easy · 11 medium · 6 hard. Last updated 2026-08-19.
+29 solved — 12 easy · 11 medium · 6 hard. Last updated 2026-08-20.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 3069 | [Distribute Elements Into Two Arrays I](leetcode/easy/3069-distribute-elements-into-two-arrays-i/solution.java) | LeetCode | easy | Java | 2026-08-20 |
 | 1386 | [Cinema Seat Allocation](leetcode/medium/1386-cinema-seat-allocation/solution.java) | LeetCode | medium | Java | 2026-08-19 |
 | 3471 | [Find the Largest Almost Missing Integer](leetcode/easy/3471-find-the-largest-almost-missing-integer/solution.java) | LeetCode | easy | Java | 2026-08-18 |
 | 1563 | [Stone Game V](leetcode/hard/1563-stone-game-v/solution.java) | LeetCode | hard | Java | 2026-08-17 |
