@@ -1,0 +1,5 @@
+# Local compile artifacts — solutions are source-only in this archive.
+*.class
+__pycache__/
+*.pyc
+a.out
