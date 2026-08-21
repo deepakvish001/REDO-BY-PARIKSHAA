@@ -12,11 +12,11 @@ _Regenerated on every sync — last run 2026-08-21._
 
 | | |
 | --- | --- |
-| Problems solved | 32 |
+| Problems solved | 33 |
 | Due for revision today | 29 |
 | Revisions completed | 0 |
 | Current streak | 5 days |
-| Submissions recorded | 29 (0 rejected) |
+| Submissions recorded | 30 (0 rejected) |
 | Runs recorded | 23 |
 | Median time to solve | 1 min |
 
@@ -27,8 +27,8 @@ _Regenerated on every sync — last run 2026-08-21._
 | greedy | 7 | 0 | 43/100 |
 | array | 14 | 0 | 45/100 |
 | math | 13 | 0 | 45/100 |
-| dynamic programming | 7 | 0 | 45/100 |
-| hash table | 6 | 0 | 45/100 |
+| dynamic programming | 8 | 0 | 45/100 |
+| string | 7 | 0 | 45/100 |
 
 ## Solid
 
@@ -36,9 +36,9 @@ _Regenerated on every sync — last run 2026-08-21._
 | --- | --- | --- |
 | sliding window | 2 | 45/100 |
 | binary search | 2 | 45/100 |
+| two pointers | 2 | 45/100 |
 | dp | 2 | 45/100 |
 | bit manipulation | 3 | 45/100 |
-| zero-sum game | 5 | 45/100 |
 
 ## Fought hardest for these
 
@@ -49,13 +49,13 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
 | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 1 | 0 | 2h 42m | 20/100 |
+| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 1 | 0 | 1 min | 0/100 |
 | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 1 | 0 | 1 min | 0/100 |
 | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
 | [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | 1 | 0 | 2 min | 0/100 |
 | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
 | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 1 | 0 | 2 min | 0/100 |
 | [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0 | — | 0/100 |
-| [Kth Smallest Amount With Single Denomination Combination](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/) | 1 | 0 | under a minute | 0/100 |
 
 ## Revision queue
 
