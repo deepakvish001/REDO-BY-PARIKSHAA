@@ -12,11 +12,11 @@ _Regenerated on every sync — last run 2026-08-21._
 
 | | |
 | --- | --- |
-| Problems solved | 31 |
+| Problems solved | 32 |
 | Due for revision today | 29 |
 | Revisions completed | 0 |
 | Current streak | 5 days |
-| Submissions recorded | 28 (0 rejected) |
+| Submissions recorded | 29 (0 rejected) |
 | Runs recorded | 23 |
 | Median time to solve | 1 min |
 
@@ -24,10 +24,10 @@ _Regenerated on every sync — last run 2026-08-21._
 
 | Topic | Solved | Lapses | Mastery |
 | --- | --- | --- | --- |
+| greedy | 7 | 0 | 43/100 |
 | array | 14 | 0 | 45/100 |
 | math | 13 | 0 | 45/100 |
 | dynamic programming | 7 | 0 | 45/100 |
-| greedy | 6 | 0 | 45/100 |
 | hash table | 6 | 0 | 45/100 |
 
 ## Solid
@@ -48,14 +48,14 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | --- | --- | --- | --- | --- |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
+| [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 1 | 0 | 2h 42m | 20/100 |
+| [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 1 | 0 | 1 min | 0/100 |
+| [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
+| [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | 1 | 0 | 2 min | 0/100 |
+| [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
+| [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 1 | 0 | 2 min | 0/100 |
 | [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0 | — | 0/100 |
 | [Kth Smallest Amount With Single Denomination Combination](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/) | 1 | 0 | under a minute | 0/100 |
-| [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 1 | 0 | under a minute | 0/100 |
-| [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 1 | 0 | 1 min | 0/100 |
-| [Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/) | 1 | 0 | under a minute | 0/100 |
-| [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | 1 | 1 | under a minute | 0/100 |
-| [Stone Game V](https://leetcode.com/problems/stone-game-v/) | 1 | 0 | 1 min | 0/100 |
-| [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 1 | 1 | under a minute | 0/100 |
 
 ## Revision queue
 

@@ -6,6 +6,11 @@
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2240A | [Another Popcount Problem](codeforces/easy/2240A-another-popcount-problem/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
+| 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
+| 2245A | [Who Watches the Watchpig?](codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
+| 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
+| 2241A | [Divide and Conquer](codeforces/easy/2241A-divide-and-conquer/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
 | 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
 | 3116 | [Kth Smallest Amount With Single Denomination Combination](leetcode/hard/3116-kth-smallest-amount-with-single-denomination-combination/solution.java) | LeetCode | hard | Java | 2026-08-21 |
 | 0004 | [Median of Two Sorted Arrays](leetcode/hard/0004-median-of-two-sorted-arrays/solution.java) | LeetCode | hard | Java | 2026-08-20 |
@@ -19,11 +24,6 @@
 | 1140 | [Stone Game II](leetcode/medium/1140-stone-game-ii/solution.java) | LeetCode | medium | Java | 2026-08-13 |
 | 0012 | [Integer to Roman](leetcode/medium/0012-integer-to-roman/solution.java) | LeetCode | medium | Java | 2026-08-13 |
 | 2213 | [Longest Substring of One Repeating Character](leetcode/hard/2213-longest-substring-of-one-repeating-character/solution.java) | LeetCode | hard | Java | 2026-08-13 |
-| 2238B | [Crimson Triples](codeforces/easy/2238B-crimson-triples/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
-| 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
-| 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
-| 2245A | [Who Watches the Watchpig?](codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
-| 2241A | [Divide and Conquer](codeforces/easy/2241A-divide-and-conquer/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
 | 0486 | [Predict the Winner](leetcode/medium/0486-predict-the-winner/solution.java) | LeetCode | medium | Java | 2026-08-12 |
 | 0877 | [Stone Game](leetcode/medium/0877-stone-game/solution.java) | LeetCode | medium | Java | 2026-08-12 |
 | 1406 | [Stone Game III](leetcode/hard/1406-stone-game-iii/solution.java) | LeetCode | hard | Java | 2026-08-12 |
