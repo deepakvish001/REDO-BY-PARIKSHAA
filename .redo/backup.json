@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1786991990352,
+  "exportedAt": 1787337356664,
   "settings": {
     "github": {
       "token": "",
@@ -104,11 +104,29 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787297772849,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787297833652,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1787297833652,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2238B",
       "language": "C++17 (GCC 7-32)",
-      "memoryNote": "Memory 100 KB",
+      "memoryNote": "Memory 100 KB",
       "parikshaa": {
         "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
         "status": "skipped"
@@ -125,10 +143,10 @@
         "struggle": 0,
         "targetReviews": 6
       },
-      "runtimeNote": "Runtime 46 ms",
+      "runtimeNote": "Runtime 46 ms",
       "slug": "2238B",
       "solveTimeMs": 68442,
-      "solvedAt": 1786508109934,
+      "solvedAt": 1787297772849,
       "tags": [
         "dp",
         "math",
@@ -136,6 +154,81 @@
       ],
       "title": "Crimson Triples",
       "url": "https://codeforces.com/contest/2238/problem/B"
+    },
+    "codeforces:2240A": {
+      "attempts": 1,
+      "code": "#pragma GCC optimize(\"O3,unroll-loops\")\n#include <iostream>\n#include <algorithm>\n\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int t;\n    if (cin >> t) {\n        while (t--) {\n            long long n, k;\n            cin >> n >> k;\n            \n            long long ans = 0;\n            long long p = 1;\n            \n            while (n >= p) {\n                long long cnt = min(k, n / p);\n                ans += cnt;\n                n -= cnt * p;\n                p *= 2;\n            }\n            \n            cout << ans << \"\\n\";\n        }\n    }\n    \n    return 0;\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787297772945,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "31 ms",
+          "submissionId": "387856298",
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/fe9e4af1ef90343b9cb3f739a311a4761100caa2",
+        "path": "codeforces/easy/2240A-another-popcount-problem/solution.cpp",
+        "status": "synced",
+        "syncedAt": 1787297836219
+      },
+      "history": [
+        {
+          "at": 1787297774770,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787297836219,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2240A-another-popcount-problem/solution.cpp"
+        },
+        {
+          "at": 1787297836219,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787301004155,
+          "kind": "opened"
+        }
+      ],
+      "id": "codeforces:2240A",
+      "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 0 KB",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "2240A",
+      "revision": {
+        "dueAt": 1787384174770,
+        "ease": 0.92,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0.2,
+        "targetReviews": 7
+      },
+      "runtimeNote": "Runtime 31 ms",
+      "slug": "2240A",
+      "solveTimeMs": 9718405,
+      "solvedAt": 1787297774770,
+      "tags": [
+        "greedy"
+      ],
+      "title": "Another Popcount Problem",
+      "url": "https://codeforces.com/contest/2240/problem/A"
     },
     "codeforces:2241A": {
       "attempts": 1,
@@ -154,10 +247,9 @@
         }
       ],
       "github": {
-        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/62f7971783e624d48b0d2c7b46c43248645165a9",
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
         "path": "codeforces/easy/2241A-divide-and-conquer/solution.cpp",
-        "status": "synced",
-        "syncedAt": 1786508108023
+        "status": "error"
       },
       "history": [
         {
@@ -231,6 +323,24 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787297772666,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787297788142,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1787297788142,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2241A",
@@ -255,7 +365,7 @@
       "runtimeNote": "Runtime 31 ms",
       "slug": "2241A",
       "solveTimeMs": 106418,
-      "solvedAt": 1786508104846,
+      "solvedAt": 1787297772666,
       "tags": [
         "greedy",
         "math",
@@ -321,6 +431,24 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787297772767,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787297810461,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1787297810461,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2245A",
@@ -345,7 +473,7 @@
       "runtimeNote": "Runtime 31 ms",
       "slug": "2245A",
       "solveTimeMs": 120071,
-      "solvedAt": 1786508105028,
+      "solvedAt": 1787297772767,
       "tags": [
         "greedy"
       ],
@@ -488,6 +616,24 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787297772828,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787297821425,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1787297821425,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2247A",
@@ -512,7 +658,7 @@
       "runtimeNote": "Runtime 31 ms",
       "slug": "2247A",
       "solveTimeMs": 72257,
-      "solvedAt": 1786508105565,
+      "solvedAt": 1787297772828,
       "tags": [
         "constructive algorithms",
         "dp",
@@ -527,9 +673,10 @@
       "difficulty": "easy",
       "events": [],
       "github": {
-        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/32ea845f4fa8f2d8795038fa8966713d747190c6",
         "path": "codeforces/easy/2248A-you-delete-i-delete/solution.cpp",
-        "status": "error"
+        "status": "synced",
+        "syncedAt": 1787297775690
       },
       "history": [
         {
@@ -693,6 +840,24 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787297772495,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787297775690,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2248A-you-delete-i-delete/solution.cpp"
+        },
+        {
+          "at": 1787297775690,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2248A",
@@ -716,7 +881,7 @@
       },
       "runtimeNote": "Runtime 31 ms",
       "slug": "2248A",
-      "solvedAt": 1786508105425,
+      "solvedAt": 1787297772495,
       "tags": [
         "greedy"
       ],
@@ -892,6 +1057,24 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787297772740,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787297799128,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1787297799128,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2250A",
@@ -915,7 +1098,7 @@
       },
       "runtimeNote": "Runtime 46 ms",
       "slug": "2250A",
-      "solvedAt": 1786508105725,
+      "solvedAt": 1787297772740,
       "tags": [
         "brute force",
         "implementation",
@@ -923,6 +1106,243 @@
       ],
       "title": "Threshold Movement",
       "url": "https://codeforces.com/contest/2250/problem/A"
+    },
+    "leetcode:cinema-seat-allocation": {
+      "attempts": 1,
+      "code": "class Solution {\n    public int maxNumberOfFamilies(int n, int[][] reservedSeats) {\n        Map<Integer,List<Integer>> map = new HashMap<>();\n        \n        \n        for(int[] i : reservedSeats){\n            map.putIfAbsent(i[0],new ArrayList<>());\n            map.get(i[0]).add(i[1]);\n        }\n        \n        \n        int ans = 2*(n - map.size());\n        \n        for(Map.Entry<Integer,List<Integer>> entry : map.entrySet()){\n            List<Integer> seats = entry.getValue();\n            \n            boolean isLeftAisle = false, isRightAisle = false, isMiddle = false;\n            \n            for(int seat : seats){\n                \n                if(seat >= 2 && seat <= 5)\n                    isLeftAisle = true;\n                if(seat >= 6 && seat <= 9)\n                    isRightAisle = true;\n                if(seat >=4 && seat <= 7)\n                    isMiddle = true;\n                    \n                if(isLeftAisle && isRightAisle && isMiddle){\n                    break;\n                }\n            }\n            \n            if(!isLeftAisle)\n                ans += 1;\n            if(!isRightAisle)\n                ans += 1;\n            if(isLeftAisle && isRightAisle && !isMiddle)\n                ans += 1;\n            \n        }\n       \n        return ans;\n        \n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787116398861,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "53.3 MB",
+          "runtime": "24 ms",
+          "submissionId": "2112241380",
+          "testsPassed": 53,
+          "testsTotal": 53,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/33bae949620acbfc5183f86b5b48104ecdad8d96",
+        "path": "leetcode/medium/1386-cinema-seat-allocation/solution.java",
+        "status": "synced",
+        "syncedAt": 1787116403037
+      },
+      "history": [
+        {
+          "at": 1787116399198,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787116403037,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/1386-cinema-seat-allocation/solution.java"
+        },
+        {
+          "at": 1787116403037,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:cinema-seat-allocation",
+      "language": "Java",
+      "memoryNote": "Memory 53.3 MB (beats 38.4%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "1386",
+      "revision": {
+        "dueAt": 1787202799198,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 24 ms (beats 50.0%)",
+      "slug": "cinema-seat-allocation",
+      "solveTimeMs": 22306,
+      "solvedAt": 1787116399198,
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Greedy",
+        "Bit Manipulation"
+      ],
+      "title": "Cinema Seat Allocation",
+      "url": "https://leetcode.com/problems/cinema-seat-allocation/"
+    },
+    "leetcode:distribute-elements-into-two-arrays-i": {
+      "attempts": 1,
+      "code": "class Solution {\n    public int[] resultArray(int[] nums) {\n        List<Integer> li1=new ArrayList<>();\n        List<Integer> li2=new ArrayList<>();\n        li1.add(nums[0]);\n        li2.add(nums[1]);\n        int i=0;\n        int j=0;\n        for(int n=2;n<nums.length;n++){\n            if(li1.get(i)>li2.get(j)){\n                li1.add(nums[n]);\n                i++;\n            }\n            else{\n                li2.add(nums[n]);\n                j++;\n            }\n        }\n        int[] arr=new int[nums.length];\n        int p=0;\n        for(int h=0;h<li1.size();h++){\n            arr[p]=li1.get(h);\n            p++;\n        }\n        for(int h=0;h<li2.size();h++){\n            arr[p]=li2.get(h);\n            p++;\n        }\n        return arr;\n    }\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787201130928,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "46.9 MB",
+          "runtime": "1 ms",
+          "submissionId": "2113454012",
+          "testsPassed": 622,
+          "testsTotal": 622,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/7faa092a8f719e9bebcbdce7c06c951562182668",
+        "path": "leetcode/easy/3069-distribute-elements-into-two-arrays-i/solution.java",
+        "status": "synced",
+        "syncedAt": 1787201134587
+      },
+      "history": [
+        {
+          "at": 1787201131326,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787201134587,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/easy/3069-distribute-elements-into-two-arrays-i/solution.java"
+        },
+        {
+          "at": 1787201134587,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:distribute-elements-into-two-arrays-i",
+      "language": "Java",
+      "memoryNote": "Memory 46.9 MB (beats 23.8%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "3069",
+      "revision": {
+        "dueAt": 1787287531326,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 1 ms (beats 98.1%)",
+      "slug": "distribute-elements-into-two-arrays-i",
+      "solveTimeMs": 78388,
+      "solvedAt": 1787201131326,
+      "tags": [
+        "Array",
+        "Simulation"
+      ],
+      "title": "Distribute Elements Into Two Arrays I",
+      "url": "https://leetcode.com/problems/distribute-elements-into-two-arrays-i/"
+    },
+    "leetcode:find-the-largest-almost-missing-integer": {
+      "attempts": 1,
+      "code": "class Solution {\n    static {\n        for (int i = 0; i <= 500; i++) {\n            largestInteger(new int[0], 0);\n        }\n    }\n\n    public static int largestInteger(int[] nums, int k) {\n        int n = nums.length;\n\n        if (n == 0) return n;\n\n        if (n == k) {\n            int max = nums[0];\n\n            for (int i = 1; i < n; i++) {\n                max = Math.max(max, nums[i]);\n            }\n\n            return max;\n        }\n\n        if (k == 1) {\n            int[] freq = new int[51];\n\n            for (int num : nums) {\n                freq[num]++;\n            }\n\n            int max = -1;\n\n            for (int num : nums) {\n                if (freq[num] == 1) {\n                    max = Math.max(max, num);\n                }\n            }\n\n            return max;\n        }\n\n        if (nums[0] == nums[n - 1]) {\n            return -1;\n        }\n\n        boolean firstUnique = true;\n        boolean lastUnique = true;\n\n        for (int i = 1; i < n - 1; i++) {\n            if (nums[i] == nums[0]) {\n                firstUnique = false;\n            }\n\n            if (nums[i] == nums[n - 1]) {\n                lastUnique = false;\n            }\n        }\n\n        if (firstUnique && !lastUnique) {\n            return nums[0];\n        }\n\n        if (!firstUnique && lastUnique) {\n            return nums[n - 1];\n        }\n\n        if (!firstUnique && !lastUnique) {\n            return -1;\n        }\n\n        return Math.max(nums[0], nums[n - 1]);\n    }\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "7\n3\n-1",
+          "at": 1787036392560,
+          "expectedOutput": "7\n3\n-1",
+          "kind": "run",
+          "language": "Java",
+          "memory": "42.4 MB",
+          "runtime": "0 ms",
+          "testsPassed": 3,
+          "testsTotal": 3,
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1787036397096,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "44 MB",
+          "runtime": "0 ms",
+          "submissionId": "2111064447",
+          "testsPassed": 900,
+          "testsTotal": 900,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/99f269abc206374e93dd6a9eb7e6cafee56099b0",
+        "path": "leetcode/easy/3471-find-the-largest-almost-missing-integer/solution.java",
+        "status": "synced",
+        "syncedAt": 1787036401290
+      },
+      "history": [
+        {
+          "at": 1787036397470,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787036401290,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/easy/3471-find-the-largest-almost-missing-integer/solution.java"
+        },
+        {
+          "at": 1787036401290,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:find-the-largest-almost-missing-integer",
+      "language": "Java",
+      "memoryNote": "Memory 44 MB (beats 99.3%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "3471",
+      "revision": {
+        "dueAt": 1787122797470,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 0 ms (beats 100.0%)",
+      "slug": "find-the-largest-almost-missing-integer",
+      "solveTimeMs": 20536,
+      "solvedAt": 1787036397470,
+      "tags": [
+        "Array",
+        "Hash Table"
+      ],
+      "title": "Find the Largest Almost Missing Integer",
+      "url": "https://leetcode.com/problems/find-the-largest-almost-missing-integer/"
     },
     "leetcode:find-the-lexicographically-smallest-valid-sequence": {
       "attempts": 1,
@@ -1098,6 +1518,84 @@
       "title": "Integer to Roman",
       "url": "https://leetcode.com/problems/integer-to-roman/"
     },
+    "leetcode:kth-smallest-amount-with-single-denomination-combination": {
+      "attempts": 1,
+      "code": "import java.util.*;\n\nclass Solution {\n    public long findKthSmallest(int[] coins, int k) {\n        Arrays.sort(coins);\n\n        List<Long> usefulList = new ArrayList<>();\n\n        for (int coin : coins) {\n            boolean redundant = false;\n\n            for (long prev : usefulList) {\n                if (coin % prev == 0) {\n                    redundant = true;\n                    break;\n                }\n            }\n\n            if (!redundant) {\n                usefulList.add((long) coin);\n            }\n        }\n\n        int m = usefulList.size();\n\n        long[] useful = new long[m];\n        for (int i = 0; i < m; i++) {\n            useful[i] = usefulList.get(i);\n        }\n\n        long low = 1;\n        long high = useful[0] * k;\n\n        int totalMasks = 1 << m;\n\n        long[] lcms = new long[totalMasks];\n\n        int[] signs = new int[totalMasks];\n\n        for (int mask = 1; mask < totalMasks; mask++) {\n            long currentLCM = 1;\n            int bits = 0;\n\n            for (int i = 0; i < m; i++) {\n                if ((mask & (1 << i)) != 0) {\n                    long g = gcd(currentLCM, useful[i]);\n\n                    currentLCM /= g;\n\n                    if (currentLCM > high / useful[i]) {\n                        currentLCM = high + 1;\n                        break;\n                    }\n\n                    currentLCM *= useful[i];\n                    bits++;\n                }\n            }\n\n            lcms[mask] = currentLCM;\n\n            signs[mask] = (bits % 2 == 1) ? 1 : -1;\n        }\n\n        while (low < high) {\n            long mid = low + (high - low) / 2;\n            long count = 0;\n\n            for (int mask = 1; mask < totalMasks; mask++) {\n                if (lcms[mask] <= mid) {\n                    count += signs[mask] * (mid / lcms[mask]);\n                }\n            }\n\n            if (count >= k) {\n                high = mid;\n            } else {\n                low = mid + 1;\n            }\n        }\n\n        return low;\n    }\n\n    private long gcd(long a, long b) {\n        while (b != 0) {\n            long temp = a % b;\n            a = b;\n            b = temp;\n        }\n\n        return a;\n    }\n}",
+      "difficulty": "hard",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787287151460,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "43.7 MB",
+          "runtime": "4 ms",
+          "submissionId": "2114631877",
+          "testsPassed": 561,
+          "testsTotal": 561,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/0dd0b30972d92d245341612b1e5e4a674ef9cafc",
+        "path": "leetcode/hard/3116-kth-smallest-amount-with-single-denomination-combination/solution.java",
+        "status": "synced",
+        "syncedAt": 1787287156267
+      },
+      "history": [
+        {
+          "at": 1787287151828,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787287156267,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/hard/3116-kth-smallest-amount-with-single-denomination-combination/solution.java"
+        },
+        {
+          "at": 1787287156267,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:kth-smallest-amount-with-single-denomination-combination",
+      "language": "Java",
+      "memoryNote": "Memory 43.7 MB (beats 76.5%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "3116",
+      "revision": {
+        "dueAt": 1787373551828,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 4 ms (beats 100.0%)",
+      "slug": "kth-smallest-amount-with-single-denomination-combination",
+      "solveTimeMs": 16749,
+      "solvedAt": 1787287151828,
+      "tags": [
+        "Array",
+        "Math",
+        "Binary Search",
+        "Bit Manipulation",
+        "Combinatorics",
+        "Number Theory"
+      ],
+      "title": "Kth Smallest Amount With Single Denomination Combination",
+      "url": "https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/"
+    },
     "leetcode:length-of-last-word": {
       "attempts": 1,
       "code": "public class Solution {\n    public int lengthOfLastWord(String s) {\n        int count = 0;\n        for (int i = s.length() - 1; i >= 0; i--) {\n            if (s.charAt(i) == ' ' && count == 0) continue;\n            if (s.charAt(i) == ' ' && count != 0) return count;\n            if (s.charAt(i) != ' ') count++;\n        }\n        return count;\n    }\n}",
@@ -1258,6 +1756,86 @@
       ],
       "title": "Length of Longest Subarray With at Most K Frequency",
       "url": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/"
+    },
+    "leetcode:longest-palindromic-substring": {
+      "attempts": 1,
+      "code": "class Solution {\n    private int expandFromCenter(String s, int left, int right) {\n        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {\n            left--;\n            right++;\n        }\n        return right - left - 1;\n    }\n\n    public String longestPalindrome(String s) {\n        int bestStart = 0;\n        int bestLength = 1;\n        for (int i = 0; i < s.length(); i++) {\n            int oddLength = expandFromCenter(s, i, i);\n            int evenLength = expandFromCenter(s, i, i + 1);\n            int longer = Math.max(oddLength, evenLength);\n            if (longer > bestLength) {\n                bestLength = longer;\n                bestStart = i - (longer - 1) / 2;\n            }\n        }\n        return s.substring(bestStart, bestStart + bestLength);\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787298440600,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "43.1 MB",
+          "runtime": "14 ms",
+          "submissionId": "2114806086",
+          "testsPassed": 144,
+          "testsTotal": 144,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/bd8d4216c20efcebdf520448e0f5bc3b055616d5",
+        "path": "leetcode/medium/0005-longest-palindromic-substring/solution.java",
+        "status": "synced",
+        "syncedAt": 1787298445514
+      },
+      "history": [
+        {
+          "at": 1787298440994,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787298445515,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/0005-longest-palindromic-substring/solution.java"
+        },
+        {
+          "at": 1787298445515,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        },
+        {
+          "at": 1787298485388,
+          "kind": "opened"
+        }
+      ],
+      "id": "leetcode:longest-palindromic-substring",
+      "language": "Java",
+      "memoryNote": "Memory 43.1 MB (beats 97.7%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "5",
+      "revision": {
+        "dueAt": 1787384840994,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 14 ms (beats 90.1%)",
+      "slug": "longest-palindromic-substring",
+      "solveTimeMs": 50927,
+      "solvedAt": 1787298440994,
+      "tags": [
+        "Two Pointers",
+        "String",
+        "Dynamic Programming",
+        "Manacher"
+      ],
+      "title": "Longest Palindromic Substring",
+      "url": "https://leetcode.com/problems/longest-palindromic-substring/"
     },
     "leetcode:longest-subsequence-with-non-zero-bitwise-xor": {
       "attempts": 1,
@@ -1576,6 +2154,81 @@
       ],
       "title": "Maximum Length Substring With Two Occurrences",
       "url": "https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/"
+    },
+    "leetcode:median-of-two-sorted-arrays": {
+      "attempts": 1,
+      "code": "class Solution {\n    public double findMedianSortedArrays(int[] nums1, int[] nums2) {\n        if (nums1.length > nums2.length) {\n            return findMedianSortedArrays(nums2, nums1);\n        }\n        int n = nums1.length;\n        int m = nums2.length;\n        int low = 0;\n        int high = n;\n\n        while (low <= high) {\n            int x = low + (high - low) / 2;\n            int y = (n + m + 1) / 2 - x;\n            int l1 = (x == 0) ? Integer.MIN_VALUE : nums1[x - 1];\n            int r1 = (x == n) ? Integer.MAX_VALUE : nums1[x];\n            int l2 = (y == 0) ? Integer.MIN_VALUE : nums2[y - 1];\n            int r2 = (y == m) ? Integer.MAX_VALUE : nums2[y];\n            // Correct partition\n            if (l1 <= r2 && l2 <= r1) {\n                // Odd total length\n                if ((n + m) % 2 == 1) {\n                    return Math.max(l1, l2);\n                }\n                // Even total length\n                return (Math.max(l1, l2) + Math.min(r1, r2)) / 2.0;\n            }\n            // Too many elements from nums1\n            if (l1 > r2) {\n                high = x - 1;\n            } \n            // Too few elements from nums1\n            else {\n                low = x + 1;\n            }\n        }\n        return 0;\n    }\n}",
+      "difficulty": "hard",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787217608691,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "48.8 MB",
+          "runtime": "1 ms",
+          "submissionId": "2113736431",
+          "testsPassed": 2099,
+          "testsTotal": 2099,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/a16e5941e52e5344f244f832020f3e1c5e731613",
+        "path": "leetcode/hard/0004-median-of-two-sorted-arrays/solution.java",
+        "status": "synced",
+        "syncedAt": 1787217612951
+      },
+      "history": [
+        {
+          "at": 1787217609050,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787217612951,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/hard/0004-median-of-two-sorted-arrays/solution.java"
+        },
+        {
+          "at": 1787217612951,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:median-of-two-sorted-arrays",
+      "language": "Java",
+      "memoryNote": "Memory 48.8 MB (beats 72.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "4",
+      "revision": {
+        "dueAt": 1787304009050,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 1 ms (beats 100.0%)",
+      "slug": "median-of-two-sorted-arrays",
+      "solveTimeMs": 26140,
+      "solvedAt": 1787217609050,
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Divide and Conquer"
+      ],
+      "title": "Median of Two Sorted Arrays",
+      "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
     },
     "leetcode:minimum-total-price-after-applying-discounts": {
       "attempts": 1,
@@ -2720,6 +3373,18 @@
         "verdict": "Accepted"
       }
     ],
+    "codeforces:2240A": [
+      {
+        "accepted": true,
+        "at": 1787297772945,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "memory": "0 KB",
+        "runtime": "31 ms",
+        "submissionId": "387856298",
+        "verdict": "Accepted"
+      }
+    ],
     "codeforces:2241A": [
       {
         "accepted": true,
@@ -2864,6 +3529,61 @@
         "verdict": "Wrong answer on test 10"
       }
     ],
+    "leetcode:cinema-seat-allocation": [
+      {
+        "accepted": true,
+        "at": 1787116398861,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "53.3 MB",
+        "runtime": "24 ms",
+        "submissionId": "2112241380",
+        "testsPassed": 53,
+        "testsTotal": 53,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:distribute-elements-into-two-arrays-i": [
+      {
+        "accepted": true,
+        "at": 1787201130928,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "46.9 MB",
+        "runtime": "1 ms",
+        "submissionId": "2113454012",
+        "testsPassed": 622,
+        "testsTotal": 622,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:find-the-largest-almost-missing-integer": [
+      {
+        "accepted": true,
+        "actualOutput": "7\n3\n-1",
+        "at": 1787036392560,
+        "expectedOutput": "7\n3\n-1",
+        "kind": "run",
+        "language": "Java",
+        "memory": "42.4 MB",
+        "runtime": "0 ms",
+        "testsPassed": 3,
+        "testsTotal": 3,
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1787036397096,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "44 MB",
+        "runtime": "0 ms",
+        "submissionId": "2111064447",
+        "testsPassed": 900,
+        "testsTotal": 900,
+        "verdict": "Accepted"
+      }
+    ],
     "leetcode:find-the-lexicographically-smallest-valid-sequence": [
       {
         "accepted": true,
@@ -2915,6 +3635,20 @@
         "verdict": "Accepted"
       }
     ],
+    "leetcode:kth-smallest-amount-with-single-denomination-combination": [
+      {
+        "accepted": true,
+        "at": 1787287151460,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "43.7 MB",
+        "runtime": "4 ms",
+        "submissionId": "2114631877",
+        "testsPassed": 561,
+        "testsTotal": 561,
+        "verdict": "Accepted"
+      }
+    ],
     "leetcode:length-of-last-word": [
       {
         "accepted": true,
@@ -2953,6 +3687,20 @@
         "submissionId": "2103609494",
         "testsPassed": 994,
         "testsTotal": 994,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:longest-palindromic-substring": [
+      {
+        "accepted": true,
+        "at": 1787298440600,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "43.1 MB",
+        "runtime": "14 ms",
+        "submissionId": "2114806086",
+        "testsPassed": 144,
+        "testsTotal": 144,
         "verdict": "Accepted"
       }
     ],
@@ -3032,6 +3780,20 @@
         "submissionId": "2106270897",
         "testsPassed": 709,
         "testsTotal": 709,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:median-of-two-sorted-arrays": [
+      {
+        "accepted": true,
+        "at": 1787217608691,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "48.8 MB",
+        "runtime": "1 ms",
+        "submissionId": "2113736431",
+        "testsPassed": 2099,
+        "testsTotal": 2099,
         "verdict": "Accepted"
       }
     ],
