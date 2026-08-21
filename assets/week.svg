@@ -25,7 +25,7 @@
   <circle cx="60" cy="62" r="18" fill="#f97316" opacity="0.16" />
   <text x="60" y="71" class="title" fill="#f97316" text-anchor="middle" font-size="24">↻</text>
   <text x="92" y="60" class="title">My week in code</text>
-  <text x="92" y="84" class="sub">13 Aug – 20 Aug</text>
+  <text x="92" y="84" class="sub">14 Aug – 21 Aug</text>
 
   
     <g class="rise" style="animation-delay:0s">
@@ -49,19 +49,19 @@
     <g class="rise" style="animation-delay:0.21000000000000002s">
       <rect x="754" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="776" y="188" class="big">4</text>
+      <text x="776" y="188" class="big">5</text>
       <text x="776" y="211" class="small">day streak</text>
     </g>
   <text x="40" y="252" class="label">DIFFICULTY MIX</text>
-  <rect x="40" y="262" width="460" height="14" rx="7" fill="#34d399" />
-    <text x="40" y="296" class="small" fill="#34d399">4 easy</text><rect x="506" y="262" width="230" height="14" rx="7" fill="#fbbf24" />
-    <text x="506" y="296" class="small" fill="#fbbf24">2 medium</text><rect x="742" y="262" width="230" height="14" rx="7" fill="#f87171" />
-    <text x="742" y="296" class="small" fill="#f87171">2 hard</text>
+  <rect x="40" y="262" width="345" height="14" rx="7" fill="#34d399" />
+    <text x="40" y="296" class="small" fill="#34d399">3 easy</text><rect x="391" y="262" width="230" height="14" rx="7" fill="#fbbf24" />
+    <text x="391" y="296" class="small" fill="#fbbf24">2 medium</text><rect x="627" y="262" width="345" height="14" rx="7" fill="#f87171" />
+    <text x="627" y="296" class="small" fill="#f87171">3 hard</text>
   <text x="40" y="326" class="label">TOPICS</text>
     <g class="rise">
       <rect x="40" y="336" width="87" height="30" rx="15" fill="#141419" stroke="#26262e" />
       <text x="56" y="356" class="chip">Array</text>
-      <text x="109" y="356" class="chipCount" text-anchor="end">6</text>
+      <text x="109" y="356" class="chipCount" text-anchor="end">7</text>
     </g>
     <g class="rise">
       <rect x="135" y="336" width="128" height="30" rx="15" fill="#141419" stroke="#26262e" />
@@ -71,17 +71,17 @@
     <g class="rise">
       <rect x="271" y="336" width="177.2" height="30" rx="15" fill="#141419" stroke="#26262e" />
       <text x="287" y="356" class="chip">Bit Manipulation</text>
-      <text x="430.2" y="356" class="chipCount" text-anchor="end">2</text>
+      <text x="430.2" y="356" class="chipCount" text-anchor="end">3</text>
     </g>
     <g class="rise">
-      <rect x="456.2" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="472.2" y="356" class="chip">String</text>
-      <text x="533.4" y="356" class="chipCount" text-anchor="end">2</text>
+      <rect x="456.2" y="336" width="78.8" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="472.2" y="356" class="chip">Math</text>
+      <text x="517" y="356" class="chipCount" text-anchor="end">2</text>
     </g>
     <g class="rise">
-      <rect x="559.4" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="575.4" y="356" class="chip">Greedy</text>
-      <text x="636.5999999999999" y="356" class="chipCount" text-anchor="end">1</text>
+      <rect x="543" y="336" width="152.6" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="559" y="356" class="chip">Binary Search</text>
+      <text x="677.6" y="356" class="chipCount" text-anchor="end">2</text>
     </g>
   
     <g class="rise" style="animation-delay:.25s">
@@ -93,6 +93,6 @@
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>
 
-  <text x="40" y="516" class="foot">5 min at the keyboard · 3 runs · 0 hints · new: Bit Manipulation, Simulation, Binary Search</text>
+  <text x="40" y="516" class="foot">4 min at the keyboard · 2 runs · 0 hints · new: Bit Manipulation, Simulation, Binary Search</text>
   <text x="960" y="516" class="foot" text-anchor="end">Redo · parikshaa.org</text>
 </svg>

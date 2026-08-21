@@ -1,11 +1,12 @@
 # DSA Solutions
 
-30 solved — 12 easy · 11 medium · 7 hard. Last updated 2026-08-20.
+31 solved — 12 easy · 11 medium · 8 hard. Last updated 2026-08-21.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 3116 | [Kth Smallest Amount With Single Denomination Combination](leetcode/hard/3116-kth-smallest-amount-with-single-denomination-combination/solution.java) | LeetCode | hard | Java | 2026-08-21 |
 | 0004 | [Median of Two Sorted Arrays](leetcode/hard/0004-median-of-two-sorted-arrays/solution.java) | LeetCode | hard | Java | 2026-08-20 |
 | 3069 | [Distribute Elements Into Two Arrays I](leetcode/easy/3069-distribute-elements-into-two-arrays-i/solution.java) | LeetCode | easy | Java | 2026-08-20 |
 | 1386 | [Cinema Seat Allocation](leetcode/medium/1386-cinema-seat-allocation/solution.java) | LeetCode | medium | Java | 2026-08-19 |

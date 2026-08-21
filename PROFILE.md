@@ -2,7 +2,7 @@
 
 <img src="assets/profile.svg" alt="Coding profile" width="840">
 
-_Regenerated on every sync — last run 2026-08-20._
+_Regenerated on every sync — last run 2026-08-21._
 
 ## This week
 
@@ -12,11 +12,11 @@ _Regenerated on every sync — last run 2026-08-20._
 
 | | |
 | --- | --- |
-| Problems solved | 30 |
+| Problems solved | 31 |
 | Due for revision today | 28 |
 | Revisions completed | 0 |
-| Current streak | 4 days |
-| Submissions recorded | 27 (0 rejected) |
+| Current streak | 5 days |
+| Submissions recorded | 28 (0 rejected) |
 | Runs recorded | 23 |
 | Median time to solve | 1 min |
 
@@ -24,8 +24,8 @@ _Regenerated on every sync — last run 2026-08-20._
 
 | Topic | Solved | Lapses | Mastery |
 | --- | --- | --- | --- |
-| array | 13 | 0 | 45/100 |
-| math | 12 | 0 | 45/100 |
+| array | 14 | 0 | 45/100 |
+| math | 13 | 0 | 45/100 |
 | dynamic programming | 7 | 0 | 45/100 |
 | greedy | 6 | 0 | 45/100 |
 | hash table | 6 | 0 | 45/100 |
@@ -35,9 +35,9 @@ _Regenerated on every sync — last run 2026-08-20._
 | Topic | Solved | Mastery |
 | --- | --- | --- |
 | sliding window | 2 | 45/100 |
-| bit manipulation | 2 | 45/100 |
+| binary search | 2 | 45/100 |
 | dp | 2 | 45/100 |
-| number theory | 4 | 45/100 |
+| bit manipulation | 3 | 45/100 |
 | zero-sum game | 5 | 45/100 |
 
 ## Fought hardest for these
@@ -48,6 +48,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | --- | --- | --- | --- | --- |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
+| [Kth Smallest Amount With Single Denomination Combination](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/) | 1 | 0 | under a minute | 0/100 |
 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 1 | 0 | under a minute | 0/100 |
 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 1 | 0 | 1 min | 0/100 |
 | [Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation/) | 1 | 0 | under a minute | 0/100 |
@@ -55,7 +56,6 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Stone Game V](https://leetcode.com/problems/stone-game-v/) | 1 | 0 | 1 min | 0/100 |
 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 1 | 1 | under a minute | 0/100 |
 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 1 | 0 | under a minute | 0/100 |
-| [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 1 | 1 | 1 min | 0/100 |
 
 ## Revision queue
 
