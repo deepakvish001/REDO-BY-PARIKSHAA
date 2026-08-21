@@ -21,7 +21,7 @@
   <circle cx="36" cy="33" r="13" fill="#f97316" opacity="0.16" />
   <text x="36" y="40" class="title" fill="#f97316" text-anchor="middle">↻</text>
   <text x="56" y="39" class="title">Coding profile</text>
-  <text x="56" y="54" class="subtitle">Updated 2026-08-21 04:39 UTC</text>
+  <text x="56" y="54" class="subtitle">Updated 2026-08-21 07:36 UTC</text>
   
     <g class="tile" style="animation-delay:0s">
       <rect x="24" y="62" width="186" height="62" rx="12"
@@ -32,7 +32,7 @@
     <g class="tile" style="animation-delay:0.06s">
       <rect x="220" y="62" width="186" height="62" rx="12"
             fill="#141419" stroke="#26262e" />
-      <text x="236" y="94" class="tileValue">28</text>
+      <text x="236" y="94" class="tileValue">29</text>
       <text x="236" y="112" class="tileLabel">due today</text>
     </g>
     <g class="tile" style="animation-delay:0.12s">

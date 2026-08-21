@@ -13,7 +13,7 @@ _Regenerated on every sync — last run 2026-08-21._
 | | |
 | --- | --- |
 | Problems solved | 31 |
-| Due for revision today | 28 |
+| Due for revision today | 29 |
 | Revisions completed | 0 |
 | Current streak | 5 days |
 | Submissions recorded | 28 (0 rejected) |
@@ -48,6 +48,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | --- | --- | --- | --- | --- |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
+| [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0 | — | 0/100 |
 | [Kth Smallest Amount With Single Denomination Combination](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/) | 1 | 0 | under a minute | 0/100 |
 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 1 | 0 | under a minute | 0/100 |
 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 1 | 0 | 1 min | 0/100 |
@@ -55,7 +56,6 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | 1 | 1 | under a minute | 0/100 |
 | [Stone Game V](https://leetcode.com/problems/stone-game-v/) | 1 | 0 | 1 min | 0/100 |
 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 1 | 1 | under a minute | 0/100 |
-| [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 1 | 0 | under a minute | 0/100 |
 
 ## Revision queue
 

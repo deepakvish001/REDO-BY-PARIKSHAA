@@ -3,7 +3,7 @@
 **Platform:** Codeforces  
 **Difficulty:** easy  
 **Link:** https://codeforces.com/contest/2248/problem/A  
-**Solved:** 2026-08-09  
+**Solved:** 2026-08-21  
 **Language:** C++17 (GCC 7-32)  
 **Attempts before accepted:** 1
 
@@ -20,10 +20,22 @@ _Add your notes here._
 
 ## Record
 
-Solved 4× · GitHub sync 6× · Parikshaa sync 6×
+Solved 8× · GitHub sync 10× · Parikshaa sync 10×
 
 | When (UTC) | What | Outcome | Reason |
 | --- | --- | --- | --- |
+| 2026-08-21 07:36 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
+| 2026-08-12 04:15 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-12 04:15 | GitHub sync | error | GitHub rejected the commit. GitHub said: "Update is not a fast forward". |
+| 2026-08-12 04:15 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
+| 2026-08-11 13:07 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-11 13:07 | GitHub sync | error | GitHub rejected the commit. GitHub said: "Update is not a fast forward". |
+| 2026-08-11 13:07 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
+| 2026-08-11 13:04 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-11 13:04 | GitHub sync | error | GitHub rejected the commit. GitHub said: "Update is not a fast forward". |
+| 2026-08-11 13:04 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
+| 2026-08-09 05:37 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-09 05:37 | GitHub sync | synced | codeforces/easy/2248A-you-delete-i-delete/solution.cpp |
 | 2026-08-09 05:37 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
 | 2026-08-06 08:37 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
 | 2026-08-06 08:37 | GitHub sync | synced | codeforces/easy/2248A-you-delete-i-delete/solution.cpp |

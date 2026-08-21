@@ -43,7 +43,7 @@
     <g class="rise" style="animation-delay:0.14s">
       <rect x="516" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="538" y="188" class="big">8</text>
+      <text x="538" y="188" class="big">7</text>
       <text x="538" y="211" class="small">submissions</text>
     </g>
     <g class="rise" style="animation-delay:0.21000000000000002s">
@@ -64,14 +64,14 @@
       <text x="109" y="356" class="chipCount" text-anchor="end">7</text>
     </g>
     <g class="rise">
-      <rect x="135" y="336" width="128" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="151" y="356" class="chip">Hash Table</text>
-      <text x="245" y="356" class="chipCount" text-anchor="end">3</text>
+      <rect x="135" y="336" width="177.2" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="151" y="356" class="chip">Bit Manipulation</text>
+      <text x="294.2" y="356" class="chipCount" text-anchor="end">3</text>
     </g>
     <g class="rise">
-      <rect x="271" y="336" width="177.2" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="287" y="356" class="chip">Bit Manipulation</text>
-      <text x="430.2" y="356" class="chipCount" text-anchor="end">3</text>
+      <rect x="320.2" y="336" width="128" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="336.2" y="356" class="chip">Hash Table</text>
+      <text x="430.2" y="356" class="chipCount" text-anchor="end">2</text>
     </g>
     <g class="rise">
       <rect x="456.2" y="336" width="78.8" height="30" rx="15" fill="#141419" stroke="#26262e" />
@@ -87,8 +87,8 @@
     <g class="rise" style="animation-delay:.25s">
       <rect x="40" y="396" width="920" height="86" rx="16" fill="#141419" stroke="#26262e" />
       <text x="62" y="424" class="label">BIGGEST FIGHT</text>
-      <text x="62" y="452" class="fightTitle">Cinema Seat Allocation</text>
-      <text x="62" y="472" class="small">1 submit · under a minute</text>
+      <text x="62" y="452" class="fightTitle">You Delete, I Delete</text>
+      <text x="62" y="472" class="small">1 submit</text>
       <text x="938" y="452" class="fightScore" text-anchor="end">0</text>
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>

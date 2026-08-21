@@ -6,6 +6,7 @@
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
 | 3116 | [Kth Smallest Amount With Single Denomination Combination](leetcode/hard/3116-kth-smallest-amount-with-single-denomination-combination/solution.java) | LeetCode | hard | Java | 2026-08-21 |
 | 0004 | [Median of Two Sorted Arrays](leetcode/hard/0004-median-of-two-sorted-arrays/solution.java) | LeetCode | hard | Java | 2026-08-20 |
 | 3069 | [Distribute Elements Into Two Arrays I](leetcode/easy/3069-distribute-elements-into-two-arrays-i/solution.java) | LeetCode | easy | Java | 2026-08-20 |
@@ -21,7 +22,6 @@
 | 2238B | [Crimson Triples](codeforces/easy/2238B-crimson-triples/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
 | 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
 | 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
-| 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
 | 2245A | [Who Watches the Watchpig?](codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
 | 2241A | [Divide and Conquer](codeforces/easy/2241A-divide-and-conquer/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-12 |
 | 0486 | [Predict the Winner](leetcode/medium/0486-predict-the-winner/solution.java) | LeetCode | medium | Java | 2026-08-12 |
