@@ -1,11 +1,12 @@
 # DSA Solutions
 
-33 solved — 13 easy · 12 medium · 8 hard. Last updated 2026-08-21.
+34 solved — 14 easy · 12 medium · 8 hard. Last updated 2026-08-22.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 3622 | [Check Divisibility by Digit Sum and Product](leetcode/easy/3622-check-divisibility-by-digit-sum-and-product/solution.java) | LeetCode | easy | Java | 2026-08-22 |
 | 0005 | [Longest Palindromic Substring](leetcode/medium/0005-longest-palindromic-substring/solution.java) | LeetCode | medium | Java | 2026-08-21 |
 | 2240A | [Another Popcount Problem](codeforces/easy/2240A-another-popcount-problem/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
 | 2238B | [Crimson Triples](codeforces/easy/2238B-crimson-triples/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
