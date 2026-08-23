@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1787423456269,
+  "exportedAt": 1787510137193,
   "settings": {
     "github": {
       "token": "",
@@ -1106,6 +1106,79 @@
       ],
       "title": "Threshold Movement",
       "url": "https://codeforces.com/contest/2250/problem/A"
+    },
+    "leetcode:check-divisibility-by-digit-sum-and-product": {
+      "attempts": 1,
+      "code": "class Solution {\n    public boolean checkDivisibility(int n) {\n        int sum = 0, product = 1, x = n;\n\n        while (x > 0) {\n            int d = x % 10;\n            sum += d;\n            product *= d;\n            x /= 10;\n        }\n\n        return n % (sum + product) == 0;\n    }\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787425123291,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "42.4 MB",
+          "runtime": "0 ms",
+          "submissionId": "2116541539",
+          "testsPassed": 636,
+          "testsTotal": 636,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/c1937471c80abd93d0770c9ed8a79b5be9492f11",
+        "path": "leetcode/easy/3622-check-divisibility-by-digit-sum-and-product/solution.java",
+        "status": "synced",
+        "syncedAt": 1787425127132
+      },
+      "history": [
+        {
+          "at": 1787425123707,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787425127132,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/easy/3622-check-divisibility-by-digit-sum-and-product/solution.java"
+        },
+        {
+          "at": 1787425127132,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:check-divisibility-by-digit-sum-and-product",
+      "language": "Java",
+      "memoryNote": "Memory 42.4 MB (beats 62.3%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "3622",
+      "revision": {
+        "dueAt": 1787511523707,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 0 ms (beats 100.0%)",
+      "slug": "check-divisibility-by-digit-sum-and-product",
+      "solveTimeMs": 18508,
+      "solvedAt": 1787425123707,
+      "tags": [
+        "Math"
+      ],
+      "title": "Check Divisibility by Digit Sum and Product",
+      "url": "https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/"
     },
     "leetcode:cinema-seat-allocation": {
       "attempts": 1,
@@ -3228,6 +3301,82 @@
       "title": "Stone Game V",
       "url": "https://leetcode.com/problems/stone-game-v/"
     },
+    "leetcode:sum-game": {
+      "attempts": 1,
+      "code": "class Solution {\n    public boolean sumGame(String num) {\n        int n = num.length();\n        int diff = 0;\n        int count = 0;\n\n        for (int i = 0; i < n; i++) {\n            boolean firstHalf = i < n / 2;\n\n            if (num.charAt(i) == '?') {\n                count += firstHalf ? 1 : -1;\n            } else {\n                int digit = num.charAt(i) - '0';\n                diff += firstHalf ? digit : -digit;\n            }\n        }\n\n        return 2 * diff != -9 * count;\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787472762199,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "47 MB",
+          "runtime": "10 ms",
+          "submissionId": "2117103804",
+          "testsPassed": 95,
+          "testsTotal": 95,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/0917911c7303d1875c761b6155fc39e26d3388ae",
+        "path": "leetcode/medium/1927-sum-game/solution.java",
+        "status": "synced",
+        "syncedAt": 1787472766527
+      },
+      "history": [
+        {
+          "at": 1787472762723,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787472766527,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/1927-sum-game/solution.java"
+        },
+        {
+          "at": 1787472766527,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:sum-game",
+      "language": "Java",
+      "memoryNote": "Memory 47 MB (beats 41.6%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "1927",
+      "revision": {
+        "dueAt": 1787559162723,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 10 ms (beats 16.1%)",
+      "slug": "sum-game",
+      "solveTimeMs": 20135,
+      "solvedAt": 1787472762723,
+      "tags": [
+        "Math",
+        "String",
+        "Greedy",
+        "Game Theory"
+      ],
+      "title": "Sum Game",
+      "url": "https://leetcode.com/problems/sum-game/"
+    },
     "leetcode:weighted-sum-of-a-tree": {
       "attempts": 1,
       "code": "class Solution:\n    def weightedSum(self, parent: list[int], nums: list[int]) -> int:\n        n = len(parent)\n        x = [[] for _ in range(n)]\n        for i in range(1,n):\n            x[parent[i]].append(i)\n\n        y = (parent, nums)\n        d = [0] * n\n        d[0] = 1\n        q = [0]\n        for u in q:\n            for v in x[u]:\n                d[v] = d[u] + 1\n                q.append(v)\n        h = d[q[-1]]\n        ans = 0\n        for i in range(n):\n            ans += nums[i] * (h - d[i]+1)\n        return ans",
@@ -3527,6 +3676,20 @@
         "submissionId": "386129118",
         "testsPassed": 9,
         "verdict": "Wrong answer on test 10"
+      }
+    ],
+    "leetcode:check-divisibility-by-digit-sum-and-product": [
+      {
+        "accepted": true,
+        "at": 1787425123291,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "42.4 MB",
+        "runtime": "0 ms",
+        "submissionId": "2116541539",
+        "testsPassed": 636,
+        "testsTotal": 636,
+        "verdict": "Accepted"
       }
     ],
     "leetcode:cinema-seat-allocation": [
@@ -4093,6 +4256,20 @@
         "submissionId": "2109776157",
         "testsPassed": 132,
         "testsTotal": 132,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:sum-game": [
+      {
+        "accepted": true,
+        "at": 1787472762199,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "47 MB",
+        "runtime": "10 ms",
+        "submissionId": "2117103804",
+        "testsPassed": 95,
+        "testsTotal": 95,
         "verdict": "Accepted"
       }
     ],
