@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1787510137193,
+  "exportedAt": 1787596615887,
   "settings": {
     "github": {
       "token": "",
@@ -1155,8 +1155,8 @@
       "language": "Java",
       "memoryNote": "Memory 42.4 MB (beats 62.3%)",
       "parikshaa": {
-        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
-        "status": "pending"
+        "reason": "No Parikshaa problem uses this slug.",
+        "status": "skipped"
       },
       "platform": "leetcode",
       "problemId": "3622",
@@ -1228,8 +1228,8 @@
       "language": "Java",
       "memoryNote": "Memory 53.3 MB (beats 38.4%)",
       "parikshaa": {
-        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
-        "status": "pending"
+        "reason": "No Parikshaa problem uses this slug.",
+        "status": "skipped"
       },
       "platform": "leetcode",
       "problemId": "1386",
@@ -1304,8 +1304,8 @@
       "language": "Java",
       "memoryNote": "Memory 46.9 MB (beats 23.8%)",
       "parikshaa": {
-        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
-        "status": "pending"
+        "reason": "No Parikshaa problem uses this slug.",
+        "status": "skipped"
       },
       "platform": "leetcode",
       "problemId": "3069",
@@ -1391,8 +1391,8 @@
       "language": "Java",
       "memoryNote": "Memory 44 MB (beats 99.3%)",
       "parikshaa": {
-        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
-        "status": "pending"
+        "reason": "No Parikshaa problem uses this slug.",
+        "status": "skipped"
       },
       "platform": "leetcode",
       "problemId": "3471",
@@ -3301,6 +3301,85 @@
       "title": "Stone Game V",
       "url": "https://leetcode.com/problems/stone-game-v/"
     },
+    "leetcode:stone-game-viii": {
+      "attempts": 1,
+      "code": "class Solution {\n    public int stoneGameVIII(int[] stones) {\n        int n = stones.length;\n\n        for (int i = 1; i < n; i++) {\n            stones[i] += stones[i - 1];\n        }\n\n        int best = stones[n - 1];\n\n        for (int i = n - 2; i >= 1; i--) {\n            best = Math.max(\n                best,\n                stones[i] - best\n            );\n        }\n\n        return best;\n    }\n}",
+      "difficulty": "hard",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787553856367,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "83.1 MB",
+          "runtime": "3 ms",
+          "submissionId": "2118115807",
+          "testsPassed": 80,
+          "testsTotal": 80,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/7dd1f6f3bfc9e60d5ffeda492777a6806d50db8c",
+        "path": "leetcode/hard/1872-stone-game-viii/solution.java",
+        "status": "synced",
+        "syncedAt": 1787553860481
+      },
+      "history": [
+        {
+          "at": 1787553856763,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787553860481,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/hard/1872-stone-game-viii/solution.java"
+        },
+        {
+          "at": 1787553860481,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:stone-game-viii",
+      "language": "Java",
+      "memoryNote": "Memory 83.1 MB (beats 98.7%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "1872",
+      "revision": {
+        "dueAt": 1787640256763,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 3 ms (beats 100.0%)",
+      "slug": "stone-game-viii",
+      "solveTimeMs": 37723,
+      "solvedAt": 1787553856763,
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Minimax",
+        "Prefix Sum",
+        "Game Theory",
+        "Zero-Sum Game"
+      ],
+      "title": "Stone Game VIII",
+      "url": "https://leetcode.com/problems/stone-game-viii/"
+    },
     "leetcode:sum-game": {
       "attempts": 1,
       "code": "class Solution {\n    public boolean sumGame(String num) {\n        int n = num.length();\n        int diff = 0;\n        int count = 0;\n\n        for (int i = 0; i < n; i++) {\n            boolean firstHalf = i < n / 2;\n\n            if (num.charAt(i) == '?') {\n                count += firstHalf ? 1 : -1;\n            } else {\n                int digit = num.charAt(i) - '0';\n                diff += firstHalf ? digit : -digit;\n            }\n        }\n\n        return 2 * diff != -9 * count;\n    }\n}",
@@ -4256,6 +4335,20 @@
         "submissionId": "2109776157",
         "testsPassed": 132,
         "testsTotal": 132,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:stone-game-viii": [
+      {
+        "accepted": true,
+        "at": 1787553856367,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "83.1 MB",
+        "runtime": "3 ms",
+        "submissionId": "2118115807",
+        "testsPassed": 80,
+        "testsTotal": 80,
         "verdict": "Accepted"
       }
     ],
