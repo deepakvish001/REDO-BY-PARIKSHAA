@@ -25,7 +25,7 @@
   <circle cx="60" cy="62" r="18" fill="#f97316" opacity="0.16" />
   <text x="60" y="71" class="title" fill="#f97316" text-anchor="middle" font-size="24">↻</text>
   <text x="92" y="60" class="title">My week in code</text>
-  <text x="92" y="84" class="sub">17 Aug – 24 Aug</text>
+  <text x="92" y="84" class="sub">18 Aug – 25 Aug</text>
 
   
     <g class="rise" style="animation-delay:0s">
@@ -49,7 +49,7 @@
     <g class="rise" style="animation-delay:0.21000000000000002s">
       <rect x="754" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="776" y="188" class="big">2</text>
+      <text x="776" y="188" class="big">3</text>
       <text x="776" y="211" class="small">day streak</text>
     </g>
   <text x="40" y="252" class="label">DIFFICULTY MIX</text>
@@ -93,6 +93,6 @@
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>
 
-  <text x="40" y="516" class="foot">2h 53m at the keyboard · 1 run · 0 hints · new: dp, math, number theory</text>
+  <text x="40" y="516" class="foot">2h 53m at the keyboard · 0 runs · 0 hints · new: dp, math, number theory</text>
   <text x="960" y="516" class="foot" text-anchor="end">Redo · parikshaa.org</text>
 </svg>

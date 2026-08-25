@@ -2,7 +2,7 @@
 
 <img src="assets/profile.svg" alt="Coding profile" width="840">
 
-_Regenerated on every sync — last run 2026-08-24._
+_Regenerated on every sync — last run 2026-08-25._
 
 ## This week
 
@@ -12,11 +12,11 @@ _Regenerated on every sync — last run 2026-08-24._
 
 | | |
 | --- | --- |
-| Problems solved | 36 |
-| Due for revision today | 34 |
+| Problems solved | 37 |
+| Due for revision today | 36 |
 | Revisions completed | 0 |
-| Current streak | 2 days |
-| Submissions recorded | 33 (0 rejected) |
+| Current streak | 3 days |
+| Submissions recorded | 34 (0 rejected) |
 | Runs recorded | 23 |
 | Median time to solve | 1 min |
 
@@ -26,7 +26,7 @@ _Regenerated on every sync — last run 2026-08-24._
 | --- | --- | --- | --- |
 | greedy | 8 | 0 | 44/100 |
 | math | 16 | 0 | 45/100 |
-| array | 15 | 0 | 45/100 |
+| array | 16 | 0 | 45/100 |
 | dynamic programming | 9 | 0 | 45/100 |
 | string | 8 | 0 | 45/100 |
 
@@ -49,13 +49,13 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
 | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 1 | 0 | 2h 42m | 20/100 |
+| [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 1 | 0 | under a minute | 0/100 |
 | [Stone Game VIII](https://leetcode.com/problems/stone-game-viii/) | 1 | 0 | 1 min | 0/100 |
 | [Sum Game](https://leetcode.com/problems/sum-game/) | 1 | 0 | under a minute | 0/100 |
 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 1 | 0 | under a minute | 0/100 |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 1 | 0 | 1 min | 0/100 |
 | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 1 | 0 | 1 min | 0/100 |
 | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
-| [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | 1 | 0 | 2 min | 0/100 |
 
 ## Revision queue
 
