@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1787596615887,
+  "exportedAt": 1787686431668,
   "settings": {
     "github": {
       "token": "",
@@ -2859,6 +2859,80 @@
       "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
       "url": "https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/"
     },
+    "leetcode:smallest-missing-multiple-of-k": {
+      "attempts": 1,
+      "code": "class Solution {\n\n    public int missingMultiple(int[] nums, int k) {\n        boolean[] contains = new boolean[201];\n\n        for (int ele : nums) {\n            contains[ele] = true;\n        }\n\n        int ans = k;\n\n        while (contains[ans]) {\n            ans += k;\n        }\n\n        return ans;\n    }\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787655315974,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "45 MB",
+          "runtime": "0 ms",
+          "submissionId": "2119550132",
+          "testsPassed": 664,
+          "testsTotal": 664,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/32551a0fe66f92783e9b2d7df8f39306110853a0",
+        "path": "leetcode/easy/3718-smallest-missing-multiple-of-k/solution.java",
+        "status": "synced",
+        "syncedAt": 1787655319469
+      },
+      "history": [
+        {
+          "at": 1787655316342,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787655319469,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/easy/3718-smallest-missing-multiple-of-k/solution.java"
+        },
+        {
+          "at": 1787655319469,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:smallest-missing-multiple-of-k",
+      "language": "Java",
+      "memoryNote": "Memory 45 MB (beats 76.3%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "3718",
+      "revision": {
+        "dueAt": 1787741716342,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 0 ms (beats 100.0%)",
+      "slug": "smallest-missing-multiple-of-k",
+      "solveTimeMs": 19794,
+      "solvedAt": 1787655316342,
+      "tags": [
+        "Array",
+        "Hash Table"
+      ],
+      "title": "Smallest Missing Multiple of K",
+      "url": "https://leetcode.com/problems/smallest-missing-multiple-of-k/"
+    },
     "leetcode:stone-game": {
       "attempts": 1,
       "code": "class Solution {\n    public boolean stoneGame(int[] piles) {\n       return true; \n    }\n}",
@@ -4239,6 +4313,20 @@
         "submissionId": "2102846228",
         "testsPassed": 616,
         "testsTotal": 616,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:smallest-missing-multiple-of-k": [
+      {
+        "accepted": true,
+        "at": 1787655315974,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "45 MB",
+        "runtime": "0 ms",
+        "submissionId": "2119550132",
+        "testsPassed": 664,
+        "testsTotal": 664,
         "verdict": "Accepted"
       }
     ],
