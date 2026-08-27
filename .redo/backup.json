@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1787769056402,
+  "exportedAt": 1787855455596,
   "settings": {
     "github": {
       "token": "",
@@ -1830,6 +1830,83 @@
       "title": "Length of Longest Subarray With at Most K Frequency",
       "url": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/"
     },
+    "leetcode:lexicographically-smallest-permutation-greater-than-target": {
+      "attempts": 1,
+      "code": "class Solution {\n    public String lexGreaterPermutation(String s, String target) {\n        int[] count = new int[26];\n        for (char ch : s.toCharArray()) {\n            count[ch - 'a']++;\n        }\n\n        int n = s.length();\n        int matched = 0;\n\n        while (matched < n && count[target.charAt(matched) - 'a'] > 0) {\n            count[target.charAt(matched) - 'a']--;\n            matched++;\n        }\n\n        int start = matched < n ? matched : n - 1;\n\n        for (int i = start; i >= 0; i--) {\n            if (i < matched) {\n                count[target.charAt(i) - 'a']++;\n            }\n\n            int bigger = -1;\n            for (int ch = target.charAt(i) - 'a' + 1; ch < 26; ch++) {\n                if (count[ch] > 0) {\n                    bigger = ch;\n                    break;\n                }\n            }\n\n            if (bigger != -1) {\n                count[bigger]--;\n\n                StringBuilder answer = new StringBuilder(target.substring(0, i));\n\n                answer.append((char) ('a' + bigger));\n\n                for (int ch = 0; ch < 26; ch++) {\n                    while (count[ch]-- > 0) {\n                        answer.append((char) ('a' + ch));\n                    }\n                }\n\n                return answer.toString();\n            }\n        }\n\n        return \"\";\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787844571421,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "44.9 MB",
+          "runtime": "2 ms",
+          "submissionId": "2122050450",
+          "testsPassed": 761,
+          "testsTotal": 761,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/714647baf02c72f8d7cef5ff498ab271cf347191",
+        "path": "leetcode/medium/3720-lexicographically-smallest-permutation-greater-than-target/solution.java",
+        "status": "synced",
+        "syncedAt": 1787844575465
+      },
+      "history": [
+        {
+          "at": 1787844571921,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787844575465,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/3720-lexicographically-smallest-permutation-greater-than-target/solution.java"
+        },
+        {
+          "at": 1787844575465,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:lexicographically-smallest-permutation-greater-than-target",
+      "language": "Java",
+      "memoryNote": "Memory 44.9 MB (beats 67.7%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "3720",
+      "revision": {
+        "dueAt": 1787930971921,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 2 ms (beats 91.9%)",
+      "slug": "lexicographically-smallest-permutation-greater-than-target",
+      "solveTimeMs": 21859,
+      "solvedAt": 1787844571921,
+      "tags": [
+        "Hash Table",
+        "String",
+        "Greedy",
+        "Counting",
+        "Enumeration"
+      ],
+      "title": "Lexicographically Smallest Permutation Greater Than Target",
+      "url": "https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/"
+    },
     "leetcode:longest-palindromic-substring": {
       "attempts": 1,
       "code": "class Solution {\n    private int expandFromCenter(String s, int left, int right) {\n        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {\n            left--;\n            right++;\n        }\n        return right - left - 1;\n    }\n\n    public String longestPalindrome(String s) {\n        int bestStart = 0;\n        int bestLength = 1;\n        for (int i = 0; i < s.length(); i++) {\n            int oddLength = expandFromCenter(s, i, i);\n            int evenLength = expandFromCenter(s, i, i + 1);\n            int longer = Math.max(oddLength, evenLength);\n            if (longer > bestLength) {\n                bestLength = longer;\n                bestStart = i - (longer - 1) / 2;\n            }\n        }\n        return s.substring(bestStart, bestStart + bestLength);\n    }\n}",
@@ -2601,6 +2678,80 @@
       ],
       "title": "Predict the Winner",
       "url": "https://leetcode.com/problems/predict-the-winner/"
+    },
+    "leetcode:shortest-and-lexicographically-smallest-beautiful-string": {
+      "attempts": 1,
+      "code": "class Solution {\n    public String shortestBeautifulSubstring(String s, int k) {\n        int min = Integer.MAX_VALUE;\n        String res = \"\";\n        for(int i = 0; i<s.length(); i++) {\n            int count = 0;\n            int c = 0;\n            String ans = \"\";\n            for(int j = i; j<s.length(); j++) {\n                char ch = s.charAt(j);\n                c++;\n                ans += ch;\n                if(ch == '1')  count++;\n                if(count > k)  break; \n                if(count == k) {\n                    if(min > c || min == c && ans.compareTo(res) < 0) {\n                        min = c;\n                        res = ans;\n                    }\n                }  \n            }\n        }\n        return res;\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787772095482,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "47 MB",
+          "runtime": "19 ms",
+          "submissionId": "2121229264",
+          "testsPassed": 674,
+          "testsTotal": 674,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/d0a94455cbd6b9bc75f3a8227f8832a1cea3ffbd",
+        "path": "leetcode/medium/2904-shortest-and-lexicographically-smallest-beautiful-string/solution.java",
+        "status": "synced",
+        "syncedAt": 1787772099594
+      },
+      "history": [
+        {
+          "at": 1787772095928,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787772099594,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/2904-shortest-and-lexicographically-smallest-beautiful-string/solution.java"
+        },
+        {
+          "at": 1787772099594,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:shortest-and-lexicographically-smallest-beautiful-string",
+      "language": "Java",
+      "memoryNote": "Memory 47 MB (beats 6.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "2904",
+      "revision": {
+        "dueAt": 1787858495928,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 19 ms (beats 5.4%)",
+      "slug": "shortest-and-lexicographically-smallest-beautiful-string",
+      "solveTimeMs": 21987,
+      "solvedAt": 1787772095928,
+      "tags": [
+        "String",
+        "Sliding Window"
+      ],
+      "title": "Shortest and Lexicographically Smallest Beautiful String",
+      "url": "https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/"
     },
     "leetcode:smallest-divisible-digit-product-i": {
       "attempts": 1,
@@ -4006,6 +4157,20 @@
         "verdict": "Accepted"
       }
     ],
+    "leetcode:lexicographically-smallest-permutation-greater-than-target": [
+      {
+        "accepted": true,
+        "at": 1787844571421,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "44.9 MB",
+        "runtime": "2 ms",
+        "submissionId": "2122050450",
+        "testsPassed": 761,
+        "testsTotal": 761,
+        "verdict": "Accepted"
+      }
+    ],
     "leetcode:longest-palindromic-substring": [
       {
         "accepted": true,
@@ -4232,6 +4397,20 @@
         "submissionId": "2103612492",
         "testsPassed": 62,
         "testsTotal": 62,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:shortest-and-lexicographically-smallest-beautiful-string": [
+      {
+        "accepted": true,
+        "at": 1787772095482,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "47 MB",
+        "runtime": "19 ms",
+        "submissionId": "2121229264",
+        "testsPassed": 674,
+        "testsTotal": 674,
         "verdict": "Accepted"
       }
     ],
