@@ -2,7 +2,7 @@
 
 <img src="assets/profile.svg" alt="Coding profile" width="840">
 
-_Regenerated on every sync — last run 2026-08-27._
+_Regenerated on every sync — last run 2026-08-28._
 
 ## This week
 
@@ -12,13 +12,13 @@ _Regenerated on every sync — last run 2026-08-27._
 
 | | |
 | --- | --- |
-| Problems solved | 39 |
-| Due for revision today | 37 |
+| Problems solved | 40 |
+| Due for revision today | 38 |
 | Revisions completed | 0 |
-| Current streak | 1 day |
-| Submissions recorded | 36 (0 rejected) |
+| Current streak | 2 days |
+| Submissions recorded | 37 (0 rejected) |
 | Runs recorded | 23 |
-| Median time to solve | 1 min |
+| Median time to solve | under a minute |
 
 ## Needs work
 
@@ -27,7 +27,7 @@ _Regenerated on every sync — last run 2026-08-27._
 | greedy | 9 | 0 | 44/100 |
 | math | 16 | 0 | 45/100 |
 | array | 16 | 0 | 45/100 |
-| string | 10 | 0 | 45/100 |
+| string | 11 | 0 | 45/100 |
 | dynamic programming | 9 | 0 | 45/100 |
 
 ## Solid
@@ -35,10 +35,10 @@ _Regenerated on every sync — last run 2026-08-27._
 | Topic | Solved | Mastery |
 | --- | --- | --- |
 | prefix sum | 2 | 45/100 |
-| enumeration | 2 | 45/100 |
 | binary search | 2 | 45/100 |
-| two pointers | 2 | 45/100 |
 | dp | 2 | 45/100 |
+| enumeration | 3 | 45/100 |
+| sliding window | 3 | 45/100 |
 
 ## Fought hardest for these
 
@@ -49,13 +49,13 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
 | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 1 | 0 | 2h 42m | 20/100 |
+| [Lexicographically Smallest Palindromic Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/) | 1 | 0 | under a minute | 0/100 |
 | [Lexicographically Smallest Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/) | 1 | 0 | under a minute | 0/100 |
 | [Shortest and Lexicographically Smallest Beautiful String](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | 1 | 0 | under a minute | 0/100 |
 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 1 | 0 | under a minute | 0/100 |
 | [Stone Game VIII](https://leetcode.com/problems/stone-game-viii/) | 1 | 0 | 1 min | 0/100 |
 | [Sum Game](https://leetcode.com/problems/sum-game/) | 1 | 0 | under a minute | 0/100 |
 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 1 | 0 | under a minute | 0/100 |
-| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 1 | 0 | 1 min | 0/100 |
 
 ## Revision queue
 

@@ -1,11 +1,12 @@
 # DSA Solutions
 
-39 solved — 15 easy · 15 medium · 9 hard. Last updated 2026-08-27.
+40 solved — 15 easy · 15 medium · 10 hard. Last updated 2026-08-28.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 3734 | [Lexicographically Smallest Palindromic Permutation Greater Than Target](leetcode/hard/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/solution.java) | LeetCode | hard | Java | 2026-08-28 |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](leetcode/medium/3720-lexicographically-smallest-permutation-greater-than-target/solution.java) | LeetCode | medium | Java | 2026-08-27 |
 | 2904 | [Shortest and Lexicographically Smallest Beautiful String](leetcode/medium/2904-shortest-and-lexicographically-smallest-beautiful-string/solution.java) | LeetCode | medium | Java | 2026-08-26 |
 | 3718 | [Smallest Missing Multiple of K](leetcode/easy/3718-smallest-missing-multiple-of-k/solution.java) | LeetCode | easy | Java | 2026-08-25 |
