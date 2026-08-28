@@ -31,7 +31,7 @@
     <g class="rise" style="animation-delay:0s">
       <rect x="40" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="62" y="188" class="big">7</text>
+      <text x="62" y="188" class="big">8</text>
       <text x="62" y="211" class="small">problems solved</text>
     </g>
     <g class="rise" style="animation-delay:0.07s">
@@ -53,10 +53,10 @@
       <text x="776" y="211" class="small">day streak</text>
     </g>
   <text x="40" y="252" class="label">DIFFICULTY MIX</text>
-  <rect x="40" y="262" width="263" height="14" rx="7" fill="#34d399" />
-    <text x="40" y="296" class="small" fill="#34d399">2 easy</text><rect x="309" y="262" width="394" height="14" rx="7" fill="#fbbf24" />
-    <text x="309" y="296" class="small" fill="#fbbf24">3 medium</text><rect x="709" y="262" width="263" height="14" rx="7" fill="#f87171" />
-    <text x="709" y="296" class="small" fill="#f87171">2 hard</text>
+  <rect x="40" y="262" width="345" height="14" rx="7" fill="#34d399" />
+    <text x="40" y="296" class="small" fill="#34d399">3 easy</text><rect x="391" y="262" width="345" height="14" rx="7" fill="#fbbf24" />
+    <text x="391" y="296" class="small" fill="#fbbf24">3 medium</text><rect x="742" y="262" width="230" height="14" rx="7" fill="#f87171" />
+    <text x="742" y="296" class="small" fill="#f87171">2 hard</text>
   <text x="40" y="326" class="label">TOPICS</text>
     <g class="rise">
       <rect x="40" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
@@ -87,12 +87,12 @@
     <g class="rise" style="animation-delay:.25s">
       <rect x="40" y="396" width="920" height="86" rx="16" fill="#141419" stroke="#26262e" />
       <text x="62" y="424" class="label">BIGGEST FIGHT</text>
-      <text x="62" y="452" class="fightTitle">Check Divisibility by Digit Sum and Product</text>
-      <text x="62" y="472" class="small">1 submit · under a minute</text>
-      <text x="938" y="452" class="fightScore" text-anchor="end">0</text>
+      <text x="62" y="452" class="fightTitle">Another Popcount Problem</text>
+      <text x="62" y="472" class="small">1 submit · 2h 42m</text>
+      <text x="938" y="452" class="fightScore" text-anchor="end">20</text>
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>
 
-  <text x="40" y="516" class="foot">3 min at the keyboard · 0 runs · 0 hints · new: Counting</text>
+  <text x="40" y="516" class="foot">2h 45m at the keyboard · 0 runs · 0 hints · new: Counting</text>
   <text x="960" y="516" class="foot" text-anchor="end">Redo · parikshaa.org</text>
 </svg>

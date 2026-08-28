@@ -6,6 +6,7 @@
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2240A | [Another Popcount Problem](codeforces/easy/2240A-another-popcount-problem/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
 | 3734 | [Lexicographically Smallest Palindromic Permutation Greater Than Target](leetcode/hard/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/solution.java) | LeetCode | hard | Java | 2026-08-28 |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](leetcode/medium/3720-lexicographically-smallest-permutation-greater-than-target/solution.java) | LeetCode | medium | Java | 2026-08-27 |
 | 2904 | [Shortest and Lexicographically Smallest Beautiful String](leetcode/medium/2904-shortest-and-lexicographically-smallest-beautiful-string/solution.java) | LeetCode | medium | Java | 2026-08-26 |
@@ -14,7 +15,6 @@
 | 1927 | [Sum Game](leetcode/medium/1927-sum-game/solution.java) | LeetCode | medium | Java | 2026-08-23 |
 | 3622 | [Check Divisibility by Digit Sum and Product](leetcode/easy/3622-check-divisibility-by-digit-sum-and-product/solution.java) | LeetCode | easy | Java | 2026-08-22 |
 | 0005 | [Longest Palindromic Substring](leetcode/medium/0005-longest-palindromic-substring/solution.java) | LeetCode | medium | Java | 2026-08-21 |
-| 2240A | [Another Popcount Problem](codeforces/easy/2240A-another-popcount-problem/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
 | 2238B | [Crimson Triples](codeforces/easy/2238B-crimson-triples/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
 | 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
 | 2245A | [Who Watches the Watchpig?](codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-21 |
