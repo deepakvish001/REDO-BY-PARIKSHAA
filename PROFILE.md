@@ -12,13 +12,13 @@ _Regenerated on every sync — last run 2026-08-28._
 
 | | |
 | --- | --- |
-| Problems solved | 40 |
+| Problems solved | 41 |
 | Due for revision today | 38 |
 | Revisions completed | 0 |
 | Current streak | 2 days |
-| Submissions recorded | 37 (0 rejected) |
+| Submissions recorded | 38 (0 rejected) |
 | Runs recorded | 23 |
-| Median time to solve | under a minute |
+| Median time to solve | 1 min |
 
 ## Needs work
 
@@ -49,13 +49,13 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
 | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 1 | 0 | 2h 42m | 20/100 |
-| [Lexicographically Smallest Palindromic Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/) | 1 | 0 | under a minute | 0/100 |
-| [Lexicographically Smallest Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/) | 1 | 0 | under a minute | 0/100 |
-| [Shortest and Lexicographically Smallest Beautiful String](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | 1 | 0 | under a minute | 0/100 |
-| [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 1 | 0 | under a minute | 0/100 |
-| [Stone Game VIII](https://leetcode.com/problems/stone-game-viii/) | 1 | 0 | 1 min | 0/100 |
-| [Sum Game](https://leetcode.com/problems/sum-game/) | 1 | 0 | under a minute | 0/100 |
-| [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 1 | 0 | under a minute | 0/100 |
+| [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 1 | 0 | 1 min | 0/100 |
+| [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
+| [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | 1 | 0 | 2 min | 0/100 |
+| [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 1 | 0 | 2 min | 0/100 |
+| [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 1 | 0 | 1 min | 0/100 |
+| [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
+| [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0 | — | 0/100 |
 
 ## Revision queue
 
