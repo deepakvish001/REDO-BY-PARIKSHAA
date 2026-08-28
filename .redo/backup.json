@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1787855455596,
+  "exportedAt": 1787941856494,
   "settings": {
     "github": {
       "token": "",
@@ -122,6 +122,24 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787907114537,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787907154896,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1787907154896,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2238B",
@@ -146,7 +164,7 @@
       "runtimeNote": "Runtime 46 ms",
       "slug": "2238B",
       "solveTimeMs": 68442,
-      "solvedAt": 1787297772849,
+      "solvedAt": 1787907114537,
       "tags": [
         "dp",
         "math",
@@ -172,10 +190,10 @@
         }
       ],
       "github": {
-        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/fe9e4af1ef90343b9cb3f739a311a4761100caa2",
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/d84dad252b08f422f76e3256915463bf590a9864",
         "path": "codeforces/easy/2240A-another-popcount-problem/solution.cpp",
         "status": "synced",
-        "syncedAt": 1787297836219
+        "syncedAt": 1787907118315
       },
       "history": [
         {
@@ -199,11 +217,29 @@
         {
           "at": 1787301004155,
           "kind": "opened"
+        },
+        {
+          "at": 1787907114303,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787907118316,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2240A-another-popcount-problem/solution.cpp"
+        },
+        {
+          "at": 1787907118316,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2240A",
       "language": "C++17 (GCC 7-32)",
-      "memoryNote": "Memory 0 KB",
+      "memoryNote": "Memory 0 KB",
       "parikshaa": {
         "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
         "status": "skipped"
@@ -220,10 +256,10 @@
         "struggle": 0.2,
         "targetReviews": 7
       },
-      "runtimeNote": "Runtime 31 ms",
+      "runtimeNote": "Runtime 31 ms",
       "slug": "2240A",
       "solveTimeMs": 9718405,
-      "solvedAt": 1787297774770,
+      "solvedAt": 1787907114303,
       "tags": [
         "greedy"
       ],
@@ -341,6 +377,24 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787907114542,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787907166986,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1787907166986,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2241A",
@@ -365,7 +419,7 @@
       "runtimeNote": "Runtime 31 ms",
       "slug": "2241A",
       "solveTimeMs": 106418,
-      "solvedAt": 1787297772666,
+      "solvedAt": 1787907114542,
       "tags": [
         "greedy",
         "math",
@@ -391,9 +445,10 @@
         }
       ],
       "github": {
-        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/bc333a1bb45b0ff99f55184abb8bd00cee4293f8",
         "path": "codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp",
-        "status": "error"
+        "status": "synced",
+        "syncedAt": 1787907179844
       },
       "history": [
         {
@@ -449,6 +504,24 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787907114628,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787907179845,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp"
+        },
+        {
+          "at": 1787907179845,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2245A",
@@ -473,7 +546,7 @@
       "runtimeNote": "Runtime 31 ms",
       "slug": "2245A",
       "solveTimeMs": 120071,
-      "solvedAt": 1787297772767,
+      "solvedAt": 1787907114628,
       "tags": [
         "greedy"
       ],
@@ -634,6 +707,52 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787907114530,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787907142932,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1787907142932,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787907938046,
+          "kind": "opened"
+        },
+        {
+          "at": 1787907945817,
+          "kind": "hint",
+          "outcome": "level 1",
+          "reason": "nudge"
+        },
+        {
+          "at": 1787907951383,
+          "kind": "hint",
+          "outcome": "level 2",
+          "reason": "approach"
+        },
+        {
+          "at": 1787907957894,
+          "kind": "hint",
+          "outcome": "level 3",
+          "reason": "your own solution"
+        },
+        {
+          "at": 1787907975712,
+          "kind": "review",
+          "outcome": "forgot",
+          "reason": "stage 1 → 1, next in 1d"
         }
       ],
       "id": "codeforces:2247A",
@@ -646,19 +765,20 @@
       "platform": "codeforces",
       "problemId": "2247A",
       "revision": {
-        "dueAt": 1786091767250,
-        "ease": 1,
-        "hintsUsed": 0,
-        "lapses": 0,
-        "reviewCount": 0,
+        "dueAt": 1787994375712,
+        "ease": 0.85,
+        "hintsUsed": 3,
+        "lapses": 1,
+        "lastReviewedAt": 1787907975712,
+        "reviewCount": 1,
         "stage": 0,
         "struggle": 0,
-        "targetReviews": 6
+        "targetReviews": 7
       },
       "runtimeNote": "Runtime 31 ms",
       "slug": "2247A",
       "solveTimeMs": 72257,
-      "solvedAt": 1787297772828,
+      "solvedAt": 1787907114530,
       "tags": [
         "constructive algorithms",
         "dp",
@@ -673,10 +793,9 @@
       "difficulty": "easy",
       "events": [],
       "github": {
-        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/32ea845f4fa8f2d8795038fa8966713d747190c6",
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
         "path": "codeforces/easy/2248A-you-delete-i-delete/solution.cpp",
-        "status": "synced",
-        "syncedAt": 1787297775690
+        "status": "error"
       },
       "history": [
         {
@@ -858,6 +977,30 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787907114334,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787907130778,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1787907130778,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787907928790,
+          "kind": "review",
+          "outcome": "good",
+          "reason": "stage 1 → 2, next in 3d"
         }
       ],
       "id": "codeforces:2248A",
@@ -870,18 +1013,19 @@
       "platform": "codeforces",
       "problemId": "2248A",
       "revision": {
-        "dueAt": 1786048041311,
+        "dueAt": 1788167128790,
         "ease": 1,
         "hintsUsed": 0,
         "lapses": 0,
-        "reviewCount": 0,
-        "stage": 0,
+        "lastReviewedAt": 1787907928790,
+        "reviewCount": 1,
+        "stage": 1,
         "struggle": 0,
         "targetReviews": 6
       },
       "runtimeNote": "Runtime 31 ms",
       "slug": "2248A",
-      "solvedAt": 1787297772495,
+      "solvedAt": 1787907114334,
       "tags": [
         "greedy"
       ],
@@ -1075,6 +1219,30 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787907114770,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787907193161,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1787907193161,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1787907926876,
+          "kind": "review",
+          "outcome": "good",
+          "reason": "stage 1 → 2, next in 3d"
         }
       ],
       "id": "codeforces:2250A",
@@ -1087,7 +1255,79 @@
       "platform": "codeforces",
       "problemId": "2250A",
       "revision": {
-        "dueAt": 1786048040985,
+        "dueAt": 1788167126876,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "lastReviewedAt": 1787907926876,
+        "reviewCount": 1,
+        "stage": 1,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 46 ms",
+      "slug": "2250A",
+      "solvedAt": 1787907114770,
+      "tags": [
+        "brute force",
+        "implementation",
+        "math"
+      ],
+      "title": "Threshold Movement",
+      "url": "https://codeforces.com/contest/2250/problem/A"
+    },
+    "codeforces:71A": {
+      "attempts": 1,
+      "code": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int n;\n    if (cin >> n) {\n        while (n--) {\n            string s;\n            cin >> s;\n            \n            if (s.length() > 10) {\n                cout << s[0] << s.length() - 2 << s.back() << \"\\n\";\n            } else {\n                cout << s << \"\\n\";\n            }\n        }\n    }\n    \n    return 0;\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787907118893,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "46 ms",
+          "submissionId": "388656120",
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "path": "codeforces/easy/71A-way-too-long-words/solution.cpp",
+        "status": "error"
+      },
+      "history": [
+        {
+          "at": 1787907120304,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1787907205277,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1787907205277,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        }
+      ],
+      "id": "codeforces:71A",
+      "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 0 KB",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "71A",
+      "revision": {
+        "dueAt": 1787993520304,
         "ease": 1,
         "hintsUsed": 0,
         "lapses": 0,
@@ -1096,16 +1336,15 @@
         "struggle": 0,
         "targetReviews": 6
       },
-      "runtimeNote": "Runtime 46 ms",
-      "slug": "2250A",
-      "solvedAt": 1787297772740,
+      "runtimeNote": "Runtime 46 ms",
+      "slug": "71A",
+      "solveTimeMs": 55629,
+      "solvedAt": 1787907120304,
       "tags": [
-        "brute force",
-        "implementation",
-        "math"
+        "strings"
       ],
-      "title": "Threshold Movement",
-      "url": "https://codeforces.com/contest/2250/problem/A"
+      "title": "Way Too Long Words",
+      "url": "https://codeforces.com/contest/71/problem/A"
     },
     "leetcode:check-divisibility-by-digit-sum-and-product": {
       "attempts": 1,
@@ -1829,6 +2068,81 @@
       ],
       "title": "Length of Longest Subarray With at Most K Frequency",
       "url": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/"
+    },
+    "leetcode:lexicographically-smallest-palindromic-permutation-greater-than-target": {
+      "attempts": 1,
+      "code": "class Solution {\n\n    private String buildPalindrome(String half, char middle) {\n        StringBuilder result = new StringBuilder(half);\n\n        if (middle != 0) {\n            result.append(middle);\n        }\n\n        for (int i = half.length() - 1; i >= 0; --i) {\n            result.append(half.charAt(i));\n        }\n\n        return result.toString();\n    }\n\n    private String smallestGreaterOrEqual(int[] originalCount, String targetHalf) {\n        int[] count = originalCount.clone();\n        int k = targetHalf.length();\n        int matched = 0;\n\n        while (matched < k && count[targetHalf.charAt(matched) - 'a'] > 0) {\n            count[targetHalf.charAt(matched) - 'a']--;\n            matched++;\n        }\n\n        if (matched == k) {\n            return targetHalf;\n        }\n\n        for (int pos = matched; pos >= 0; --pos) {\n            if (pos < matched) {\n                count[targetHalf.charAt(pos) - 'a']++;\n            }\n\n            for (int c = targetHalf.charAt(pos) - 'a' + 1; c < 26; ++c) {\n                if (count[c] == 0) continue;\n\n                StringBuilder result = new StringBuilder(targetHalf.substring(0, pos));\n                result.append((char) ('a' + c));\n                count[c]--;\n\n                for (int ch = 0; ch < 26; ++ch) {\n                    while (count[ch]-- > 0) {\n                        result.append((char) ('a' + ch));\n                    }\n                    count[ch] = Math.max(count[ch], 0);\n                }\n\n                return result.toString();\n            }\n        }\n\n        return \"\";\n    }\n\n    private boolean nextPermutation(char[] half) {\n        int pivot = half.length - 2;\n\n        while (pivot >= 0 && half[pivot] >= half[pivot + 1]) {\n            pivot--;\n        }\n\n        if (pivot < 0) {\n            return false;\n        }\n\n        int swapPos = half.length - 1;\n\n        while (half[swapPos] <= half[pivot]) {\n            swapPos--;\n        }\n\n        char temp = half[pivot];\n        half[pivot] = half[swapPos];\n        half[swapPos] = temp;\n\n        int left = pivot + 1;\n        int right = half.length - 1;\n\n        while (left < right) {\n            temp = half[left];\n            half[left] = half[right];\n            half[right] = temp;\n            left++;\n            right--;\n        }\n\n        return true;\n    }\n\n    public String lexPalindromicPermutation(String s, String target) {\n        int[] frequency = new int[26];\n\n        for (char ch : s.toCharArray()) {\n            frequency[ch - 'a']++;\n        }\n\n        char middle = 0;\n        int oddCount = 0;\n\n        for (int c = 0; c < 26; ++c) {\n            if ((frequency[c] & 1) == 1) {\n                oddCount++;\n                middle = (char) ('a' + c);\n            }\n        }\n\n        if (oddCount > 1) {\n            return \"\";\n        }\n\n        int[] halfCount = new int[26];\n\n        for (int c = 0; c < 26; ++c) {\n            halfCount[c] = frequency[c] / 2;\n        }\n\n        int k = s.length() / 2;\n        String targetHalf = target.substring(0, k);\n\n        String halfString = smallestGreaterOrEqual(halfCount, targetHalf);\n\n        if (halfString.isEmpty() && k > 0) {\n            return \"\";\n        }\n\n        String candidate = buildPalindrome(halfString, middle);\n\n        if (candidate.compareTo(target) > 0) {\n            return candidate;\n        }\n\n        char[] half = halfString.toCharArray();\n\n        if (!nextPermutation(half)) {\n            return \"\";\n        }\n\n        return buildPalindrome(new String(half), middle);\n    }\n}",
+      "difficulty": "hard",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1787906987531,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "46.5 MB",
+          "runtime": "4 ms",
+          "submissionId": "2122710440",
+          "testsPassed": 1035,
+          "testsTotal": 1035,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/f98ccfe3a5c549f04434b1e8cbe39f849d6ebe21",
+        "path": "leetcode/hard/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/solution.java",
+        "status": "synced",
+        "syncedAt": 1787906991557
+      },
+      "history": [
+        {
+          "at": 1787906987980,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1787906991557,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/hard/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/solution.java"
+        },
+        {
+          "at": 1787906991557,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:lexicographically-smallest-palindromic-permutation-greater-than-target",
+      "language": "Java",
+      "memoryNote": "Memory 46.5 MB (beats 81.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "3734",
+      "revision": {
+        "dueAt": 1787993387980,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 4 ms (beats 100.0%)",
+      "slug": "lexicographically-smallest-palindromic-permutation-greater-than-target",
+      "solveTimeMs": 24530,
+      "solvedAt": 1787906987980,
+      "tags": [
+        "Two Pointers",
+        "String",
+        "Enumeration"
+      ],
+      "title": "Lexicographically Smallest Palindromic Permutation Greater Than Target",
+      "url": "https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/"
     },
     "leetcode:lexicographically-smallest-permutation-greater-than-target": {
       "attempts": 1,
@@ -2796,6 +3110,12 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "No Parikshaa problem uses this slug."
+        },
+        {
+          "at": 1787907932909,
+          "kind": "review",
+          "outcome": "forgot",
+          "reason": "stage 1 → 1, next in 1d"
         }
       ],
       "id": "leetcode:smallest-divisible-digit-product-i",
@@ -2808,14 +3128,15 @@
       "platform": "leetcode",
       "problemId": "3345",
       "revision": {
-        "dueAt": 1786091576020,
-        "ease": 1,
+        "dueAt": 1787994332909,
+        "ease": 0.85,
         "hintsUsed": 0,
-        "lapses": 0,
-        "reviewCount": 0,
+        "lapses": 1,
+        "lastReviewedAt": 1787907932909,
+        "reviewCount": 1,
         "stage": 0,
         "struggle": 0,
-        "targetReviews": 6
+        "targetReviews": 7
       },
       "runtimeNote": "Runtime 1 ms (beats 100.0%)",
       "slug": "smallest-divisible-digit-product-i",
@@ -3982,6 +4303,18 @@
         "verdict": "Wrong answer on test 10"
       }
     ],
+    "codeforces:71A": [
+      {
+        "accepted": true,
+        "at": 1787907118893,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "memory": "0 KB",
+        "runtime": "46 ms",
+        "submissionId": "388656120",
+        "verdict": "Accepted"
+      }
+    ],
     "leetcode:check-divisibility-by-digit-sum-and-product": [
       {
         "accepted": true,
@@ -4154,6 +4487,20 @@
         "submissionId": "2103609494",
         "testsPassed": 994,
         "testsTotal": 994,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:lexicographically-smallest-palindromic-permutation-greater-than-target": [
+      {
+        "accepted": true,
+        "at": 1787906987531,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "46.5 MB",
+        "runtime": "4 ms",
+        "submissionId": "2122710440",
+        "testsPassed": 1035,
+        "testsTotal": 1035,
         "verdict": "Accepted"
       }
     ],
@@ -4689,10 +5036,10 @@
     ]
   },
   "meta": {
-    "reviewsCompleted": 0,
-    "lastReviewDay": null,
-    "currentStreak": 0,
-    "longestStreak": 0
+    "reviewsCompleted": 4,
+    "lastReviewDay": "2026-08-28",
+    "currentStreak": 1,
+    "longestStreak": 1
   },
   "upsolve": []
 }
