@@ -31,7 +31,7 @@
     <g class="rise" style="animation-delay:0s">
       <rect x="40" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="62" y="188" class="big">16</text>
+      <text x="62" y="188" class="big">17</text>
       <text x="62" y="211" class="small">problems solved</text>
     </g>
     <g class="rise" style="animation-delay:0.07s">
@@ -43,7 +43,7 @@
     <g class="rise" style="animation-delay:0.14s">
       <rect x="516" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="538" y="188" class="big">9</text>
+      <text x="538" y="188" class="big">10</text>
       <text x="538" y="211" class="small">submissions</text>
     </g>
     <g class="rise" style="animation-delay:0.21000000000000002s">
@@ -53,10 +53,10 @@
       <text x="776" y="211" class="small">day streak</text>
     </g>
   <text x="40" y="252" class="label">DIFFICULTY MIX</text>
-  <rect x="40" y="262" width="575" height="14" rx="7" fill="#34d399" />
-    <text x="40" y="296" class="small" fill="#34d399">10 easy</text><rect x="621" y="262" width="230" height="14" rx="7" fill="#fbbf24" />
-    <text x="621" y="296" class="small" fill="#fbbf24">4 medium</text><rect x="857" y="262" width="115" height="14" rx="7" fill="#f87171" />
-    <text x="857" y="296" class="small" fill="#f87171">2 hard</text>
+  <rect x="40" y="262" width="541" height="14" rx="7" fill="#34d399" />
+    <text x="40" y="296" class="small" fill="#34d399">10 easy</text><rect x="587" y="262" width="271" height="14" rx="7" fill="#fbbf24" />
+    <text x="587" y="296" class="small" fill="#fbbf24">5 medium</text><rect x="864" y="262" width="108" height="14" rx="7" fill="#f87171" />
+    <text x="864" y="296" class="small" fill="#f87171">2 hard</text>
   <text x="40" y="326" class="label">TOPICS</text>
     <g class="rise">
       <rect x="40" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
@@ -93,6 +93,6 @@
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>
 
-  <text x="40" y="516" class="foot">2h 52m at the keyboard · 0 runs · 3 hints · new: dp, math, number theory</text>
+  <text x="40" y="516" class="foot">3h 14m at the keyboard · 1 run · 3 hints · new: dp, math, number theory</text>
   <text x="960" y="516" class="foot" text-anchor="end">Redo · parikshaa.org</text>
 </svg>

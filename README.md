@@ -1,11 +1,12 @@
 # DSA Solutions
 
-42 solved — 16 easy · 16 medium · 10 hard. Last updated 2026-08-29.
+43 solved — 16 easy · 17 medium · 10 hard. Last updated 2026-08-29.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 101151 | [Minimum Bishop Moves to Reach Target](leetcode/medium/101151-minimum-bishop-moves-to-reach-target/solution.py) | LeetCode | medium | Python3 | 2026-08-29 |
 | 2948 | [Make Lexicographically Smallest Array by Swapping Elements](leetcode/medium/2948-make-lexicographically-smallest-array-by-swapping-elements/solution.java) | LeetCode | medium | Java | 2026-08-29 |
 | 71A | [Way Too Long Words](codeforces/easy/71A-way-too-long-words/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
 | 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
