@@ -1,12 +1,16 @@
 # DSA Solutions
 
-38 solved — 13 easy · 15 medium · 10 hard. Last updated 2026-08-28.
+42 solved — 16 easy · 16 medium · 10 hard. Last updated 2026-08-29.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2948 | [Make Lexicographically Smallest Array by Swapping Elements](leetcode/medium/2948-make-lexicographically-smallest-array-by-swapping-elements/solution.java) | LeetCode | medium | Java | 2026-08-29 |
+| 71A | [Way Too Long Words](codeforces/easy/71A-way-too-long-words/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
+| 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
 | 2245A | [Who Watches the Watchpig?](codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
+| 2241A | [Divide and Conquer](codeforces/easy/2241A-divide-and-conquer/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
 | 2238B | [Crimson Triples](codeforces/easy/2238B-crimson-triples/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
 | 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
 | 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |

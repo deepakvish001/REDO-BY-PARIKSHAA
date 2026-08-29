@@ -2,7 +2,7 @@
 
 <img src="assets/profile.svg" alt="Coding profile" width="840">
 
-_Regenerated on every sync — last run 2026-08-28._
+_Regenerated on every sync — last run 2026-08-29._
 
 ## This week
 
@@ -12,33 +12,33 @@ _Regenerated on every sync — last run 2026-08-28._
 
 | | |
 | --- | --- |
-| Problems solved | 41 |
-| Due for revision today | 38 |
-| Revisions completed | 0 |
-| Current streak | 2 days |
-| Submissions recorded | 38 (0 rejected) |
+| Problems solved | 42 |
+| Due for revision today | 39 |
+| Revisions completed | 4 |
+| Current streak | 3 days |
+| Submissions recorded | 39 (0 rejected) |
 | Runs recorded | 23 |
-| Median time to solve | 1 min |
+| Median time to solve | under a minute |
 
 ## Needs work
 
 | Topic | Solved | Lapses | Mastery |
 | --- | --- | --- | --- |
-| greedy | 9 | 0 | 44/100 |
-| math | 16 | 0 | 45/100 |
-| array | 16 | 0 | 45/100 |
-| string | 11 | 0 | 45/100 |
-| dynamic programming | 9 | 0 | 45/100 |
+| number theory | 5 | 1 | 0/100 |
+| enumeration | 3 | 1 | 0/100 |
+| dp | 2 | 1 | 0/100 |
+| math | 16 | 1 | 23/100 |
+| array | 17 | 0 | 45/100 |
 
 ## Solid
 
 | Topic | Solved | Mastery |
 | --- | --- | --- |
 | prefix sum | 2 | 45/100 |
+| sorting | 2 | 45/100 |
 | binary search | 2 | 45/100 |
-| dp | 2 | 45/100 |
-| enumeration | 3 | 45/100 |
 | sliding window | 3 | 45/100 |
+| two pointers | 3 | 45/100 |
 
 ## Fought hardest for these
 
@@ -49,28 +49,28 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
 | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 1 | 0 | 2h 42m | 20/100 |
+| [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | 1 | 0 | under a minute | 0/100 |
 | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 1 | 0 | 1 min | 0/100 |
 | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0 | — | 0/100 |
 | [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | 1 | 0 | 2 min | 0/100 |
 | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 1 | 0 | 2 min | 0/100 |
 | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 1 | 0 | 1 min | 0/100 |
 | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0 | 1 min | 0/100 |
-| [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0 | — | 0/100 |
 
 ## Revision queue
 
 | Problem | Stage | Reviews | Due |
 | --- | --- | --- | --- |
-| [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 1 | 0/6 | 2026-08-06 |
-| [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | 1 | 0/6 | 2026-08-06 |
-| [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 1 | 0/6 | 2026-08-07 |
-| [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 1 | 0/6 | 2026-08-07 |
 | [Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/) | 1 | 0/6 | 2026-08-08 |
 | [Find the Lexicographically Smallest Valid Sequence](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | 1 | 0/6 | 2026-08-09 |
 | [Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/) | 1 | 0/6 | 2026-08-10 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 0/7 | 2026-08-10 |
 | [Maximum Area of Two Non-Overlapping Square Submatrices](https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/) | 1 | 0/6 | 2026-08-10 |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 0/7 | 2026-08-10 |
+| [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 1 | 0/6 | 2026-08-10 |
+| [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 1 | 0/6 | 2026-08-10 |
+| [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 1 | 0/6 | 2026-08-11 |
+| [Smallest Missing Integer Greater Than Sequential Prefix Sum](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/) | 1 | 0/6 | 2026-08-12 |
 
 ---
 
