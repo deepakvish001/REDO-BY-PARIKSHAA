@@ -1,11 +1,12 @@
 # DSA Solutions
 
-44 solved — 16 easy · 18 medium · 10 hard. Last updated 2026-08-29.
+45 solved — 16 easy · 19 medium · 10 hard. Last updated 2026-08-29.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 101127 | [Lexicographically Largest String After Pair Transformations](leetcode/medium/101127-lexicographically-largest-string-after-pair-transformations/solution.py) | LeetCode | medium | Python3 | 2026-08-29 |
 | 101134 | [Maximum Valid Split Positions I](leetcode/medium/101134-maximum-valid-split-positions-i/solution.py) | LeetCode | medium | Python3 | 2026-08-29 |
 | 101151 | [Minimum Bishop Moves to Reach Target](leetcode/medium/101151-minimum-bishop-moves-to-reach-target/solution.py) | LeetCode | medium | Python3 | 2026-08-29 |
 | 2948 | [Make Lexicographically Smallest Array by Swapping Elements](leetcode/medium/2948-make-lexicographically-smallest-array-by-swapping-elements/solution.java) | LeetCode | medium | Java | 2026-08-29 |
