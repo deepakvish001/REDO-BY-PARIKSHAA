@@ -21,12 +21,12 @@
   <circle cx="36" cy="33" r="13" fill="#f97316" opacity="0.16" />
   <text x="36" y="40" class="title" fill="#f97316" text-anchor="middle">↻</text>
   <text x="56" y="39" class="title">Coding profile</text>
-  <text x="56" y="54" class="subtitle">Updated 2026-08-29 15:42 UTC</text>
+  <text x="56" y="54" class="subtitle">Updated 2026-08-29 15:49 UTC</text>
   
     <g class="tile" style="animation-delay:0s">
       <rect x="24" y="62" width="186" height="62" rx="12"
             fill="#141419" stroke="#26262e" />
-      <text x="40" y="94" class="tileValue">43</text>
+      <text x="40" y="94" class="tileValue">44</text>
       <text x="40" y="112" class="tileLabel">solved</text>
     </g>
     <g class="tile" style="animation-delay:0.06s">
@@ -50,27 +50,27 @@
   <text x="24" y="150" class="section">BY DIFFICULTY</text>
     <text x="24" y="178" class="label">easy</text>
     <rect x="200" y="166" width="470" height="16" rx="8" fill="#26262e" />
-    <rect x="200" y="166" width="442" height="16" rx="8" fill="#34d399"
+    <rect x="200" y="166" width="418" height="16" rx="8" fill="#34d399"
           class="bar" style="animation-delay:0s" />
     <text x="686" y="178" class="value">16</text>
     <text x="24" y="204" class="label">medium</text>
     <rect x="200" y="192" width="470" height="16" rx="8" fill="#26262e" />
     <rect x="200" y="192" width="470" height="16" rx="8" fill="#fbbf24"
           class="bar" style="animation-delay:0.08s" />
-    <text x="686" y="204" class="value">17</text>
+    <text x="686" y="204" class="value">18</text>
     <text x="24" y="230" class="label">hard</text>
     <rect x="200" y="218" width="470" height="16" rx="8" fill="#26262e" />
-    <rect x="200" y="218" width="276" height="16" rx="8" fill="#f87171"
+    <rect x="200" y="218" width="261" height="16" rx="8" fill="#f87171"
           class="bar" style="animation-delay:0.16s" />
     <text x="686" y="230" class="value">10</text><text x="24" y="272" class="section">BY PLATFORM</text>
     <text x="24" y="300" class="label">LeetCode</text>
     <rect x="200" y="288" width="470" height="16" rx="8" fill="#26262e" />
     <rect x="200" y="288" width="470" height="16" rx="8" fill="#f97316"
           class="bar" style="animation-delay:0.24s" />
-    <text x="686" y="300" class="value">35</text>
+    <text x="686" y="300" class="value">36</text>
     <text x="24" y="326" class="label">Codeforces</text>
     <rect x="200" y="314" width="470" height="16" rx="8" fill="#26262e" />
-    <rect x="200" y="314" width="107" height="16" rx="8" fill="#f97316"
+    <rect x="200" y="314" width="104" height="16" rx="8" fill="#f97316"
           class="bar" style="animation-delay:0.32s" />
     <text x="686" y="326" class="value">8</text><text x="24" y="368" class="section">MOST-PRACTISED TOPICS</text>
     <text x="24" y="396" class="label">prefix sum</text>
