@@ -31,7 +31,7 @@
     <g class="rise" style="animation-delay:0s">
       <rect x="40" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="62" y="188" class="big">23</text>
+      <text x="62" y="188" class="big">24</text>
       <text x="62" y="211" class="small">problems solved</text>
     </g>
     <g class="rise" style="animation-delay:0.07s">
@@ -43,7 +43,7 @@
     <g class="rise" style="animation-delay:0.14s">
       <rect x="516" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="538" y="188" class="big">17</text>
+      <text x="538" y="188" class="big">20</text>
       <text x="538" y="211" class="small">submissions</text>
     </g>
     <g class="rise" style="animation-delay:0.21000000000000002s">
@@ -59,24 +59,24 @@
     <text x="852" y="296" class="small" fill="#f87171">3 hard</text>
   <text x="40" y="326" class="label">TOPICS</text>
     <g class="rise">
-      <rect x="40" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="56" y="356" class="chip">greedy</text>
-      <text x="117.19999999999999" y="356" class="chipCount" text-anchor="end">4</text>
+      <rect x="40" y="336" width="78.8" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="56" y="356" class="chip">math</text>
+      <text x="100.8" y="356" class="chipCount" text-anchor="end">4</text>
     </g>
     <g class="rise">
-      <rect x="143.2" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="159.2" y="356" class="chip">String</text>
-      <text x="220.39999999999998" y="356" class="chipCount" text-anchor="end">4</text>
+      <rect x="126.8" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="142.8" y="356" class="chip">greedy</text>
+      <text x="204" y="356" class="chipCount" text-anchor="end">4</text>
     </g>
     <g class="rise">
-      <rect x="246.39999999999998" y="336" width="87" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="262.4" y="356" class="chip">Array</text>
-      <text x="315.4" y="356" class="chipCount" text-anchor="end">4</text>
+      <rect x="230" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="246" y="356" class="chip">String</text>
+      <text x="307.2" y="356" class="chipCount" text-anchor="end">4</text>
     </g>
     <g class="rise">
-      <rect x="341.4" y="336" width="78.8" height="30" rx="15" fill="#141419" stroke="#26262e" />
-      <text x="357.4" y="356" class="chip">math</text>
-      <text x="402.2" y="356" class="chipCount" text-anchor="end">3</text>
+      <rect x="333.2" y="336" width="87" height="30" rx="15" fill="#141419" stroke="#26262e" />
+      <text x="349.2" y="356" class="chip">Array</text>
+      <text x="402.2" y="356" class="chipCount" text-anchor="end">4</text>
     </g>
     <g class="rise">
       <rect x="428.2" y="336" width="152.6" height="30" rx="15" fill="#141419" stroke="#26262e" />
@@ -87,9 +87,9 @@
     <g class="rise" style="animation-delay:.25s">
       <rect x="40" y="396" width="920" height="86" rx="16" fill="#141419" stroke="#26262e" />
       <text x="62" y="424" class="label">BIGGEST FIGHT</text>
-      <text x="62" y="452" class="fightTitle">Another Popcount Problem</text>
-      <text x="62" y="472" class="small">1 submit · 2h 42m</text>
-      <text x="938" y="452" class="fightScore" text-anchor="end">20</text>
+      <text x="62" y="452" class="fightTitle">Odd Eraser</text>
+      <text x="62" y="472" class="small">3 submits</text>
+      <text x="938" y="452" class="fightScore" text-anchor="end">30</text>
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>
 

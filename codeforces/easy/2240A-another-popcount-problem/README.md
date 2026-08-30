@@ -3,7 +3,7 @@
 **Platform:** Codeforces  
 **Difficulty:** easy  
 **Link:** https://codeforces.com/contest/2240/problem/A  
-**Solved:** 2026-08-28  
+**Solved:** 2026-08-30  
 **Language:** C++17 (GCC 7-32)  
 **Attempts before accepted:** 1
 
@@ -30,10 +30,13 @@ _Add your notes here._
 
 ## Record
 
-Opened 1× · Solved 2× · GitHub sync 1× · Parikshaa sync 1×
+Opened 1× · Solved 3× · GitHub sync 2× · Parikshaa sync 2×
 
 | When (UTC) | What | Outcome | Reason |
 | --- | --- | --- | --- |
+| 2026-08-30 03:38 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
+| 2026-08-28 08:51 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-28 08:51 | GitHub sync | synced | codeforces/easy/2240A-another-popcount-problem/solution.cpp |
 | 2026-08-28 08:51 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
 | 2026-08-21 08:30 | Opened | — | — |
 | 2026-08-21 07:37 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |

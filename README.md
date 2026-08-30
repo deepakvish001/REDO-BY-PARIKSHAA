@@ -6,6 +6,7 @@
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2240A | [Another Popcount Problem](codeforces/easy/2240A-another-popcount-problem/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
 | 2091 | [Removing Minimum and Maximum From Array](leetcode/medium/2091-removing-minimum-and-maximum-from-array/solution.java) | LeetCode | medium | Java | 2026-08-30 |
 | 101141 | [Minimum Operations to Form Subset Sum II](leetcode/hard/101141-minimum-operations-to-form-subset-sum-ii/solution.py) | LeetCode | hard | Python3 | 2026-08-30 |
 | 101140 | [Minimum Operations to Form Subset Sum I](leetcode/medium/101140-minimum-operations-to-form-subset-sum-i/solution.py) | LeetCode | medium | Python3 | 2026-08-30 |
@@ -22,7 +23,6 @@
 | 2238B | [Crimson Triples](codeforces/easy/2238B-crimson-triples/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
 | 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
 | 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
-| 2240A | [Another Popcount Problem](codeforces/easy/2240A-another-popcount-problem/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
 | 3734 | [Lexicographically Smallest Palindromic Permutation Greater Than Target](leetcode/hard/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/solution.java) | LeetCode | hard | Java | 2026-08-28 |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](leetcode/medium/3720-lexicographically-smallest-permutation-greater-than-target/solution.java) | LeetCode | medium | Java | 2026-08-27 |
 | 2904 | [Shortest and Lexicographically Smallest Beautiful String](leetcode/medium/2904-shortest-and-lexicographically-smallest-beautiful-string/solution.java) | LeetCode | medium | Java | 2026-08-26 |
