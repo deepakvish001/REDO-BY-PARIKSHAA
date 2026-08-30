@@ -12,12 +12,12 @@ _Regenerated on every sync — last run 2026-08-30._
 
 | | |
 | --- | --- |
-| Problems solved | 47 |
+| Problems solved | 48 |
 | Due for revision today | 39 |
 | Revisions completed | 4 |
 | Current streak | 4 days |
-| Submissions recorded | 44 (0 rejected) |
-| Runs recorded | 33 |
+| Submissions recorded | 45 (0 rejected) |
+| Runs recorded | 36 |
 | Median time to solve | 1 min |
 
 ## Needs work
@@ -51,11 +51,11 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 1 | 0 | 2h 42m | 20/100 |
 | [Maximum Valid Split Positions I](https://leetcode.com/problems/maximum-valid-split-positions-i/) | 1 | 3 | — | 16/100 |
 | [Count Integers Appearing in a Single Block](https://leetcode.com/problems/count-integers-appearing-in-a-single-block/) | 1 | 4 | 8 min | 14/100 |
+| [Minimum Operations to Form Subset Sum I](https://leetcode.com/problems/minimum-operations-to-form-subset-sum-i/) | 1 | 3 | — | 9/100 |
 | [Minimum Bishop Moves to Reach Target](https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/) | 1 | 1 | 21 min | 5/100 |
 | [Sum of Decoded Numbers](https://leetcode.com/problems/sum-of-decoded-numbers/) | 1 | 1 | — | 0/100 |
 | [Lexicographically Largest String After Pair Transformations](https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/) | 1 | 1 | — | 0/100 |
 | [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | 1 | 0 | under a minute | 0/100 |
-| [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 1 | 0 | 1 min | 0/100 |
 
 ## Revision queue
 
