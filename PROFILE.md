@@ -13,7 +13,7 @@ _Regenerated on every sync — last run 2026-08-30._
 | | |
 | --- | --- |
 | Problems solved | 54 |
-| Due for revision today | 39 |
+| Due for revision today | 43 |
 | Revisions completed | 4 |
 | Current streak | 4 days |
 | Submissions recorded | 58 (10 rejected) |
