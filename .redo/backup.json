@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1788028255614,
+  "exportedAt": 1788114655560,
   "settings": {
     "github": {
       "token": "",
@@ -140,6 +140,42 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788061129107,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788061217358,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788061217358,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788111721064,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788111868162,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788111868162,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2238B",
@@ -164,7 +200,7 @@
       "runtimeNote": "Runtime 46 ms",
       "slug": "2238B",
       "solveTimeMs": 68442,
-      "solvedAt": 1787907114537,
+      "solvedAt": 1788111742556,
       "tags": [
         "dp",
         "math",
@@ -190,10 +226,9 @@
         }
       ],
       "github": {
-        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/d84dad252b08f422f76e3256915463bf590a9864",
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
         "path": "codeforces/easy/2240A-another-popcount-problem/solution.cpp",
-        "status": "synced",
-        "syncedAt": 1787907118315
+        "status": "error"
       },
       "history": [
         {
@@ -235,6 +270,42 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788061128957,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788061132270,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2240A-another-popcount-problem/solution.cpp"
+        },
+        {
+          "at": 1788061132270,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788111720881,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788111890856,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788111890856,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2240A",
@@ -259,7 +330,7 @@
       "runtimeNote": "Runtime 31 ms",
       "slug": "2240A",
       "solveTimeMs": 9718405,
-      "solvedAt": 1787907114303,
+      "solvedAt": 1788111742556,
       "tags": [
         "greedy"
       ],
@@ -395,6 +466,60 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788061129092,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788061193463,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2241A-divide-and-conquer/solution.cpp"
+        },
+        {
+          "at": 1788061193463,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788111720743,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788111724650,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2241A-divide-and-conquer/solution.cpp"
+        },
+        {
+          "at": 1788111724650,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788111742556,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788111856623,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788111856623,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2241A",
@@ -419,7 +544,7 @@
       "runtimeNote": "Runtime 31 ms",
       "slug": "2241A",
       "solveTimeMs": 106418,
-      "solvedAt": 1787907114542,
+      "solvedAt": 1788111742556,
       "tags": [
         "greedy",
         "math",
@@ -445,10 +570,9 @@
         }
       ],
       "github": {
-        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/bc333a1bb45b0ff99f55184abb8bd00cee4293f8",
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
         "path": "codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp",
-        "status": "synced",
-        "syncedAt": 1787907179844
+        "status": "error"
       },
       "history": [
         {
@@ -522,6 +646,42 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788061129014,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788061155614,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788061155614,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788111720934,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788111830786,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788111830786,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2245A",
@@ -546,7 +706,7 @@
       "runtimeNote": "Runtime 31 ms",
       "slug": "2245A",
       "solveTimeMs": 120071,
-      "solvedAt": 1787907114628,
+      "solvedAt": 1788111742469,
       "tags": [
         "greedy"
       ],
@@ -753,6 +913,60 @@
           "kind": "review",
           "outcome": "forgot",
           "reason": "stage 1 → 1, next in 1d"
+        },
+        {
+          "at": 1788061129081,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788061178677,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788061178677,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788111720761,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788111736195,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788111736195,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788111742556,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788111879322,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788111879322,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2247A",
@@ -778,7 +992,7 @@
       "runtimeNote": "Runtime 31 ms",
       "slug": "2247A",
       "solveTimeMs": 72257,
-      "solvedAt": 1787907114530,
+      "solvedAt": 1788111742556,
       "tags": [
         "constructive algorithms",
         "dp",
@@ -1001,6 +1215,42 @@
           "kind": "review",
           "outcome": "good",
           "reason": "stage 1 → 2, next in 3d"
+        },
+        {
+          "at": 1788061129201,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788061228896,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788061228896,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788111720778,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788111819545,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788111819545,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2248A",
@@ -1025,7 +1275,7 @@
       },
       "runtimeNote": "Runtime 31 ms",
       "slug": "2248A",
-      "solvedAt": 1787907114334,
+      "solvedAt": 1788111742306,
       "tags": [
         "greedy"
       ],
@@ -1047,9 +1297,10 @@
         }
       ],
       "github": {
-        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/e3296e359b01d61713f7cf25dda952aee10c5b08",
         "path": "codeforces/easy/2250A-threshold-movement/solution.cpp",
-        "status": "error"
+        "status": "synced",
+        "syncedAt": 1788111904791
       },
       "history": [
         {
@@ -1243,6 +1494,42 @@
           "kind": "review",
           "outcome": "good",
           "reason": "stage 1 → 2, next in 3d"
+        },
+        {
+          "at": 1788061129095,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788061205274,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788061205274,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788111742701,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788111904791,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2250A-threshold-movement/solution.cpp"
+        },
+        {
+          "at": 1788111904791,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:2250A",
@@ -1267,7 +1554,7 @@
       },
       "runtimeNote": "Runtime 46 ms",
       "slug": "2250A",
-      "solvedAt": 1787907114770,
+      "solvedAt": 1788111742701,
       "tags": [
         "brute force",
         "implementation",
@@ -1275,6 +1562,426 @@
       ],
       "title": "Threshold Movement",
       "url": "https://codeforces.com/contest/2250/problem/A"
+    },
+    "codeforces:2254B": {
+      "attempts": 1,
+      "code": "#pragma GCC optimize(\"O3,unroll-loops\")\n#include <iostream>\n#include <string>\n#include <algorithm>\n\nusing namespace std;\n\nvoid solve() {\n    int n;\n    cin >> n;\n    string s;\n    cin >> s;\n\n    int orig_len = 1;\n    for (int i = 0; i < n - 1; ++i) {\n        if (s[i] != s[i+1]) {\n            orig_len++;\n        }\n    }\n\n    int min_delta = 0;\n    for (int i = 1; i < n - 1; ++i) {\n        int old_transitions = (s[i-1] != s[i]) + (s[i] != s[i+1]);\n        int new_transitions = (s[i-1] != s[i+1]);\n        int delta = new_transitions - old_transitions;\n        if (delta < min_delta) {\n            min_delta = delta;\n        }\n    }\n\n    cout << orig_len + min_delta << \"\\n\";\n}\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int t;\n    if (cin >> t) {\n        while (t--) {\n            solve();\n        }\n    }\n    \n    return 0;\n}",
+      "difficulty": "easy",
+      "events": [],
+      "github": {
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "path": "codeforces/easy/2254B-evanescent/solution.cpp",
+        "status": "error"
+      },
+      "history": [
+        {
+          "at": 1788111742556,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788111901986,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788111901986,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        }
+      ],
+      "id": "codeforces:2254B",
+      "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 0 KB",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "2254B",
+      "revision": {
+        "dueAt": 1788198142556,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 31 ms",
+      "slug": "2254B",
+      "solveTimeMs": 175717,
+      "solvedAt": 1788111742556,
+      "tags": [
+        "implementation",
+        "strings",
+        "two pointers"
+      ],
+      "title": "Evanescent",
+      "url": "https://codeforces.com/contest/2254/problem/B"
+    },
+    "codeforces:2256B": {
+      "attempts": 1,
+      "code": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nvoid solve() {\n    int n;\n    cin >> n;\n    string s;\n    cin >> s;\n    \n    int even_idx_valid1 = 1, even_idx_valid2 = 1;\n    for (int i = 0; i < n; i += 2) {\n        int expected1 = (i / 2) % 2;\n        int expected2 = 1 - expected1;\n        if (s[i] != '?') {\n            int val = s[i] - '0';\n            if (val != expected1) even_idx_valid1 = 0;\n            if (val != expected2) even_idx_valid2 = 0;\n        }\n    }\n    \n    int odd_idx_valid1 = 1, odd_idx_valid2 = 1;\n    for (int i = 1; i < n; i += 2) {\n        int expected1 = (i / 2) % 2;\n        int expected2 = 1 - expected1;\n        if (s[i] != '?') {\n            int val = s[i] - '0';\n            if (val != expected1) odd_idx_valid1 = 0;\n            if (val != expected2) odd_idx_valid2 = 0;\n        }\n    }\n    \n    long long ans = (even_idx_valid1 + even_idx_valid2) * (odd_idx_valid1 + odd_idx_valid2);\n    \n    cout << ans % 998244353 << \"\\n\";\n}\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int t;\n    if (cin >> t) {\n        while (t--) {\n            solve();\n        }\n    }\n    \n    return 0;\n}",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1788061133400,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "46 ms",
+          "submissionId": "388867974",
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "path": "codeforces/easy/2256B-domino-tiles/solution.cpp",
+        "status": "error"
+      },
+      "history": [
+        {
+          "at": 1788061134651,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788061254399,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/2256B-domino-tiles/solution.cpp"
+        },
+        {
+          "at": 1788061254399,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788111720821,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788111842091,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788111842091,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        }
+      ],
+      "id": "codeforces:2256B",
+      "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 0 KB",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "2256B",
+      "revision": {
+        "dueAt": 1788147534651,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 46 ms",
+      "slug": "2256B",
+      "solveTimeMs": 89990,
+      "solvedAt": 1788111742509,
+      "tags": [
+        "implementation",
+        "math"
+      ],
+      "title": "Domino Tiles",
+      "url": "https://codeforces.com/contest/2256/problem/B"
+    },
+    "codeforces:2258A": {
+      "attempts": 3,
+      "code": "#include<iostream>\n#include<vector>\n#include<numeric>\nusing namespace std;\nvoid solve()\n{\n    int n;\n    cin>>n;\n    vector<int> a(n);\n    for(int i =0;i<n;i++)\n    {\n        cin>>a[i];\n    }\n    cout<<std::gcd(a[0],a[n-1])<< \"\\n\";\n    \n}\nint main()\n{\n    int t;\n    if(cin>>t){\n        while(t--)\n        {\n            solve();\n        }\n    }\n    return 0;\n}",
+      "difficulty": "unknown",
+      "events": [
+        {
+          "accepted": false,
+          "at": 1788017191266,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "0 ms",
+          "submissionId": "388808967",
+          "verdict": "Compilation error"
+        },
+        {
+          "accepted": false,
+          "at": 1788017254704,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "0 ms",
+          "submissionId": "388809421",
+          "verdict": "Compilation error"
+        },
+        {
+          "accepted": false,
+          "at": 1788017364561,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "109 ms",
+          "submissionId": "388810232",
+          "verdict": "Pretests passed"
+        }
+      ],
+      "github": {
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "path": "codeforces/2258A-odd-eraser/solution.cpp",
+        "status": "error"
+      },
+      "history": [
+        {
+          "at": 1788061128963,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 3 attempt(s)"
+        },
+        {
+          "at": 1788061144176,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788061144176,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        }
+      ],
+      "id": "codeforces:2258A",
+      "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 0 KB",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "2258A",
+      "revision": {
+        "dueAt": 1788147528963,
+        "ease": 0.88,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0.3,
+        "targetReviews": 7
+      },
+      "runtimeNote": "Runtime 109 ms",
+      "slug": "2258A",
+      "solvedAt": 1788061128963,
+      "tags": [
+        "math"
+      ],
+      "title": "Odd Eraser",
+      "url": "https://codeforces.com/contest/2258/problem/A"
+    },
+    "codeforces:2258B1": {
+      "attempts": 1,
+      "code": "#include<iostream>\n#include<vector>\n#include<algorithm>\n\nusing namespace std;\nvoid solve()\n{\n    int n,m;\n    cin>>n>>m;\n    vector<int> C(m+1,0);\n    for(int i =0;i<n;++i)\n    {\n        int a;\n        cin>>a;\n        C[a]++;\n    }\n    vector<int> S(m+2,0);\n    for(int i =m;i>=1;--i)\n    {\n        S[i] = S[i+1]+C[i];\n    }\n    int max_c = 0;\n    for(int y=1;y<=m;++y)\n    {\n        int curr = S[y];\n        if(2*y<=m)\n        {\n            curr += C[2*y];\n        }\n        max_c = max(max_c, curr);\n    }\n    cout<<max_c<<\"\\n\";\n}\nint main()\n{\n    int t;\n    if(cin>>t)\n    {\n        while(t--)\n        {\n            solve();\n        }\n        \n    }\n    return 0;\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "difficulty": "unknown",
+      "events": [
+        {
+          "accepted": false,
+          "at": 1788017955691,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "100 KB",
+          "runtime": "218 ms",
+          "submissionId": "388814358",
+          "verdict": "Pretests passed"
+        }
+      ],
+      "github": {
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "path": "codeforces/2258B1-carrot-chopdown-easy-version/solution.cpp",
+        "status": "error"
+      },
+      "history": [
+        {
+          "at": 1788061129029,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788061167142,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788061167142,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        }
+      ],
+      "id": "codeforces:2258B1",
+      "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 100 KB",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "2258B1",
+      "revision": {
+        "dueAt": 1788147529029,
+        "ease": 0.96,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0.1,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 218 ms",
+      "slug": "2258B1",
+      "solvedAt": 1788061129029,
+      "tags": [
+        "brute force",
+        "math"
+      ],
+      "title": "Carrot Chopdown (Easy Version)",
+      "url": "https://codeforces.com/contest/2258/problem/B1"
+    },
+    "codeforces:2258B2": {
+      "attempts": 5,
+      "code": "#include<iostream>\n#include<vector>\n#include<algorithm>\nusing namespace std;\nvoid solve()\n{\n    int n,m;\n    cin>>n>>m;\n    vector<int> C(m+2,0);\n    for(int i=0;i<n;++i)\n    {\n        int a;\n        cin>>a;\n        C[a]++;\n    }\n    vector<long long> Pref(m+2,0);\n    for(int i=1;i<=m;++i)\n    {\n        Pref[i] = Pref[i-1]+C[i];\n    }\n    vector<long long> Ans(m+1,0);\n    int maxk = min(m,18);\n    long long pk[19];\n    for(int k=1;k<=18;++k)\n    {\n        pk[k]=1LL<<k;\n    }\n    for(int y =1;y<=m;++y)\n    {\n        long long Y[19] = {0};\n        for(int j = 1;j*y<=m;++j)\n        {\n            long long count = Pref[min(m,(j+1)*y-1)]-Pref[j*y-1];\n            if(!count) continue;\n            \n            for(int k =1;k<=maxk;++k){\n                Y[k] += count * min((long long)j,pk[k]-1);\n            }\n        }\n        for(int k=1;k<=maxk;++k)\n        {\n            long long extarget = pk[k]*y;\n            if(extarget<=m)\n            {\n                Y[k]+=C[extarget];\n            }\n            if(Y[k]>Ans[k])\n            {\n                Ans[k] = Y[k];\n            }\n        }\n    }\n    for(int k=1;k<=m;++k)\n    {\n        int idx = min(k,maxk);\n        cout<<Ans[idx] << (k ==m ? \"\" : \" \");\n    }\n    cout<<\"\\n\";\n}\nint main()\n{\n    int t;\n    if(cin>>t){\n        while(t--)\n        {\n            solve();\n        }\n        \n    }\n    return 0;\n}\n \n \n \n \n \n ",
+      "difficulty": "unknown",
+      "events": [
+        {
+          "accepted": false,
+          "at": 1788019702078,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "0 ms",
+          "submissionId": "388825123",
+          "verdict": "Compilation error"
+        },
+        {
+          "accepted": false,
+          "at": 1788019783863,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "109 ms",
+          "submissionId": "388825586",
+          "verdict": "Wrong answer on pretest 2"
+        },
+        {
+          "accepted": false,
+          "at": 1788020483508,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "0 ms",
+          "submissionId": "388829477",
+          "verdict": "Compilation error"
+        },
+        {
+          "accepted": false,
+          "at": 1788020599323,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "0 ms",
+          "submissionId": "388830150",
+          "verdict": "Compilation error"
+        },
+        {
+          "accepted": false,
+          "at": 1788020680117,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "100 KB",
+          "runtime": "437 ms",
+          "submissionId": "388830448",
+          "verdict": "Pretests passed"
+        }
+      ],
+      "github": {
+        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "path": "codeforces/2258B2-carrot-chopdown-hard-version/solution.cpp",
+        "status": "error"
+      },
+      "history": [
+        {
+          "at": 1788061129205,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "C++17 (GCC 7-32), 5 attempt(s)"
+        },
+        {
+          "at": 1788061240914,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788061240914,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        }
+      ],
+      "id": "codeforces:2258B2",
+      "language": "C++17 (GCC 7-32)",
+      "memoryNote": "Memory 100 KB",
+      "parikshaa": {
+        "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
+        "status": "skipped"
+      },
+      "platform": "codeforces",
+      "problemId": "2258B2",
+      "revision": {
+        "dueAt": 1788147529205,
+        "ease": 0.81,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0.47,
+        "targetReviews": 7
+      },
+      "runtimeNote": "Runtime 437 ms",
+      "slug": "2258B2",
+      "solvedAt": 1788061129205,
+      "tags": [
+        "brute force",
+        "implementation",
+        "math"
+      ],
+      "title": "Carrot Chopdown (Hard Version)",
+      "url": "https://codeforces.com/contest/2258/problem/B2"
     },
     "codeforces:71A": {
       "attempts": 1,
@@ -1293,9 +2000,10 @@
         }
       ],
       "github": {
-        "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/33aa3483f3132659e50ca1e3fd11890b34f8c2d1",
         "path": "codeforces/easy/71A-way-too-long-words/solution.cpp",
-        "status": "error"
+        "status": "synced",
+        "syncedAt": 1788111844814
       },
       "history": [
         {
@@ -1315,11 +2023,47 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788061129086,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788061190119,
+          "kind": "github",
+          "outcome": "error",
+          "reason": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\"."
+        },
+        {
+          "at": 1788061190119,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788111742523,
+          "kind": "solved",
+          "outcome": "re-solved",
+          "reason": "C++17 (GCC 7-32), 1 attempt(s)"
+        },
+        {
+          "at": 1788111844814,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "codeforces/easy/71A-way-too-long-words/solution.cpp"
+        },
+        {
+          "at": 1788111844814,
+          "kind": "parikshaa",
+          "outcome": "skipped",
+          "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
         }
       ],
       "id": "codeforces:71A",
       "language": "C++17 (GCC 7-32)",
-      "memoryNote": "Memory 0 KB",
+      "memoryNote": "Memory 0 KB",
       "parikshaa": {
         "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced.",
         "status": "skipped"
@@ -1336,10 +2080,10 @@
         "struggle": 0,
         "targetReviews": 6
       },
-      "runtimeNote": "Runtime 46 ms",
+      "runtimeNote": "Runtime 46 ms",
       "slug": "71A",
       "solveTimeMs": 55629,
-      "solvedAt": 1787907120304,
+      "solvedAt": 1788111742523,
       "tags": [
         "strings"
       ],
@@ -1494,6 +2238,117 @@
       ],
       "title": "Cinema Seat Allocation",
       "url": "https://leetcode.com/problems/cinema-seat-allocation/"
+    },
+    "leetcode:count-integers-appearing-in-a-single-block": {
+      "attempts": 1,
+      "code": "class Solution:\n    def countSpecialIntegers(self, nums: list[int]) -> int:\n        a = set()\n        b = set()\n        prev = -1\n        for x in nums:\n            if x in a and x != prev:\n                b.add(x)\n            a.add(x)\n            prev = x\n        return len(a) - len(b)\n        ",
+      "difficulty": "easy",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "0\n0",
+          "at": 1788057721083,
+          "kind": "run",
+          "language": "Python3",
+          "memory": "19.3 MB",
+          "runtime": "0 ms",
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": false,
+          "at": 1788057743045,
+          "errorText": "SyntaxError: 'return' outside function\n    ^^^^^^^^^^^^^^^^^^^^^^\n    return len(a) - len(b)\nLine 11  (Solution.py)",
+          "kind": "run",
+          "language": "Python3",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "verdict": "Runtime Error"
+        },
+        {
+          "accepted": true,
+          "actualOutput": "0\n0",
+          "at": 1788057751469,
+          "kind": "run",
+          "language": "Python3",
+          "memory": "19.5 MB",
+          "runtime": "0 ms",
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "actualOutput": "1\n2",
+          "at": 1788057887672,
+          "kind": "run",
+          "language": "Python3",
+          "memory": "19.3 MB",
+          "runtime": "0 ms",
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1788057893077,
+          "kind": "submit",
+          "language": "Python3",
+          "memory": "19.2 MB",
+          "runtime": "0 ms",
+          "submissionId": "2124470492",
+          "testsPassed": 529,
+          "testsTotal": 529,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/e997dce706f9b99426e1ea1d75c6f8d2eb22bce3",
+        "path": "leetcode/easy/101170-count-integers-appearing-in-a-single-block/solution.py",
+        "status": "synced",
+        "syncedAt": 1788057897032
+      },
+      "history": [
+        {
+          "at": 1788057893605,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Python3, 1 attempt(s)"
+        },
+        {
+          "at": 1788057897032,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/easy/101170-count-integers-appearing-in-a-single-block/solution.py"
+        },
+        {
+          "at": 1788057897032,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:count-integers-appearing-in-a-single-block",
+      "language": "Python3",
+      "memoryNote": "Memory 19.2 MB (beats 100.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "101170",
+      "revision": {
+        "dueAt": 1788144293605,
+        "ease": 0.94,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0.14,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 0 ms (beats 100.0%)",
+      "slug": "count-integers-appearing-in-a-single-block",
+      "solveTimeMs": 466315,
+      "solvedAt": 1788057893605,
+      "tags": [],
+      "title": "Count Integers Appearing in a Single Block",
+      "url": "https://leetcode.com/problems/count-integers-appearing-in-a-single-block/"
     },
     "leetcode:distribute-elements-into-two-arrays-i": {
       "attempts": 1,
@@ -3030,6 +3885,190 @@
       "title": "Minimum Bishop Moves to Reach Target",
       "url": "https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/"
     },
+    "leetcode:minimum-operations-to-form-subset-sum-i": {
+      "attempts": 1,
+      "code": "class Solution:\n    def minOperations(self, nums: list[int], sum: int) -> int:\n        m = nums\n        INF = 10**10\n        dp = [INF]*(sum+1)\n        dp[0] = 0\n        for x in m:\n            op = []\n            if x <= sum:\n                op.append((x,0))\n            curr = x\n            ops = 0\n            while curr*2<=sum:\n                curr*=2\n                ops+=1\n                op.append((curr,ops))\n            curr = x\n            ops = 0\n            while curr // 2>0:\n                curr//=2\n                ops+=1\n                op.append((curr,ops))\n            dp1=dp[:]\n            rs = [w for w, val in enumerate(dp) if val != INF]\n            for val,ct in op:\n                for w in rs:\n                    w1=w+val\n                    if w1>sum:\n                        break;\n                    if dp[w]+ct<dp1[w1]:\n                        dp1[w1]=dp[w]+ct\n            dp = dp1\n        return dp[sum] if dp[sum] != INF else -1",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "-1\n-1\n-1",
+          "at": 1788058775948,
+          "kind": "run",
+          "language": "Python3",
+          "memory": "19.5 MB",
+          "runtime": "0 ms",
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": false,
+          "at": 1788059037883,
+          "errorText": "UnboundLocalError: cannot access local variable 'ope' where it is not associated with a value\n    ^^^\n    ope+=1\nLine 21 in minOperations (Solution.py)\n    ret = Solution().minOperations(param_1, param_2)\nLine 63 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 78 in <module> (Solution.py)",
+          "kind": "run",
+          "language": "Python3",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "verdict": "Runtime Error"
+        },
+        {
+          "accepted": true,
+          "actualOutput": "3\n3\n-1",
+          "at": 1788059056944,
+          "kind": "run",
+          "language": "Python3",
+          "memory": "19.4 MB",
+          "runtime": "0 ms",
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1788059073801,
+          "kind": "submit",
+          "language": "Python3",
+          "memory": "20 MB",
+          "runtime": "2281 ms",
+          "submissionId": "2124509561",
+          "testsPassed": 1000,
+          "testsTotal": 1000,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/141af72eae8036c35b66bd1ac76014e8fb549dc8",
+        "path": "leetcode/medium/101140-minimum-operations-to-form-subset-sum-i/solution.py",
+        "status": "synced",
+        "syncedAt": 1788059077682
+      },
+      "history": [
+        {
+          "at": 1788059074225,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Python3, 1 attempt(s)"
+        },
+        {
+          "at": 1788059077682,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/101140-minimum-operations-to-form-subset-sum-i/solution.py"
+        },
+        {
+          "at": 1788059077682,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:minimum-operations-to-form-subset-sum-i",
+      "language": "Python3",
+      "memoryNote": "Memory 20 MB (beats 25.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "101140",
+      "revision": {
+        "dueAt": 1788145474225,
+        "ease": 0.96,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0.09,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 2281 ms (beats 100.0%)",
+      "slug": "minimum-operations-to-form-subset-sum-i",
+      "solvedAt": 1788059074225,
+      "tags": [],
+      "title": "Minimum Operations to Form Subset Sum I",
+      "url": "https://leetcode.com/problems/minimum-operations-to-form-subset-sum-i/"
+    },
+    "leetcode:minimum-operations-to-form-subset-sum-ii": {
+      "attempts": 1,
+      "code": "import collections\nclass Solution:\n    def minOperations(self, nums: list[int], sum: int) -> int:\n        z = nums\n        sv = sum\n        INF = 10**10\n        dp = [INF] * (sv+1)\n        dp[0] = 0\n        for num in z:\n            d = {num: 0}\n            q = collections.deque([num])\n            while q:\n                curr = q.popleft()\n                d1 = d[curr]\n                nxt1=curr*2\n                if nxt1<=sv and nxt1 not in d:\n                    d[nxt1] = d1+1\n                    q.append(nxt1)\n                nxt2=curr//2\n                if nxt2 not in d:\n                    d[nxt2]=d1+1\n                    q.append(nxt2)\n            op = []\n            for val, ops in d.items():\n                if 0 < val <= sv:\n                    op.append((val,ops))\n            dp1 = dp[:]\n            rs = [w for w in range(sv+1) if dp[w]!=INF]\n            for val, ops in op:\n                for w in rs:\n                    nxt = w + val\n                    if nxt <= sv:\n                        cand = dp[w] + ops\n                        if cand < dp1[nxt]:\n                            dp1[nxt] = cand\n            dp = dp1\n        return dp[sv] if dp[sv] != INF else -1",
+      "difficulty": "hard",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "3\n2\n-1",
+          "at": 1788059825734,
+          "kind": "run",
+          "language": "Python3",
+          "memory": "19.5 MB",
+          "runtime": "0 ms",
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1788059843156,
+          "kind": "submit",
+          "language": "Python3",
+          "memory": "19.7 MB",
+          "runtime": "7393 ms",
+          "submissionId": "2124532865",
+          "testsPassed": 999,
+          "testsTotal": 999,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/9e4e18045afbdfda7298c09eef181bdba79636ba",
+        "path": "leetcode/hard/101141-minimum-operations-to-form-subset-sum-ii/solution.py",
+        "status": "synced",
+        "syncedAt": 1788059847716
+      },
+      "history": [
+        {
+          "at": 1788059843562,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Python3, 1 attempt(s)"
+        },
+        {
+          "at": 1788059847716,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/hard/101141-minimum-operations-to-form-subset-sum-ii/solution.py"
+        },
+        {
+          "at": 1788059847716,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        },
+        {
+          "at": 1788060291495,
+          "kind": "opened"
+        }
+      ],
+      "id": "leetcode:minimum-operations-to-form-subset-sum-ii",
+      "language": "Python3",
+      "memoryNote": "Memory 19.7 MB (beats 25.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "101141",
+      "revision": {
+        "dueAt": 1788146243562,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 7393 ms (beats 100.0%)",
+      "slug": "minimum-operations-to-form-subset-sum-ii",
+      "solvedAt": 1788059843562,
+      "tags": [],
+      "title": "Minimum Operations to Form Subset Sum II",
+      "url": "https://leetcode.com/problems/minimum-operations-to-form-subset-sum-ii/"
+    },
     "leetcode:minimum-total-price-after-applying-discounts": {
       "attempts": 1,
       "code": "class Solution:\n    def minPrice(self, prices: list[int], discounts: list[int]) -> float:\n        prices.sort(reverse=True)\n        discounts.sort(reverse=True)\n        x = sum(y * z for y, z in zip(prices, discounts))\n        return sum(prices) - (x/100.0)\n        ",
@@ -3328,6 +4367,95 @@
       ],
       "title": "Predict the Winner",
       "url": "https://leetcode.com/problems/predict-the-winner/"
+    },
+    "leetcode:removing-minimum-and-maximum-from-array": {
+      "attempts": 2,
+      "code": "class Solution {\n    public int minimumDeletions(int[] nums) {\n        int min = 0;\n        int max = 0;\n        int n = nums.length;\n        for(int i=1;i<n;i++) {\n            if(nums[min] > nums[i]) {\n                min = i;\n            }\n            if(nums[max] < nums[i]) {\n                max = i;\n            }\n        }\n        int maxIdx = Math.max(min,max);\n        int minIdx = Math.min(min,max);\n        int res = maxIdx+1;\n        res = Math.min(res,n-minIdx);\n        res = Math.min(res,(minIdx+1)+(n-maxIdx));\n        return res;\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": false,
+          "at": 1788060246984,
+          "errorText": "SyntaxError: invalid syntax\n                   ^\n    class Solution {\nLine 1  (Solution.py)",
+          "expectedOutput": "5",
+          "failedInput": "[2,10,7,5,4,1,8,6]",
+          "kind": "submit",
+          "language": "Python3",
+          "memory": "N/A",
+          "runtime": "N/A",
+          "submissionId": "2124544358",
+          "testsPassed": 0,
+          "testsTotal": 62,
+          "verdict": "Runtime Error"
+        },
+        {
+          "accepted": true,
+          "at": 1788060277313,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "87 MB",
+          "runtime": "3 ms",
+          "submissionId": "2124545217",
+          "testsPassed": 62,
+          "testsTotal": 62,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/ba5653a8a624a569b1c423a8062204c159def781",
+        "path": "leetcode/medium/2091-removing-minimum-and-maximum-from-array/solution.java",
+        "status": "synced",
+        "syncedAt": 1788060281170
+      },
+      "history": [
+        {
+          "at": 1788060277951,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 2 attempt(s)"
+        },
+        {
+          "at": 1788060281170,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/2091-removing-minimum-and-maximum-from-array/solution.java"
+        },
+        {
+          "at": 1788060281170,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:removing-minimum-and-maximum-from-array",
+      "language": "Java",
+      "memoryNote": "Memory 87 MB (beats 8.7%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "2091",
+      "revision": {
+        "dueAt": 1788146677951,
+        "ease": 0.93,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0.17,
+        "targetReviews": 7
+      },
+      "runtimeNote": "Runtime 3 ms (beats 61.8%)",
+      "slug": "removing-minimum-and-maximum-from-array",
+      "solveTimeMs": 50940,
+      "solvedAt": 1788060277951,
+      "tags": [
+        "Array",
+        "Greedy"
+      ],
+      "title": "Removing Minimum and Maximum From Array",
+      "url": "https://leetcode.com/problems/removing-minimum-and-maximum-from-array/"
     },
     "leetcode:shortest-and-lexicographically-smallest-beautiful-string": {
       "attempts": 1,
@@ -4338,6 +5466,86 @@
       "title": "Sum Game",
       "url": "https://leetcode.com/problems/sum-game/"
     },
+    "leetcode:sum-of-decoded-numbers": {
+      "attempts": 1,
+      "code": "class Solution:\n    def sumDecoded(self, nums: list[int]) -> int:\n        a = nums\n        t = 0\n        MOD = 10**9 + 7\n        for num in a:\n            w = num %10\n            d = num // 10\n\n            s = str(d)\n            x = int(s[:w])\n            y = int(s[w:])\n\n            t = (t + pow(x,y,MOD)) % MOD\n        return t",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "actualOutput": "8\n1649\n73741817",
+          "at": 1788058161291,
+          "kind": "run",
+          "language": "Python3",
+          "memory": "19.4 MB",
+          "runtime": "0 ms",
+          "verdict": "Accepted"
+        },
+        {
+          "accepted": true,
+          "at": 1788058180688,
+          "kind": "submit",
+          "language": "Python3",
+          "memory": "32 MB",
+          "runtime": "435 ms",
+          "submissionId": "2124480275",
+          "testsPassed": 993,
+          "testsTotal": 993,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/567bc85ad2112f50a3a566bd0db116acee885b77",
+        "path": "leetcode/medium/101162-sum-of-decoded-numbers/solution.py",
+        "status": "synced",
+        "syncedAt": 1788058184534
+      },
+      "history": [
+        {
+          "at": 1788058181063,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Python3, 1 attempt(s)"
+        },
+        {
+          "at": 1788058184534,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/101162-sum-of-decoded-numbers/solution.py"
+        },
+        {
+          "at": 1788058184534,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:sum-of-decoded-numbers",
+      "language": "Python3",
+      "memoryNote": "Memory 32 MB (beats 100.0%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "101162",
+      "revision": {
+        "dueAt": 1788144581063,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 435 ms (beats 100.0%)",
+      "slug": "sum-of-decoded-numbers",
+      "solvedAt": 1788058181063,
+      "tags": [],
+      "title": "Sum of Decoded Numbers",
+      "url": "https://leetcode.com/problems/sum-of-decoded-numbers/"
+    },
     "leetcode:weighted-sum-of-a-tree": {
       "attempts": 1,
       "code": "class Solution:\n    def weightedSum(self, parent: list[int], nums: list[int]) -> int:\n        n = len(parent)\n        x = [[] for _ in range(n)]\n        for i in range(1,n):\n            x[parent[i]].append(i)\n\n        y = (parent, nums)\n        d = [0] * n\n        d[0] = 1\n        q = [0]\n        for u in q:\n            for v in x[u]:\n                d[v] = d[u] + 1\n                q.append(v)\n        h = d[q[-1]]\n        ans = 0\n        for i in range(n):\n            ans += nums[i] * (h - d[i]+1)\n        return ans",
@@ -4639,6 +5847,18 @@
         "verdict": "Wrong answer on test 10"
       }
     ],
+    "codeforces:2256B": [
+      {
+        "accepted": true,
+        "at": 1788061133400,
+        "kind": "submit",
+        "language": "C++17 (GCC 7-32)",
+        "memory": "0 KB",
+        "runtime": "46 ms",
+        "submissionId": "388867974",
+        "verdict": "Accepted"
+      }
+    ],
     "codeforces:2258A": [
       {
         "accepted": false,
@@ -4772,6 +5992,60 @@
         "submissionId": "2112241380",
         "testsPassed": 53,
         "testsTotal": 53,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:count-integers-appearing-in-a-single-block": [
+      {
+        "accepted": true,
+        "actualOutput": "0\n0",
+        "at": 1788057721083,
+        "kind": "run",
+        "language": "Python3",
+        "memory": "19.3 MB",
+        "runtime": "0 ms",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": false,
+        "at": 1788057743045,
+        "errorText": "SyntaxError: 'return' outside function\n    ^^^^^^^^^^^^^^^^^^^^^^\n    return len(a) - len(b)\nLine 11  (Solution.py)",
+        "kind": "run",
+        "language": "Python3",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "verdict": "Runtime Error"
+      },
+      {
+        "accepted": true,
+        "actualOutput": "0\n0",
+        "at": 1788057751469,
+        "kind": "run",
+        "language": "Python3",
+        "memory": "19.5 MB",
+        "runtime": "0 ms",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "actualOutput": "1\n2",
+        "at": 1788057887672,
+        "kind": "run",
+        "language": "Python3",
+        "memory": "19.3 MB",
+        "runtime": "0 ms",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1788057893077,
+        "kind": "submit",
+        "language": "Python3",
+        "memory": "19.2 MB",
+        "runtime": "0 ms",
+        "submissionId": "2124470492",
+        "testsPassed": 529,
+        "testsTotal": 529,
         "verdict": "Accepted"
       }
     ],
@@ -5163,6 +6437,74 @@
         "verdict": "Accepted"
       }
     ],
+    "leetcode:minimum-operations-to-form-subset-sum-i": [
+      {
+        "accepted": true,
+        "actualOutput": "-1\n-1\n-1",
+        "at": 1788058775948,
+        "kind": "run",
+        "language": "Python3",
+        "memory": "19.5 MB",
+        "runtime": "0 ms",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": false,
+        "at": 1788059037883,
+        "errorText": "UnboundLocalError: cannot access local variable 'ope' where it is not associated with a value\n    ^^^\n    ope+=1\nLine 21 in minOperations (Solution.py)\n    ret = Solution().minOperations(param_1, param_2)\nLine 63 in _driver (Solution.py)\n    ~~~~~~~^^\n    _driver()\nLine 78 in <module> (Solution.py)",
+        "kind": "run",
+        "language": "Python3",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "verdict": "Runtime Error"
+      },
+      {
+        "accepted": true,
+        "actualOutput": "3\n3\n-1",
+        "at": 1788059056944,
+        "kind": "run",
+        "language": "Python3",
+        "memory": "19.4 MB",
+        "runtime": "0 ms",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1788059073801,
+        "kind": "submit",
+        "language": "Python3",
+        "memory": "20 MB",
+        "runtime": "2281 ms",
+        "submissionId": "2124509561",
+        "testsPassed": 1000,
+        "testsTotal": 1000,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:minimum-operations-to-form-subset-sum-ii": [
+      {
+        "accepted": true,
+        "actualOutput": "3\n2\n-1",
+        "at": 1788059825734,
+        "kind": "run",
+        "language": "Python3",
+        "memory": "19.5 MB",
+        "runtime": "0 ms",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1788059843156,
+        "kind": "submit",
+        "language": "Python3",
+        "memory": "19.7 MB",
+        "runtime": "7393 ms",
+        "submissionId": "2124532865",
+        "testsPassed": 999,
+        "testsTotal": 999,
+        "verdict": "Accepted"
+      }
+    ],
     "leetcode:minimum-total-price-after-applying-discounts": [
       {
         "accepted": true,
@@ -5280,6 +6622,35 @@
         "memory": "42.9 MB",
         "runtime": "0 ms",
         "submissionId": "2103612492",
+        "testsPassed": 62,
+        "testsTotal": 62,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:removing-minimum-and-maximum-from-array": [
+      {
+        "accepted": false,
+        "at": 1788060246984,
+        "errorText": "SyntaxError: invalid syntax\n                   ^\n    class Solution {\nLine 1  (Solution.py)",
+        "expectedOutput": "5",
+        "failedInput": "[2,10,7,5,4,1,8,6]",
+        "kind": "submit",
+        "language": "Python3",
+        "memory": "N/A",
+        "runtime": "N/A",
+        "submissionId": "2124544358",
+        "testsPassed": 0,
+        "testsTotal": 62,
+        "verdict": "Runtime Error"
+      },
+      {
+        "accepted": true,
+        "at": 1788060277313,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "87 MB",
+        "runtime": "3 ms",
+        "submissionId": "2124545217",
         "testsPassed": 62,
         "testsTotal": 62,
         "verdict": "Accepted"
@@ -5515,6 +6886,30 @@
         "submissionId": "2117103804",
         "testsPassed": 95,
         "testsTotal": 95,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:sum-of-decoded-numbers": [
+      {
+        "accepted": true,
+        "actualOutput": "8\n1649\n73741817",
+        "at": 1788058161291,
+        "kind": "run",
+        "language": "Python3",
+        "memory": "19.4 MB",
+        "runtime": "0 ms",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1788058180688,
+        "kind": "submit",
+        "language": "Python3",
+        "memory": "32 MB",
+        "runtime": "435 ms",
+        "submissionId": "2124480275",
+        "testsPassed": 993,
+        "testsTotal": 993,
         "verdict": "Accepted"
       }
     ],
