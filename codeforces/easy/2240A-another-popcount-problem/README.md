@@ -30,10 +30,13 @@ _Add your notes here._
 
 ## Record
 
-Opened 1× · Solved 3× · GitHub sync 2× · Parikshaa sync 2×
+Opened 1× · Solved 4× · GitHub sync 3× · Parikshaa sync 3×
 
 | When (UTC) | What | Outcome | Reason |
 | --- | --- | --- | --- |
+| 2026-08-30 17:42 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
+| 2026-08-30 03:38 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
+| 2026-08-30 03:38 | GitHub sync | synced | codeforces/easy/2240A-another-popcount-problem/solution.cpp |
 | 2026-08-30 03:38 | Solved | re-solved | C++17 (GCC 7-32), 1 attempt(s) |
 | 2026-08-28 08:51 | Parikshaa sync | skipped | Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced. |
 | 2026-08-28 08:51 | GitHub sync | synced | codeforces/easy/2240A-another-popcount-problem/solution.cpp |

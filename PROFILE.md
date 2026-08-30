@@ -12,7 +12,7 @@ _Regenerated on every sync — last run 2026-08-30._
 
 | | |
 | --- | --- |
-| Problems solved | 54 |
+| Problems solved | 55 |
 | Due for revision today | 43 |
 | Revisions completed | 4 |
 | Current streak | 4 days |
@@ -37,8 +37,8 @@ _Regenerated on every sync — last run 2026-08-30._
 | prefix sum | 2 | 45/100 |
 | sorting | 2 | 45/100 |
 | binary search | 2 | 45/100 |
+| strings | 2 | 45/100 |
 | sliding window | 3 | 45/100 |
-| two pointers | 3 | 45/100 |
 
 ## Fought hardest for these
 
