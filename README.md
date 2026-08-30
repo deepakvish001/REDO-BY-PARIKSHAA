@@ -1,19 +1,20 @@
 # DSA Solutions
 
-53 solved — 17 easy · 22 medium · 11 hard · 3 unrated. Last updated 2026-08-30.
+54 solved — 18 easy · 22 medium · 11 hard · 3 unrated. Last updated 2026-08-30.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
-| 2245A | [Who Watches the Watchpig?](codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
-| 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
 | 2238B | [Crimson Triples](codeforces/easy/2238B-crimson-triples/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
 | 2240A | [Another Popcount Problem](codeforces/easy/2240A-another-popcount-problem/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
-| 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
-| 2256B | [Domino Tiles](codeforces/easy/2256B-domino-tiles/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
-| 71A | [Way Too Long Words](codeforces/easy/71A-way-too-long-words/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
+| 2241A | [Divide and Conquer](codeforces/easy/2241A-divide-and-conquer/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
 | 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
+| 71A | [Way Too Long Words](codeforces/easy/71A-way-too-long-words/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
+| 2256B | [Domino Tiles](codeforces/easy/2256B-domino-tiles/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
+| 2245A | [Who Watches the Watchpig?](codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
+| 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
+| 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
 | 2258B2 | [Carrot Chopdown (Hard Version)](codeforces/2258B2-carrot-chopdown-hard-version/solution.cpp) | Codeforces | — | C++17 (GCC 7-32) | 2026-08-30 |
 | 2258B1 | [Carrot Chopdown (Easy Version)](codeforces/2258B1-carrot-chopdown-easy-version/solution.cpp) | Codeforces | — | C++17 (GCC 7-32) | 2026-08-30 |
 | 2258A | [Odd Eraser](codeforces/2258A-odd-eraser/solution.cpp) | Codeforces | — | C++17 (GCC 7-32) | 2026-08-30 |
