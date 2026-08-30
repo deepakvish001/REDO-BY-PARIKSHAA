@@ -1,11 +1,15 @@
 # DSA Solutions
 
-50 solved — 17 easy · 22 medium · 11 hard. Last updated 2026-08-30.
+49 solved — 14 easy · 22 medium · 11 hard · 2 unrated. Last updated 2026-08-30.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
+| 2258B1 | [Carrot Chopdown (Easy Version)](codeforces/2258B1-carrot-chopdown-easy-version/solution.cpp) | Codeforces | — | C++17 (GCC 7-32) | 2026-08-30 |
+| 2245A | [Who Watches the Watchpig?](codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
+| 2258A | [Odd Eraser](codeforces/2258A-odd-eraser/solution.cpp) | Codeforces | — | C++17 (GCC 7-32) | 2026-08-30 |
 | 2240A | [Another Popcount Problem](codeforces/easy/2240A-another-popcount-problem/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
 | 2091 | [Removing Minimum and Maximum From Array](leetcode/medium/2091-removing-minimum-and-maximum-from-array/solution.java) | LeetCode | medium | Java | 2026-08-30 |
 | 101141 | [Minimum Operations to Form Subset Sum II](leetcode/hard/101141-minimum-operations-to-form-subset-sum-ii/solution.py) | LeetCode | hard | Python3 | 2026-08-30 |
@@ -16,13 +20,8 @@
 | 101134 | [Maximum Valid Split Positions I](leetcode/medium/101134-maximum-valid-split-positions-i/solution.py) | LeetCode | medium | Python3 | 2026-08-29 |
 | 101151 | [Minimum Bishop Moves to Reach Target](leetcode/medium/101151-minimum-bishop-moves-to-reach-target/solution.py) | LeetCode | medium | Python3 | 2026-08-29 |
 | 2948 | [Make Lexicographically Smallest Array by Swapping Elements](leetcode/medium/2948-make-lexicographically-smallest-array-by-swapping-elements/solution.java) | LeetCode | medium | Java | 2026-08-29 |
-| 71A | [Way Too Long Words](codeforces/easy/71A-way-too-long-words/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
 | 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
-| 2245A | [Who Watches the Watchpig?](codeforces/easy/2245A-who-watches-the-watchpig/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
 | 2241A | [Divide and Conquer](codeforces/easy/2241A-divide-and-conquer/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
-| 2238B | [Crimson Triples](codeforces/easy/2238B-crimson-triples/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
-| 2247A | [Zero Sum](codeforces/easy/2247A-zero-sum/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
-| 2248A | [You Delete, I Delete](codeforces/easy/2248A-you-delete-i-delete/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-28 |
 | 3734 | [Lexicographically Smallest Palindromic Permutation Greater Than Target](leetcode/hard/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/solution.java) | LeetCode | hard | Java | 2026-08-28 |
 | 3720 | [Lexicographically Smallest Permutation Greater Than Target](leetcode/medium/3720-lexicographically-smallest-permutation-greater-than-target/solution.java) | LeetCode | medium | Java | 2026-08-27 |
 | 2904 | [Shortest and Lexicographically Smallest Beautiful String](leetcode/medium/2904-shortest-and-lexicographically-smallest-beautiful-string/solution.java) | LeetCode | medium | Java | 2026-08-26 |

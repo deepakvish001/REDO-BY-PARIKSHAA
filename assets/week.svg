@@ -31,7 +31,7 @@
     <g class="rise" style="animation-delay:0s">
       <rect x="40" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="62" y="188" class="big">24</text>
+      <text x="62" y="188" class="big">27</text>
       <text x="62" y="211" class="small">problems solved</text>
     </g>
     <g class="rise" style="animation-delay:0.07s">
@@ -43,7 +43,7 @@
     <g class="rise" style="animation-delay:0.14s">
       <rect x="516" y="132" width="226" height="96" rx="16"
             fill="#141419" stroke="#26262e" />
-      <text x="538" y="188" class="big">20</text>
+      <text x="538" y="188" class="big">27</text>
       <text x="538" y="211" class="small">submissions</text>
     </g>
     <g class="rise" style="animation-delay:0.21000000000000002s">
@@ -53,15 +53,15 @@
       <text x="776" y="211" class="small">day streak</text>
     </g>
   <text x="40" y="252" class="label">DIFFICULTY MIX</text>
-  <rect x="40" y="262" width="400" height="14" rx="7" fill="#34d399" />
-    <text x="40" y="296" class="small" fill="#34d399">10 easy</text><rect x="446" y="262" width="400" height="14" rx="7" fill="#fbbf24" />
-    <text x="446" y="296" class="small" fill="#fbbf24">10 medium</text><rect x="852" y="262" width="120" height="14" rx="7" fill="#f87171" />
-    <text x="852" y="296" class="small" fill="#f87171">3 hard</text>
+  <rect x="40" y="262" width="422" height="14" rx="7" fill="#34d399" />
+    <text x="40" y="296" class="small" fill="#34d399">11 easy</text><rect x="468" y="262" width="383" height="14" rx="7" fill="#fbbf24" />
+    <text x="468" y="296" class="small" fill="#fbbf24">10 medium</text><rect x="857" y="262" width="115" height="14" rx="7" fill="#f87171" />
+    <text x="857" y="296" class="small" fill="#f87171">3 hard</text>
   <text x="40" y="326" class="label">TOPICS</text>
     <g class="rise">
       <rect x="40" y="336" width="78.8" height="30" rx="15" fill="#141419" stroke="#26262e" />
       <text x="56" y="356" class="chip">math</text>
-      <text x="100.8" y="356" class="chipCount" text-anchor="end">4</text>
+      <text x="100.8" y="356" class="chipCount" text-anchor="end">7</text>
     </g>
     <g class="rise">
       <rect x="126.8" y="336" width="95.19999999999999" height="30" rx="15" fill="#141419" stroke="#26262e" />
@@ -87,12 +87,12 @@
     <g class="rise" style="animation-delay:.25s">
       <rect x="40" y="396" width="920" height="86" rx="16" fill="#141419" stroke="#26262e" />
       <text x="62" y="424" class="label">BIGGEST FIGHT</text>
-      <text x="62" y="452" class="fightTitle">Odd Eraser</text>
-      <text x="62" y="472" class="small">3 submits</text>
-      <text x="938" y="452" class="fightScore" text-anchor="end">30</text>
+      <text x="62" y="452" class="fightTitle">Carrot Chopdown (Hard Version)</text>
+      <text x="62" y="472" class="small">5 submits</text>
+      <text x="938" y="452" class="fightScore" text-anchor="end">47</text>
       <text x="938" y="470" class="small" text-anchor="end">out of 100</text>
     </g>
 
-  <text x="40" y="516" class="foot">3h 22m at the keyboard · 14 runs · 3 hints · new: dp, math, number theory</text>
+  <text x="40" y="516" class="foot">3h 23m at the keyboard · 14 runs · 3 hints · new: dp, math, number theory</text>
   <text x="960" y="516" class="foot" text-anchor="end">Redo · parikshaa.org</text>
 </svg>

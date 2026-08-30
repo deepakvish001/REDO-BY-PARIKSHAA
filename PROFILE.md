@@ -12,11 +12,11 @@ _Regenerated on every sync — last run 2026-08-30._
 
 | | |
 | --- | --- |
-| Problems solved | 51 |
+| Problems solved | 54 |
 | Due for revision today | 39 |
 | Revisions completed | 4 |
 | Current streak | 4 days |
-| Submissions recorded | 51 (4 rejected) |
+| Submissions recorded | 58 (10 rejected) |
 | Runs recorded | 37 |
 | Median time to solve | 1 min |
 
@@ -27,8 +27,8 @@ _Regenerated on every sync — last run 2026-08-30._
 | number theory | 5 | 1 | 0/100 |
 | enumeration | 3 | 1 | 0/100 |
 | dp | 2 | 1 | 0/100 |
-| math | 17 | 1 | 23/100 |
-| greedy | 10 | 0 | 44/100 |
+| math | 20 | 1 | 22/100 |
+| brute force | 3 | 0 | 42/100 |
 
 ## Solid
 
@@ -46,6 +46,7 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 
 | Problem | Submits | Runs | Time | Cost |
 | --- | --- | --- | --- | --- |
+| [Carrot Chopdown (Hard Version)](https://codeforces.com/contest/2258/problem/B2) | 5 | 0 | — | 47/100 |
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Odd Eraser](https://codeforces.com/contest/2258/problem/A) | 3 | 0 | — | 30/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
@@ -53,9 +54,8 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | 2 | 0 | 1 min | 17/100 |
 | [Maximum Valid Split Positions I](https://leetcode.com/problems/maximum-valid-split-positions-i/) | 1 | 3 | — | 16/100 |
 | [Count Integers Appearing in a Single Block](https://leetcode.com/problems/count-integers-appearing-in-a-single-block/) | 1 | 4 | 8 min | 14/100 |
+| [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | 1 | 0 | — | 10/100 |
 | [Minimum Operations to Form Subset Sum I](https://leetcode.com/problems/minimum-operations-to-form-subset-sum-i/) | 1 | 3 | — | 9/100 |
-| [Minimum Bishop Moves to Reach Target](https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/) | 1 | 1 | 21 min | 5/100 |
-| [Minimum Operations to Form Subset Sum II](https://leetcode.com/problems/minimum-operations-to-form-subset-sum-ii/) | 1 | 1 | — | 0/100 |
 
 ## Revision queue
 
