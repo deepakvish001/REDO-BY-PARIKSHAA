@@ -1,11 +1,12 @@
 # DSA Solutions
 
-49 solved — 17 easy · 21 medium · 11 hard. Last updated 2026-08-30.
+50 solved — 17 easy · 22 medium · 11 hard. Last updated 2026-08-30.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 2091 | [Removing Minimum and Maximum From Array](leetcode/medium/2091-removing-minimum-and-maximum-from-array/solution.java) | LeetCode | medium | Java | 2026-08-30 |
 | 101141 | [Minimum Operations to Form Subset Sum II](leetcode/hard/101141-minimum-operations-to-form-subset-sum-ii/solution.py) | LeetCode | hard | Python3 | 2026-08-30 |
 | 101140 | [Minimum Operations to Form Subset Sum I](leetcode/medium/101140-minimum-operations-to-form-subset-sum-i/solution.py) | LeetCode | medium | Python3 | 2026-08-30 |
 | 101162 | [Sum of Decoded Numbers](leetcode/medium/101162-sum-of-decoded-numbers/solution.py) | LeetCode | medium | Python3 | 2026-08-30 |

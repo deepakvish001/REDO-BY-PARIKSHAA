@@ -12,11 +12,11 @@ _Regenerated on every sync — last run 2026-08-30._
 
 | | |
 | --- | --- |
-| Problems solved | 49 |
+| Problems solved | 50 |
 | Due for revision today | 39 |
 | Revisions completed | 4 |
 | Current streak | 4 days |
-| Submissions recorded | 46 (0 rejected) |
+| Submissions recorded | 48 (1 rejected) |
 | Runs recorded | 37 |
 | Median time to solve | 1 min |
 
@@ -28,7 +28,7 @@ _Regenerated on every sync — last run 2026-08-30._
 | enumeration | 3 | 1 | 0/100 |
 | dp | 2 | 1 | 0/100 |
 | math | 16 | 1 | 23/100 |
-| array | 17 | 0 | 45/100 |
+| greedy | 10 | 0 | 44/100 |
 
 ## Solid
 
@@ -49,13 +49,13 @@ Scored from the attempts it actually took — failed submits, runs, wrong answer
 | [Peaks in Array II](https://leetcode.com/problems/peaks-in-array-ii/) | 1 | 7 | — | 33/100 |
 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 1 | 4 | — | 25/100 |
 | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 1 | 0 | 2h 42m | 20/100 |
+| [Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | 2 | 0 | 1 min | 17/100 |
 | [Maximum Valid Split Positions I](https://leetcode.com/problems/maximum-valid-split-positions-i/) | 1 | 3 | — | 16/100 |
 | [Count Integers Appearing in a Single Block](https://leetcode.com/problems/count-integers-appearing-in-a-single-block/) | 1 | 4 | 8 min | 14/100 |
 | [Minimum Operations to Form Subset Sum I](https://leetcode.com/problems/minimum-operations-to-form-subset-sum-i/) | 1 | 3 | — | 9/100 |
 | [Minimum Bishop Moves to Reach Target](https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/) | 1 | 1 | 21 min | 5/100 |
 | [Minimum Operations to Form Subset Sum II](https://leetcode.com/problems/minimum-operations-to-form-subset-sum-ii/) | 1 | 1 | — | 0/100 |
 | [Sum of Decoded Numbers](https://leetcode.com/problems/sum-of-decoded-numbers/) | 1 | 1 | — | 0/100 |
-| [Lexicographically Largest String After Pair Transformations](https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/) | 1 | 1 | — | 0/100 |
 
 ## Revision queue
 
