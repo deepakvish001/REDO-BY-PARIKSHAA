@@ -1,11 +1,12 @@
 # DSA Solutions
 
-46 solved — 17 easy · 19 medium · 10 hard. Last updated 2026-08-30.
+47 solved — 17 easy · 20 medium · 10 hard. Last updated 2026-08-30.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 101162 | [Sum of Decoded Numbers](leetcode/medium/101162-sum-of-decoded-numbers/solution.py) | LeetCode | medium | Python3 | 2026-08-30 |
 | 101170 | [Count Integers Appearing in a Single Block](leetcode/easy/101170-count-integers-appearing-in-a-single-block/solution.py) | LeetCode | easy | Python3 | 2026-08-30 |
 | 101127 | [Lexicographically Largest String After Pair Transformations](leetcode/medium/101127-lexicographically-largest-string-after-pair-transformations/solution.py) | LeetCode | medium | Python3 | 2026-08-29 |
 | 101134 | [Maximum Valid Split Positions I](leetcode/medium/101134-maximum-valid-split-positions-i/solution.py) | LeetCode | medium | Python3 | 2026-08-29 |
