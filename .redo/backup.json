@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1788114655560,
+  "exportedAt": 1788287456520,
   "settings": {
     "github": {
       "token": "",
@@ -1567,7 +1567,18 @@
       "attempts": 1,
       "code": "#pragma GCC optimize(\"O3,unroll-loops\")\n#include <iostream>\n#include <string>\n#include <algorithm>\n\nusing namespace std;\n\nvoid solve() {\n    int n;\n    cin >> n;\n    string s;\n    cin >> s;\n\n    int orig_len = 1;\n    for (int i = 0; i < n - 1; ++i) {\n        if (s[i] != s[i+1]) {\n            orig_len++;\n        }\n    }\n\n    int min_delta = 0;\n    for (int i = 1; i < n - 1; ++i) {\n        int old_transitions = (s[i-1] != s[i]) + (s[i] != s[i+1]);\n        int new_transitions = (s[i-1] != s[i+1]);\n        int delta = new_transitions - old_transitions;\n        if (delta < min_delta) {\n            min_delta = delta;\n        }\n    }\n\n    cout << orig_len + min_delta << \"\\n\";\n}\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    \n    int t;\n    if (cin >> t) {\n        while (t--) {\n            solve();\n        }\n    }\n    \n    return 0;\n}",
       "difficulty": "easy",
-      "events": [],
+      "events": [
+        {
+          "accepted": true,
+          "at": 1788174107287,
+          "kind": "submit",
+          "language": "C++17 (GCC 7-32)",
+          "memory": "0 KB",
+          "runtime": "31 ms",
+          "submissionId": "388937470",
+          "verdict": "Accepted"
+        }
+      ],
       "github": {
         "error": "GitHub rejected the commit. GitHub said: \"Update is not a fast forward\".",
         "path": "codeforces/easy/2254B-evanescent/solution.cpp",
@@ -1841,6 +1852,14 @@
           "kind": "parikshaa",
           "outcome": "skipped",
           "reason": "Parikshaa problems are matched by LeetCode slug, so Codeforces is not synced."
+        },
+        {
+          "at": 1788121772924,
+          "kind": "opened"
+        },
+        {
+          "at": 1788121848892,
+          "kind": "opened"
         }
       ],
       "id": "codeforces:2258B1",
@@ -2327,8 +2346,8 @@
       "language": "Python3",
       "memoryNote": "Memory 19.2 MB (beats 100.0%)",
       "parikshaa": {
-        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
-        "status": "pending"
+        "reason": "No Parikshaa problem uses this slug.",
+        "status": "skipped"
       },
       "platform": "leetcode",
       "problemId": "101170",
@@ -2586,6 +2605,79 @@
       ],
       "title": "Find the Lexicographically Smallest Valid Sequence",
       "url": "https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/"
+    },
+    "leetcode:find-the-minimum-and-maximum-number-of-nodes-between-critical-points": {
+      "attempts": 1,
+      "code": "/**\n * Definition for singly-linked list.\n * public class ListNode {\n *     int val;\n *     ListNode next;\n *     ListNode() {}\n *     ListNode(int val) { this.val = val; }\n *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }\n * }\n */\nclass Solution {\n    public int[] nodesBetweenCriticalPoints(ListNode head) {\n        int first = -1;\n        int last = -1;\n        int count = 0;\n        int idx = 1;\n        int min = Integer.MAX_VALUE;\n        ListNode prev = head;\n        ListNode curr = head.next;\n        while(curr.next != null) {\n            if((curr.val > prev.val && curr.val > curr.next.val) || (curr.val < prev.val && curr.val < curr.next.val)) {\n                if(first == -1) {\n                    first = idx;\n                    last = idx;\n                }\n                else {\n                    min = Math.min(min,idx-last);\n                    last = idx;\n                }\n            }\n            prev = curr;\n            curr = curr.next;\n            idx++;\n        }\n        if(first == last) {\n            return new int[]{-1,-1};\n        }\n        return new int[]{min,last-first};\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1788149856347,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "106.3 MB",
+          "runtime": "4 ms",
+          "submissionId": "2125652734",
+          "testsPassed": 139,
+          "testsTotal": 139,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/1f9be541c5a6ed57274ce6e7c7ca813422ddca97",
+        "path": "leetcode/medium/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/solution.java",
+        "status": "synced",
+        "syncedAt": 1788149859957
+      },
+      "history": [
+        {
+          "at": 1788149856717,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1788149859957,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/solution.java"
+        },
+        {
+          "at": 1788149859957,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+      "language": "Java",
+      "memoryNote": "Memory 106.3 MB (beats 42.1%)",
+      "parikshaa": {
+        "reason": "No Parikshaa problem uses this slug.",
+        "status": "skipped"
+      },
+      "platform": "leetcode",
+      "problemId": "2058",
+      "revision": {
+        "dueAt": 1788236256717,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 4 ms (beats 99.9%)",
+      "slug": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+      "solveTimeMs": 21411,
+      "solvedAt": 1788149856717,
+      "tags": [
+        "Linked List"
+      ],
+      "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+      "url": "https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/"
     },
     "leetcode:integer-to-roman": {
       "attempts": 1,
@@ -3884,6 +3976,83 @@
       "tags": [],
       "title": "Minimum Bishop Moves to Reach Target",
       "url": "https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/"
+    },
+    "leetcode:minimum-moves-to-clean-the-classroom": {
+      "attempts": 1,
+      "code": "class Solution {\n    public int minMoves(String[] classroom, int energy) {\n        int m = classroom.length;\n        int n = classroom[0].length();\n\n        int sr = -1, sc = -1;\n        int cnt = 0;\n\n        // Give each litter an ID for bitmask\n        int[][] id = new int[m][n];\n        for(int[] row : id) Arrays.fill(row, -1);\n\n        for(int i = 0; i < m; i++){\n            for(int j = 0; j < n; j++){\n                if(classroom[i].charAt(j) == 'S'){\n                    sr = i;\n                    sc = j;\n                }\n                if(classroom[i].charAt(j) == 'L'){\n                    id[i][j] = cnt++;\n                }\n            }\n        }\n\n        int masks = 1 << cnt;\n        int fullMask = masks - 1;\n\n        // best[r][c][mask] = max energy reached at this state\n        int[][][] best = new int[m][n][masks];\n        for(int[][] layer : best)\n            for(int[] row : layer)\n                Arrays.fill(row, -1);\n\n        class State {\n            int r, c, mask, en, dist;\n\n            State(int r, int c, int mask, int en, int dist){\n                this.r = r;\n                this.c = c;\n                this.mask = mask;\n                this.en = en;\n                this.dist = dist;\n            }\n        }\n\n        Queue<State> q = new LinkedList<>();\n\n        q.add(new State(sr, sc, 0, energy, 0));\n        best[sr][sc][0] = energy;\n\n        int[] dr = {-1, 1, 0, 0};\n        int[] dc = {0, 0, -1, 1};\n\n        while(!q.isEmpty()){\n            State cur = q.poll();\n            int r = cur.r;\n            int c = cur.c;\n            int mask = cur.mask;\n            int en = cur.en;\n            int dist = cur.dist;\n\n            // All litter collected\n            if(mask == fullMask){\n                return dist;\n            }\n\n            // No energy, cannot move\n            if(en == 0){\n                continue;\n            }\n\n            for(int d = 0; d < 4; d++){\n                int nr = r + dr[d];\n                int nc = c + dc[d];\n\n                // Outside grid\n                if(nr < 0 || nr >= m || nc < 0 || nc >= n){\n                    continue;\n                }\n\n                // Obstacle\n                if(classroom[nr].charAt(nc) == 'X'){\n                    continue;\n                }\n\n                int newEn = en - 1;\n                int newMask = mask;\n\n                // Collect litter\n                if(classroom[nr].charAt(nc) == 'L'){\n                    newMask |= (1 << id[nr][nc]);\n                }\n\n                // Recharge\n                if(classroom[nr].charAt(nc) == 'R'){\n                    newEn = energy;\n                }\n\n                // Already reached with more energy\n                if(best[nr][nc][newMask] >= newEn){\n                    continue;\n                }\n\n                best[nr][nc][newMask] = newEn;\n\n                q.add(new State(nr, nc, newMask, newEn, dist + 1));\n            }\n        }\n\n        return -1;\n    }\n}",
+      "difficulty": "medium",
+      "events": [
+        {
+          "accepted": true,
+          "at": 1788267348991,
+          "kind": "submit",
+          "language": "Java",
+          "memory": "61.6 MB",
+          "runtime": "126 ms",
+          "submissionId": "2127221588",
+          "testsPassed": 799,
+          "testsTotal": 799,
+          "verdict": "Accepted"
+        }
+      ],
+      "github": {
+        "commitUrl": "https://github.com/deepakvish001/REDO-BY-PARIKSHAA/commit/85cc6f81e857ad91167e71c11ed1854da6e963b0",
+        "path": "leetcode/medium/3568-minimum-moves-to-clean-the-classroom/solution.java",
+        "status": "synced",
+        "syncedAt": 1788267353843
+      },
+      "history": [
+        {
+          "at": 1788267349568,
+          "kind": "solved",
+          "outcome": "first time",
+          "reason": "Java, 1 attempt(s)"
+        },
+        {
+          "at": 1788267353843,
+          "kind": "github",
+          "outcome": "synced",
+          "reason": "leetcode/medium/3568-minimum-moves-to-clean-the-classroom/solution.java"
+        },
+        {
+          "at": 1788267353843,
+          "kind": "parikshaa",
+          "outcome": "pending",
+          "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        }
+      ],
+      "id": "leetcode:minimum-moves-to-clean-the-classroom",
+      "language": "Java",
+      "memoryNote": "Memory 61.6 MB (beats 71.4%)",
+      "parikshaa": {
+        "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it.",
+        "status": "pending"
+      },
+      "platform": "leetcode",
+      "problemId": "3568",
+      "revision": {
+        "dueAt": 1788353749568,
+        "ease": 1,
+        "hintsUsed": 0,
+        "lapses": 0,
+        "reviewCount": 0,
+        "stage": 0,
+        "struggle": 0,
+        "targetReviews": 6
+      },
+      "runtimeNote": "Runtime 126 ms (beats 90.5%)",
+      "slug": "minimum-moves-to-clean-the-classroom",
+      "solveTimeMs": 28898,
+      "solvedAt": 1788267349568,
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Bit Manipulation",
+        "Breadth-First Search",
+        "Matrix"
+      ],
+      "title": "Minimum Moves to Clean the Classroom",
+      "url": "https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/"
     },
     "leetcode:minimum-operations-to-form-subset-sum-i": {
       "attempts": 1,
@@ -5679,6 +5848,39 @@
         "verdict": "Wrong answer on test 2"
       }
     ],
+    "codeforces:219158A": [
+      {
+        "accepted": true,
+        "at": 1788245704445,
+        "kind": "submit",
+        "language": "A - Say Hello With C++",
+        "memory": "800 KB",
+        "runtime": "218 ms",
+        "submissionId": "389068663",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": true,
+        "at": 1788250918784,
+        "kind": "submit",
+        "language": "A - Say Hello With C++",
+        "memory": "900 KB",
+        "runtime": "218 ms",
+        "submissionId": "389074608",
+        "verdict": "Accepted"
+      },
+      {
+        "accepted": false,
+        "at": 1788251083556,
+        "kind": "submit",
+        "language": "A - Say Hello With C++",
+        "memory": "600 KB",
+        "runtime": "187 ms",
+        "submissionId": "389074834",
+        "testsPassed": 0,
+        "verdict": "Wrong answer on test 1"
+      }
+    ],
     "codeforces:2238B": [
       {
         "accepted": true,
@@ -6104,6 +6306,20 @@
         "verdict": "Accepted"
       }
     ],
+    "leetcode:find-the-minimum-and-maximum-number-of-nodes-between-critical-points": [
+      {
+        "accepted": true,
+        "at": 1788149856347,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "106.3 MB",
+        "runtime": "4 ms",
+        "submissionId": "2125652734",
+        "testsPassed": 139,
+        "testsTotal": 139,
+        "verdict": "Accepted"
+      }
+    ],
     "leetcode:integer-to-roman": [
       {
         "accepted": false,
@@ -6434,6 +6650,20 @@
         "submissionId": "2124055651",
         "testsPassed": 999,
         "testsTotal": 999,
+        "verdict": "Accepted"
+      }
+    ],
+    "leetcode:minimum-moves-to-clean-the-classroom": [
+      {
+        "accepted": true,
+        "at": 1788267348991,
+        "kind": "submit",
+        "language": "Java",
+        "memory": "61.6 MB",
+        "runtime": "126 ms",
+        "submissionId": "2127221588",
+        "testsPassed": 799,
+        "testsTotal": 799,
         "verdict": "Accepted"
       }
     ],
