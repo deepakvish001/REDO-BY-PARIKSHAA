@@ -2,7 +2,7 @@
 
 <img src="assets/profile.svg" alt="Coding profile" width="840">
 
-_Regenerated on every sync — last run 2026-08-31._
+_Regenerated on every sync — last run 2026-09-01._
 
 ## This week
 
@@ -12,11 +12,11 @@ _Regenerated on every sync — last run 2026-08-31._
 
 | | |
 | --- | --- |
-| Problems solved | 56 |
-| Due for revision today | 52 |
+| Problems solved | 57 |
+| Due for revision today | 56 |
 | Revisions completed | 4 |
-| Current streak | 5 days |
-| Submissions recorded | 59 (10 rejected) |
+| Current streak | 6 days |
+| Submissions recorded | 61 (10 rejected) |
 | Runs recorded | 37 |
 | Median time to solve | 1 min |
 

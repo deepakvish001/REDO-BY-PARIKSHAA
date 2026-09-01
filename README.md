@@ -1,11 +1,12 @@
 # DSA Solutions
 
-56 solved — 19 easy · 23 medium · 11 hard · 3 unrated. Last updated 2026-08-31.
+57 solved — 19 easy · 24 medium · 11 hard · 3 unrated. Last updated 2026-09-01.
 
 📊 [Coding profile](PROFILE.md) — stats, weak topics and the revision queue.
 
 | # | Problem | Platform | Difficulty | Language | Solved |
 | --- | --- | --- | --- | --- | --- |
+| 3568 | [Minimum Moves to Clean the Classroom](leetcode/medium/3568-minimum-moves-to-clean-the-classroom/solution.java) | LeetCode | medium | Java | 2026-09-01 |
 | 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](leetcode/medium/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/solution.java) | LeetCode | medium | Java | 2026-08-31 |
 | 2250A | [Threshold Movement](codeforces/easy/2250A-threshold-movement/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
 | 2238B | [Crimson Triples](codeforces/easy/2238B-crimson-triples/solution.cpp) | Codeforces | easy | C++17 (GCC 7-32) | 2026-08-30 |
