@@ -1,19 +1,60 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1788292148250,
+  "exportedAt": 1788378688538,
   "settings": {
     "github": {
       "token": "",
+      "clientId": "Ov23liu75qa2QWUkf5AN",
+      "signInPrivate": true,
+      "perPlatform": {
+        "leetcode": {
+          "branch": "claude/dev-coding-extension-gkyij9",
+          "owner": "deepakvish001",
+          "repo": "Redo-By-Parikshaa-AI"
+        }
+      },
       "owner": "deepakvish001",
       "repo": "REDO-BY-PARIKSHAA",
       "branch": "main",
       "enabled": true,
       "commitMessage": "solve: {title} ({platform})",
-      "backup": true
+      "backup": true,
+      "sync": true
     },
     "parikshaa": {
       "enabled": true
+    },
+    "page": {
+      "enabled": true,
+      "rail": true,
+      "rating": true,
+      "tags": true,
+      "timer": true,
+      "listings": true,
+      "profile": true,
+      "daily": true,
+      "next": true,
+      "hovercards": true,
+      "friends": true,
+      "standings": true,
+      "workspace": true,
+      "workspaceAuto": true,
+      "skin": false
+    },
+    "bridge": {
+      "enabled": true,
+      "port": 7777
+    },
+    "community": {
+      "enabled": true,
+      "owner": "",
+      "repo": ""
+    },
+    "translate": {
+      "enabled": false,
+      "apiKey": "",
+      "language": "hi"
     },
     "diagnostics": {
       "enabled": true
@@ -32,16 +73,20 @@
       "notify": true
     },
     "focus": {
-      "enabled": false,
-      "mode": "due",
+      "enabled": true,
+      "mode": "daily",
       "dailyGoal": 1,
       "allowlist": [],
       "pauseHours": 3
     },
     "handles": {
-      "codeforces": "deepakvish0011",
-      "leetcode": "deepakvish0011",
-      "goal": 0
+      "codeforces": "",
+      "cfApiKey": "",
+      "cfApiSecret": "",
+      "leetcode": "",
+      "goal": 0,
+      "friends": [],
+      "organization": ""
     },
     "revision": {
       "intervals": [
@@ -61,7 +106,8 @@
       "atcoder": true,
       "codechef": true,
       "hackerrank": true,
-      "geeksforgeeks": true
+      "geeksforgeeks": true,
+      "cses": true
     }
   },
   "problems": {
