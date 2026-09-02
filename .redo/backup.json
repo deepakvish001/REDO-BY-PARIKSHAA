@@ -1,7 +1,7 @@
 {
   "version": 1,
   "product": "Redo",
-  "exportedAt": 1788378688538,
+  "exportedAt": 1788380488645,
   "settings": {
     "github": {
       "token": "",
@@ -73,7 +73,7 @@
       "notify": true
     },
     "focus": {
-      "enabled": true,
+      "enabled": false,
       "mode": "daily",
       "dailyGoal": 1,
       "allowlist": [],
@@ -4640,6 +4640,10 @@
           "kind": "parikshaa",
           "outcome": "pending",
           "reason": "The stored Parikshaa session expired. Open parikshaa.org to refresh it."
+        },
+        {
+          "at": 1788379958166,
+          "kind": "opened"
         }
       ],
       "id": "leetcode:removing-minimum-and-maximum-from-array",
@@ -4670,6 +4674,7 @@
         "Greedy"
       ],
       "title": "Removing Minimum and Maximum From Array",
+      "updatedAt": 1788379958168,
       "url": "https://leetcode.com/problems/removing-minimum-and-maximum-from-array/"
     },
     "leetcode:shortest-and-lexicographically-smallest-beautiful-string": {
